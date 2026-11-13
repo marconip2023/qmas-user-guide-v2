@@ -1,7 +1,7 @@
 ---
 title: "Product Management — Create and Edit a Product"
 slug: product-management
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Product Management — Create and Edit a Product
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -223,4 +223,4 @@ The 2024 setup guide still says “top menu bar, select PRODUCT MANAGEMENT”. P
 - Further Related Product linkage examples. **Unlink** is already named on the reviewed step 2 screenshot.
 - Section numbering, stepper tick, and Title Case bugs are filed separately. Match the fixed UI once it ships. Do not invent the fix.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

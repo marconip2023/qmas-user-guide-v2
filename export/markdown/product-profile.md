@@ -1,7 +1,7 @@
 ---
 title: "Product Management — Every Tab of the Product Profile"
 slug: product-profile
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Product Management — Every Tab of the Product Profile
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -393,4 +393,4 @@ The Help Center does not document Generate **CPC** or **GCC**, or a separate PO 
 - Manage Templates, Save As Template, and Export As Document are text only today.
 - Saved Test Data and the post-template requirement list were not captured. Those slots stay placeholders and are not pictures of saved data.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

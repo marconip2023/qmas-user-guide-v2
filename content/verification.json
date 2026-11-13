@@ -79,7 +79,7 @@
       "status": "source-only",
       "label": "Source-only, not dev-verified",
       "nav": "Test Plan",
-      "lead": "Source-only, not dev-verified. This is the 2024 Help Center article, last edited 2024-03-28 15:44:01 HKT. It has no reviewed screenshots and it is not on the existing published site. It is not the Product Profile Test Plan (AI) pop-up.",
+      "lead": "Source-only, not dev-verified. This is the 2024 Help Center article, last edited 2024-03-28 15:44:01 HKT. It has no reviewed screenshots. It is not the Product Profile Test Plan (AI) pop-up.",
       "note": "Source: QMAS Help Center — How To Request A Test Plan, last edited 2024-03-28 15:44:01 HKT. Not current-UI verified. Do not invent a live /test-plan/ URL.",
       "articles": [
         {
@@ -132,7 +132,7 @@
       "status": "source-only",
       "label": "Source-only, not dev-verified",
       "nav": "Factory Audit",
-      "lead": "Source-only, not dev-verified. This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site, it has no reviewed screenshots, and it is not on the existing published site.",
+      "lead": "Source-only, not dev-verified. This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site and it has no reviewed screenshots.",
       "note": "Source: QMAS Help Center — How To Request Quotation For Factory Audit From Global Laboratories, last edited 2024-04-02 18:08:00 HKT. Not current-UI verified. Do not invent a live /factory-audit/ URL.",
       "articles": [
         {

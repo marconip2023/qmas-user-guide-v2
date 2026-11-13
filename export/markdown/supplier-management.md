@@ -1,7 +1,7 @@
 ---
 title: "Supplier Management — Create a Supplier"
 slug: supplier-management
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Supplier Management — Create a Supplier
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -191,4 +191,4 @@ Help Center connection statuses: **Invite** (invitation sent), **No Connection**
 - List filters, Export, and the row toolbar.
 - Contact Email versus Email address, and Title Case. Filed bugs; re-check on dev. Do not invent the corrected labels.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

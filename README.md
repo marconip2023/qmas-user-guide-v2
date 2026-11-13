@@ -1,16 +1,16 @@
-# QMAS User Guide — working copy
+# QMAS User Guide
 
-Draft English copy of the published guide at <https://marconip2026.github.io/qmas-user-guide/>. This repository is the standalone copy. The pages, screenshots, Markdown, and PDFs are files in this repository. This is not a deployment.
+Published guide: <https://marconip2023.github.io/qmas-user-guide-v2/>
 
-Version: `2026-11-13-draft`
+The pages, screenshots, Markdown, and PDFs are files in this repository and are served from that site.
 
-The existing published version is https://marconip2026.github.io/qmas-user-guide/. This copy comes from `marconip2023/guidline` commit `7aca94961069dd8e3e370c224db2197a0c476df2` (`cursor/qmas-user-guide-v2-9995`). It is not deployed.
+This copy comes from `marconip2023/guidline` commit `7aca94961069dd8e3e370c224db2197a0c476df2` (`cursor/qmas-user-guide-v2-9995`).
 
 The header uses `assets/brand/qmas-logo.png`, a byte copy of `logo.png` from the root of `marconip2023/guidline` (60×24, added 2026-03-25 in `48b1f77`). It is the QMAS mark with the check through the M, the same mark in the reviewed screenshots. No license is stated in the repository. It is not a generated wordmark and it is not a WBA or ICW logo. No higher-resolution official file was available, so the header keeps the native pixels.
 
 Page color comes from those same screenshots and the existing stylesheet: sidebar navy `#184dad`, white cards, page background `#f7faff`, and the blues already in `assets/site.css`. The typeface is the stylesheet’s Liberation Sans / Noto Sans. There is no QMAS Figma file in this repository, so this is brand alignment with those assets, not a claim of design-system compliance.
 
-Each module has a Source and verification note. Factory Audit and the standalone Test Plan are source-only and not dev-verified. Product Testing and QC Inspection are mixed because the later quote or accept flow is older Help Center wording. The other modules are current UI where a reviewed screenshot backs the step. Help Center article links are the ones already cited in this draft. The Help Center home is https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af.
+Each module has a Source and verification note. Factory Audit and the standalone Test Plan are source-only and not dev-verified. Product Testing and QC Inspection are mixed because the later quote or accept flow is older Help Center wording. The other modules are current UI where a reviewed screenshot backs the step. Help Center article links are the ones already cited in this guide. The Help Center home is https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af.
 
 The same `content/modules/*.json` files generate:
 
@@ -100,7 +100,7 @@ Then open `http://127.0.0.1:8765/`.
 - `content/modules/` — canonical guide text
 - `content/published-text-blocks.json` — text extracted from the published pages, used by tests
 - `content/reviewed-images.json` — sha256 allowlist for replacement screenshots
-- `assets/reviewed/` — the only screenshot files in this working copy
+- `assets/reviewed/` — the only screenshot files in this guide
 - `assets/site.css` — page and print styles, inlined by the build
 - `export/markdown/` — per-module and combined Markdown, with reviewed images under `images/`
 - `export/pdf/` — per-module and combined PDFs
