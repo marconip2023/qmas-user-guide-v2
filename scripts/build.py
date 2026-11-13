@@ -294,8 +294,7 @@ def additions_html(module, guide_prefix, titles) -> str:
         parts.append(blocks_html(module, section["body"], {}, guide_prefix, {"used": True}))
     parts.append(
         '<p class="reconcile-note">Help Center reconciliation 2026-11-13 (HKT). '
-        "Original Help Center not edited. This draft is not the public guide at the marconip2026 site. "
-        "No Dify upload.</p></section>\n"
+        "Original Help Center not edited. No Dify upload.</p></section>\n"
     )
     return "".join(parts)
 
@@ -392,7 +391,6 @@ def verification_md(module, catalog) -> str:
 
 def shell_header(home: str, catalog, current_slug: str | None) -> str:
     logo = catalog["logo"]
-    published = catalog["source_site"]
     links = [
         f'<li><a href="{html.escape(home, quote=True)}"'
         + (' aria-current="page"' if current_slug == "home" else "")
@@ -423,17 +421,15 @@ def shell_header(home: str, catalog, current_slug: str | None) -> str:
       </ul>
     </nav>
   </div>
-  <p class="edition"><span class="edition-draft">Updated working draft</span> <a href="{html.escape(published, quote=True)}">Existing published version</a></p>
+  <p class="edition">Published</p>
 </header>"""
 
 
 def shell_footer(catalog) -> str:
-    published = catalog["source_site"]
     logo = catalog["logo"]
     return (
         '<footer class="site-footer">'
-        "<p>Updated working draft. This page is not deployed. "
-        f'Existing published version: <a href="{html.escape(published, quote=True)}">{html.escape(published)}</a>.</p>'
+        "<p>Published QMAS User Guide.</p>"
         f"<p>{html.escape(logo['note'])}</p>"
         "</footer>"
     )
@@ -557,7 +553,7 @@ def render_index(catalog, modules, reviewed) -> str:
             record = catalog["verification"]["modules"][slug]
             badge = ""
             if record["status"] == "source-only":
-                badge = '<span class="tag tag-warn">Source-only, not on the published site</span>'
+                badge = '<span class="tag tag-warn">Source-only, not dev-verified</span>'
             app = ""
             if slug in app_for:
                 app = (
@@ -576,7 +572,6 @@ def render_index(catalog, modules, reviewed) -> str:
             f'<h2 id="{anchor}">{html.escape(heading)}</h2>'
             f'<ul class="guide-cards" role="list">{"".join(cards)}</ul></section>\n'
         )
-    published = catalog["source_site"]
     rows = []
     for module in modules:
         record = catalog["verification"]["modules"][module["slug"]]
@@ -606,12 +601,11 @@ def render_index(catalog, modules, reviewed) -> str:
     body = f"""
 <h1>QMAS User Guide</h1>
 <p class="lede">Choose a module. These are the 14 existing guides.</p>
-<p class="draft-notice">Working copy draft. Not deployed. Existing published version: <a href="{html.escape(published, quote=True)}">{html.escape(published)}</a>.</p>
 {''.join(groups)}
 <p class="related-line">Related: <a href="{html.escape(catalog["notion_working_hub"], quote=True)}">Notion working hub</a>. {related_html} <a href="combined/">Read all guides in one page</a>.</p>
 <details class="source-fold">
 <summary>Source and verification</summary>
-<p>Working copy draft {html.escape(catalog["version"])}. Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Factory Audit and Test Plan have no screenshots and are not on the existing published site.</p>
+<p>Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Factory Audit and Test Plan have no screenshots and are source-only, not dev-verified.</p>
 <p>The original 12 modules keep their published steps. A reviewed screenshot means that part is current UI verified. Help Center text is marked on the module and is not the source of every step. Factory Audit and the standalone Test Plan are source-only and not dev-verified. Where a page is mixed, the create path can be current UI verified while a later quote or accept flow is still older Help Center wording.</p>
 <p>Help Center home: <a href="{html.escape(help_home["url"], quote=True)}">{html.escape(help_home["title"])}</a> (last edited {html.escape(help_home["edited"])}). User Guide index: <a href="{html.escape(guide_index["url"], quote=True)}">{html.escape(guide_index["title"])}</a> (last edited {html.escape(guide_index["edited"])}). Public icw-io addresses for individual articles were not verified, so the table uses app.notion.com.</p>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Source and verification">
@@ -625,7 +619,7 @@ def render_index(catalog, modules, reviewed) -> str:
 </div>
 </details>
 """
-    return page("QMAS User Guide (working copy draft)", body, "./", None, catalog, "home").replace(
+    return page("QMAS User Guide", body, "./", None, catalog, "home").replace(
         '<main id="content" tabindex="-1">',
         '<main id="content" class="wide" tabindex="-1">',
         1,
@@ -637,7 +631,7 @@ def render_md(module, reviewed, catalog, titles) -> str:
         "---",
         f"title: {yaml_quote(module['title'])}",
         f"slug: {module['slug']}",
-        "document_status: working-copy-draft",
+        "document_status: published",
         f"version: {catalog['version']}",
         "language: en",
         f"notion_working_hub: {catalog['notion_working_hub']}",
@@ -647,7 +641,7 @@ def render_md(module, reviewed, catalog, titles) -> str:
         "",
         f"# {module['title']}",
         "",
-        f"> Updated working draft {catalog['version']}. This file is not deployed. Existing published version: {catalog['source_site']}",
+        "> Published QMAS User Guide.",
         "",
         verification_md(module, catalog).rstrip(),
         "",
@@ -707,7 +701,7 @@ def additions_md(module, titles) -> str:
         lines.append("")
     lines.append(
         "Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. "
-        "This draft is not the public guide. No Dify upload."
+        "No Dify upload."
     )
     return "\n".join(lines) + "\n"
 
@@ -768,7 +762,7 @@ def render_combined_md(catalog, modules, reviewed, titles) -> str:
     lines = [
         "---",
         f"title: {yaml_quote(catalog['title'])}",
-        "document_status: working-copy-draft",
+        "document_status: published",
         f"version: {catalog['version']}",
         "language: en",
         f"notion_working_hub: {catalog['notion_working_hub']}",
@@ -777,7 +771,7 @@ def render_combined_md(catalog, modules, reviewed, titles) -> str:
         "",
         f"# {catalog['title']}",
         "",
-        f"> Updated working draft {catalog['version']}. This file is not deployed. Existing published version: {catalog['source_site']}",
+        "> Published QMAS User Guide.",
         "",
         f"Notion working hub: {catalog['notion_working_hub']}",
         "",
@@ -815,8 +809,7 @@ def write_text(catalog, modules, reviewed, titles):
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
     combined_body = [
-        '<p class="draft-banner">Working copy draft '
-        f'{html.escape(catalog["version"])}. Combined page generated from the same source as the per-module pages.</p>',
+        "<p>Combined page generated from the same source as the per-module pages.</p>",
         f"<h1>{html.escape(catalog['title'])}</h1>",
         "<h2>Contents</h2><ol>",
     ]
@@ -826,7 +819,7 @@ def write_text(catalog, modules, reviewed, titles):
         article = article_html(module, reviewed, "../", catalog, banner=False)
         articles.append(f'<article class="module" id="{html.escape(module["slug"], quote=True)}">{article}</article>')
         page_html = page(
-            f"{module['tab_title']} · QMAS User Guide (draft)",
+            f"{module['tab_title']} · QMAS User Guide",
             article_html(module, reviewed, "../", catalog, banner=True),
             "../",
             module["title"],
@@ -842,7 +835,7 @@ def write_text(catalog, modules, reviewed, titles):
         )
     combined_body.append("</ol>")
     combined_html = page(
-        "QMAS User Guide (combined draft)",
+        "QMAS User Guide",
         "\n".join(combined_body + articles),
         "../",
         "All guides",
@@ -875,8 +868,7 @@ def write_text(catalog, modules, reviewed, titles):
             f'<article class="module" id="{html.escape(module["slug"], quote=True)}">{article}</article>'
         )
     cover = (
-        '<p class="draft-banner">Working copy draft '
-        f'{html.escape(catalog["version"])}. Combined PDF generated from the same content as the per-module PDFs.</p>'
+        "<p>Combined PDF generated from the same content as the per-module PDFs.</p>"
         f"<h1>{html.escape(catalog['title'])}</h1>"
         f"<p>Notion working hub: {html.escape(catalog['notion_working_hub'])}</p>"
         + "".join(

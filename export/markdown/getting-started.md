@@ -1,7 +1,7 @@
 ---
 title: "Getting Started — Home, Settings and Company Profile"
 slug: getting-started
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Getting Started — Home, Settings and Company Profile
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -166,4 +166,4 @@ Source: https://app.notion.com/p/84844e89cab14819b021b0aa8e33ef31
 - Login page. Older notes say it is outdated. It is not on the public guide.
 - Naming is still undecided: Home **AI Assessment** and **AI Insight**, menu **AI Risk Screening**, and this guide title **AI Insight**.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

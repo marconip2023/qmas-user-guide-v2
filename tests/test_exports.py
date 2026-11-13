@@ -137,12 +137,14 @@ class GuideContentTests(unittest.TestCase):
             path = markdown / f"{module['slug']}.md"
             text = path.read_text(encoding="utf-8")
             self.assertEqual(text, render_md(module, self.reviewed, self.catalog, self.titles))
-            published = "https://marconip2026.github.io/qmas-user-guide/"
-            self.assertIn("Existing published version", text)
-            self.assertIn(published, text)
+            self.assertIn("document_status: published", text)
+            self.assertIn("Published QMAS User Guide.", text)
+            self.assertNotIn("not deployed", text)
+            self.assertNotIn("Existing published version", text)
+            self.assertNotIn("marconip2026.github.io", text)
             self.assertEqual(
                 [url for url in __import__("re").findall(r"https://[^)\s]+", text) if "github.io" in url],
-                [published],
+                [],
             )
             self.assertNotIn("gear icon", text)
             self.assertNotIn("← All guides", text)
@@ -163,9 +165,9 @@ class GuideContentTests(unittest.TestCase):
         for module in self.modules:
             self.assertIn(module["title"], combined)
         self.assertIn(self.catalog["notion_working_hub"], combined)
-        published = "https://marconip2026.github.io/qmas-user-guide/"
-        self.assertIn(published, combined)
-        self.assertIn("Existing published version", combined)
+        self.assertIn("Published QMAS User Guide.", combined)
+        self.assertNotIn("not deployed", combined)
+        self.assertNotIn("marconip2026.github.io", combined)
 
     def test_only_allowlisted_rasters_are_stored(self):
         allowed = {
@@ -187,16 +189,21 @@ class GuideContentTests(unittest.TestCase):
     def test_site_pages_exist_without_remote_screenshots(self):
         index = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn(self.catalog["notion_working_hub"], index)
-        self.assertIn("Working copy draft", index)
-        self.assertIn("Updated working draft", index)
-        published = "https://marconip2026.github.io/qmas-user-guide/"
+        self.assertIn('<p class="edition">Published</p>', index)
+        self.assertNotIn("Working copy draft", index)
+        self.assertNotIn("Updated working draft", index)
+        self.assertNotIn("Not deployed", index)
+        self.assertNotIn("marconip2026.github.io", index)
         pages = [index]
         for module in self.modules:
             page = (ROOT / module["slug"] / "index.html").read_text(encoding="utf-8")
             pages.append(page)
             self.assertIn(module["title"], page)
-            self.assertIn("Existing published version", page)
-            self.assertIn(published, page)
+            self.assertIn('<p class="edition">Published</p>', page)
+            self.assertIn("Published QMAS User Guide.", page)
+            self.assertNotIn("Existing published version", page)
+            self.assertNotIn("not deployed", page)
+            self.assertNotIn("marconip2026.github.io", page)
             self.assertNotIn("gear icon", plain(page))
             self.assertIn('lang="en"', page)
             self.assertIn('alt="QMAS"', page)
@@ -272,7 +279,9 @@ class GuideContentTests(unittest.TestCase):
         self.assertIn("https://workflow-dev.icw.io/chat/QDSPY8f58691bu1P", home)
         self.assertIn("QMAS Chatbot 2.0", home)
         self.assertNotIn("QMAS Chatbot 3.0", home)
-        self.assertIn("Source-only, not on the published site", home)
+        self.assertIn("Source-only, not dev-verified", home)
+        self.assertNotIn("not on the published site", home)
+        self.assertNotIn("not on the existing published site", home)
         for path in pages:
             text = path.read_text(encoding="utf-8")
             for raw in href_re.findall(text):

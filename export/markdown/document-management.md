@@ -1,7 +1,7 @@
 ---
 title: "Document Management — Upload a Document"
 slug: document-management
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Document Management — Upload a Document
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -150,4 +150,4 @@ Upload, folders, share, and **Set Reminder** in the Product Information Pack are
 - Edit dates, reminder, or compliance after upload.
 - The upload toast “Upload Document Succeed” is a filed bug. Keep neutral “success message” language until the UI is fixed.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

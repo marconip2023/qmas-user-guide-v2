@@ -1,6 +1,6 @@
 ---
 title: "QMAS User Guide"
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -9,7 +9,7 @@ image_policy: Per-module files and this combined file are generated from the sam
 
 # QMAS User Guide
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 Notion working hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
 
@@ -34,7 +34,7 @@ QMAS Chatbot: https://workflow-dev.icw.io/chat/QDSPY8f58691bu1P. Published about
 
 # Product Testing — Request a Quotation
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -203,12 +203,12 @@ A 2022 FAQ says cancelling an order is done by contacting customer support via e
 - Job-detail tabs named in the create steps but not walked through: Quotes, Failure Records, Reports, Attachments, Invoices, Tag, Activity Log, Message Board.
 - Edit, cancel, reopen, list search, status filters, and charts.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Getting Started — Home, Settings and Company Profile
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -363,12 +363,12 @@ Source: https://app.notion.com/p/84844e89cab14819b021b0aa8e33ef31
 - Login page. Older notes say it is outdated. It is not on the public guide.
 - Naming is still undecided: Home **AI Assessment** and **AI Insight**, menu **AI Risk Screening**, and this guide title **AI Insight**.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Product Management — Create and Edit a Product
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -580,12 +580,12 @@ The 2024 setup guide still says “top menu bar, select PRODUCT MANAGEMENT”. P
 - Further Related Product linkage examples. **Unlink** is already named on the reviewed step 2 screenshot.
 - Section numbering, stepper tick, and Title Case bugs are filed separately. Match the fixed UI once it ships. Do not invent the fix.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Product Management — Every Tab of the Product Profile
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -967,16 +967,16 @@ The Help Center does not document Generate **CPC** or **GCC**, or a separate PO 
 - Manage Templates, Save As Template, and Export As Document are text only today.
 - Saved Test Data and the post-template requirement list were not captured. Those slots stay placeholders and are not pictures of saved data.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Test Plan — Request a Test Plan
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
-**Source-only, not dev-verified.** This is the 2024 Help Center article, last edited 2024-03-28 15:44:01 HKT. It has no reviewed screenshots and it is not on the existing published site. It is not the Product Profile Test Plan (AI) pop-up.
+**Source-only, not dev-verified.** This is the 2024 Help Center article, last edited 2024-03-28 15:44:01 HKT. It has no reviewed screenshots. It is not the Product Profile Test Plan (AI) pop-up.
 
 Source: QMAS Help Center — How To Request A Test Plan, last edited 2024-03-28 15:44:01 HKT. Not current-UI verified. Do not invent a live /test-plan/ URL.
 
@@ -1032,7 +1032,7 @@ A: Whether a standalone Test Plan entry remains in the left or top navigation; i
 
 # eFiling — Submit eFiling to CPSC
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -1157,12 +1157,12 @@ The Product Information Pack checklist links “How to submit eFiling to CPSC”
 - Select Document in QMAS, and Start With Blank.
 - Multi-product submission and Link To QMAS Product detail.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Supplier Management — Create a Supplier
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -1342,12 +1342,12 @@ Help Center connection statuses: **Invite** (invitation sent), **No Connection**
 - List filters, Export, and the row toolbar.
 - Contact Email versus Email address, and Title Case. Filed bugs; re-check on dev. Do not invent the corrected labels.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Factory Management — Create a Factory
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -1540,16 +1540,16 @@ Do not blanket-replace “supplier” wording on Factory screens. A filed bug as
 - List filters, Export, and the row toolbar.
 - Screenshots for import, rating, notes, and tabs other than Overview.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Factory Audit — Request a Quotation
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
-**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site, it has no reviewed screenshots, and it is not on the existing published site.
+**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site and it has no reviewed screenshots.
 
 Source: QMAS Help Center — How To Request Quotation For Factory Audit From Global Laboratories, last edited 2024-04-02 18:08:00 HKT. Not current-UI verified. Do not invent a live /factory-audit/ URL.
 
@@ -1624,7 +1624,7 @@ A: Not confirmed. This page repeats the 2024 Help Center article only. Verify it
 
 # Document Management — Upload a Document
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -1763,12 +1763,12 @@ Upload, folders, share, and **Set Reminder** in the Product Information Pack are
 - Edit dates, reminder, or compliance after upload.
 - The upload toast “Upload Document Succeed” is a filed bug. Keep neutral “success message” language until the UI is fixed.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # QC Inspection — Get a QC Inspection Quote via ICW
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -1985,12 +1985,12 @@ The November 2026 steps also say: click **Save** on any step to finish later. Dr
 - List filters, Export, and the row toolbar.
 - Filed wording bugs (“Add New Po”, “XLSL”, level labels, empty product picker until search). Confirm the live UI. Do not invent fixes.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Internal QC Inspection — Start an Internal Inspection
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -2106,12 +2106,12 @@ The November 2026 QC article mentions **Start internal inspection** as a Looking
 - Draft tab and job detail after submit.
 - Difference callouts versus third-party QC beyond “no budget/provider”.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # Document Review — Create a Review Job
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -2282,12 +2282,12 @@ The only related Help Center text is on the supplier profile article (last edite
 - The Quality Requirements block on the create form is thin.
 - Filed typos (“Exising Product”, “JEPG”, “Select Connect Supplier”). This guide uses corrected English. Confirm the live UI.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
 
 
 # AI Insight — Run an AI Risk Screening
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -2411,4 +2411,4 @@ There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessm
 - Naming is still undecided: this guide title **AI Insight**, menu **AI Risk Screening**, Home **AI Assessment** and **AI Insight**.
 - Token spend: the guide already warns. Do not run a screening unless asked.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

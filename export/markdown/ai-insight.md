@@ -1,7 +1,7 @@
 ---
 title: "AI Insight — Run an AI Risk Screening"
 slug: ai-insight
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,7 +11,7 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # AI Insight — Run an AI Risk Screening
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
@@ -135,4 +135,4 @@ There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessm
 - Naming is still undecided: this guide title **AI Insight**, menu **AI Risk Screening**, Home **AI Assessment** and **AI Insight**.
 - Token spend: the guide already warns. Do not run a screening unless asked.
 
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. This draft is not the public guide. No Dify upload.
+Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

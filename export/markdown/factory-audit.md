@@ -1,7 +1,7 @@
 ---
 title: "Factory Audit — Request a Quotation"
 slug: factory-audit
-document_status: working-copy-draft
+document_status: published
 version: 2026-11-13-draft
 language: en
 notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
@@ -11,11 +11,11 @@ image_policy: Reviewed replacement screenshots use a relative path. Other screen
 
 # Factory Audit — Request a Quotation
 
-> Updated working draft 2026-11-13-draft. This file is not deployed. Existing published version: https://marconip2026.github.io/qmas-user-guide/
+> Published QMAS User Guide.
 
 ## Source and verification
 
-**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site, it has no reviewed screenshots, and it is not on the existing published site.
+**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site and it has no reviewed screenshots.
 
 Source: QMAS Help Center — How To Request Quotation For Factory Audit From Global Laboratories, last edited 2024-04-02 18:08:00 HKT. Not current-UI verified. Do not invent a live /factory-audit/ URL.
 
