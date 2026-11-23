@@ -30,7 +30,7 @@ In the left menu, open **Supplier / Factory Management** and click the **Factory
 
 Click **Create Factory**, or **Import Factory** to add many factories from a file.
 
-![Factory tab with Import Factory and Create Factory.](images/factory-management/01-list.jpg)
+![Factory tab searched for Bright Ocean, showing Bright Ocean Housewares (Ningbo) Factory, FAC-2611-031, in Ningbo, Zhejiang, China with status Active.](images/factory-management/01-list.jpg)
 
 
 *Factory tab with Import Factory and Create Factory.*
@@ -44,7 +44,7 @@ Click **Create Factory**, or **Import Factory** to add many factories from a fil
 - **Address**: English address (required) and local-language address (optional).
 - **Website** (optional).
 
-![Create factory profile — step 1, Factory Overview.](images/factory-management/02-step1-overview.jpg)
+![Factory Overview filled in: Factory ID FAC-2611-031, Factory Name Bright Ocean Housewares (Ningbo) Factory, location China, Zhejiang, Ningbo, and the address.](images/factory-management/02-step1-overview.jpg)
 
 
 *Create factory profile — step 1, Factory Overview.*
@@ -56,57 +56,69 @@ Click **Create Factory**, or **Import Factory** to add many factories from a fil
 
 The equipment section lists machines and **Automation Production Line** entries: machine name, brand and model no., quantity and monthly production volume. Click **Add** for more rows.
 
-![2. Factory Scale (optional).](images/factory-management/03-step1-scale.jpg)
+![Factory Scale with 320 employees, 280 workers, 12000 square meters and an annual volume of 1500000, and Factory Capacity with 12 injection moulding machines.](images/factory-management/03-step1-scale.jpg)
 
 
-*2. Factory Scale (optional).*
+*2. Factory Scale and 3. Factory Capacity (both optional).*
 
 
 ### 4. Factory Profile — contact
 
 Under **4. Contact**, fill in the **Contact person** and an **Email address** with its type (Company, QA, Sales or Other). **Contact no.** is optional. Click **Next**.
 
-![Contact section and Next.](images/factory-management/04-step1-contact.jpg)
+![Contact section with contact person David Chen, a Company email address and a +86 contact number, then Next.](images/factory-management/04-step1-contact.jpg)
 
 
 *Contact section and Next.*
 
 If Contact person or the email type and address are empty, **Next** marks them as required.
 
-![Required fields turn red after you click Next: Contact person, email type and email.](images/factory-management/required-validation.jpg)
+![Contact section with the errors Contact person is required, Type is required and Email is required.](images/factory-management/required-validation.jpg)
 
 
-*Required fields turn red after you click Next: Contact person, email type and email.*
+*Required fields turn red after you click Next.*
 
 
 ### 5. Classification (optional)
 
 Click **Select category** for the product categories this factory makes, and **Select tag** for your own tags. Click **Next**.
 
+![Classification step with the product category Kitchenware & Tableware, Glassware & Drinkware, and the Select tag button.](images/factory-management/05-step2-classification.jpg)
+
+
+*Step 2 Classification.*
 
 
 ### 6. Certification (optional)
 
 Click **Add** to attach an audit report or certificate. In **Add Certification**, choose the certification type, upload the file (JPG, JPEG, PNG, PDF, DOC or XLS), and fill in the score or overall rating, issue party, issue date and expiry date. Click **Add**.
 
+![Add Certification pop-up with Certification Type ISO9001, the file upload area, Score/Overall Rating, Issue Party ICW, Issue Date, Expiry Date and Add.](images/factory-management/07-add-certification.jpg)
+
+
+*Add Certification pop-up.*
 
 Click **Done** to create the factory.
 
+![Certification step with Add Certificate and the Done button.](images/factory-management/06-step3-certification.jpg)
+
+
+*Step 3 Certification — click Add, or Done to create the factory.*
 
 
 ### 7. Done — factory profile
 
 QMAS shows “Create factory successfully!” and opens the factory profile. Use the tabs **Overview**, **Supplier**, **Certificate**, **Document** and **Compliance Data** to manage what is linked to this factory.
 
-![Factory profile — Overview tab.](images/factory-management/08-factory-profile.jpg)
+![Factory profile of Bright Ocean Housewares (Ningbo) Factory with the Overview, Supplier, Certificate, Document and Compliance Data tabs and the contact card.](images/factory-management/08-factory-profile.jpg)
 
 
 *Factory profile — Overview tab.*
 
-![Factory profile — Certificate tab, empty (No Data).](images/factory-management/supplemental-profile-certificate.jpg)
+![Certificate tab of the factory profile with the + Certificate button and an empty certificate list.](images/factory-management/supplemental-profile-certificate.jpg)
 
 
-*Factory profile — Certificate tab, empty (No Data).*
+*Factory profile — Certificate tab. Click + Certificate to add one.*
 
 
 ## Tips

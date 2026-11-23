@@ -38,7 +38,8 @@
         "Click **Create Supplier**. You can also use **Import Supplier** to add many suppliers from a file, or **Invite Supplier** to invite a supplier to connect with you on QMAS.",
         {
           "img": "01-list.jpg",
-          "caption": "Supplier tab with Import Supplier, Create Supplier and Invite Supplier."
+          "caption": "Supplier tab with Import Supplier, Create Supplier and Invite Supplier.",
+          "alt": "Supplier tab searched for Bright Ocean, showing Bright Ocean Housewares Ltd. in Ningbo, Zhejiang, China with category Kitchenware & Tableware and status Active."
         }
       ]
     },
@@ -56,7 +57,8 @@
         },
         {
           "img": "02-step1-overview.jpg",
-          "caption": "Create supplier profile — step 1, Company overview."
+          "caption": "Create supplier profile — step 1, Company overview.",
+          "alt": "Company overview filled in: Supplier ID SUP-2611-018, Supplier Name Bright Ocean Housewares Ltd., location China, Zhejiang, Ningbo, and the address."
         }
       ]
     },
@@ -66,12 +68,14 @@
         "Under **2. Contact**, fill in the **Contact person**, **Contact Email** and at least one **Email address**. For each email address, choose a type: Company, QA, Sales or Other. Click **Add email** for more. **Contact no.** is optional.",
         {
           "img": "03-step1-contact.jpg",
-          "caption": "Contact section."
+          "caption": "Contact section.",
+          "alt": "Contact section with contact person Kelly Zhang, contact number +86, contact email and a Sales email address."
         },
         "If a required field is empty when you click **Next**, it turns red, for example “Type is required”, “Email is required”, “English name is required”, “Location is required” or “Contact person is required”.",
         {
           "img": "04-email-required.jpg",
-          "caption": "The email type and email address are required."
+          "caption": "Required fields turn red when you click Next.",
+          "alt": "Contact section with the errors Contact person is required, Type is required and Email is required."
         }
       ]
     },
@@ -81,7 +85,8 @@
         "Click **Select category** to choose the product categories this supplier offers. Click **Select tag** to add your own tags. Click **Next**.",
         {
           "img": "05-step2-classification.jpg",
-          "caption": "Step 2 Classification."
+          "caption": "Step 2 Classification.",
+          "alt": "Classification step with the product category Kitchenware & Tableware, Glassware & Drinkware, and the Select tag button."
         }
       ]
     },
@@ -91,7 +96,8 @@
         "Click **Add** to upload a certificate. Choose the certification type, upload the file, and fill in the rating, issue party and dates. Click **Done** to create the supplier.",
         {
           "img": "06-step3-certification.jpg",
-          "caption": "Step 3 Certification."
+          "caption": "Step 3 Certification — click Add to upload a certificate, or Done.",
+          "alt": "Certification step with Add Certificate and the Done button."
         }
       ]
     },
@@ -101,12 +107,14 @@
         "The supplier profile opens. Use the tabs **Overview**, **Product**, **Factory**, **Certificate**, **Document** and **Compliance Data** to manage everything linked to this supplier. Click the pencil icon next to the name, or next to **Contact**, to edit.",
         {
           "img": "07-supplier-profile.jpg",
-          "caption": "Supplier profile — Overview tab."
+          "caption": "Supplier profile — Overview tab.",
+          "alt": "Supplier profile of Bright Ocean Housewares Ltd. with the Overview, Product, Factory, Certificate, Document and Compliance Data tabs, the contact card, product category, tags and rating."
         },
         {
           "img": "supplemental-profile-certificate.jpg",
-          "caption": "Supplier profile — Certificate tab, empty (No Data).",
-          "counts_toward_98": false
+          "caption": "Supplier profile — Certificate tab. Click + Certificate to add one.",
+          "counts_toward_98": false,
+          "alt": "Certificate tab of the supplier profile with the + Certificate button and an empty certificate list."
         }
       ]
     }

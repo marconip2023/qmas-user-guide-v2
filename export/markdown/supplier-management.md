@@ -30,7 +30,7 @@ In the left menu, open **Supplier / Factory Management**. The **Supplier** tab l
 
 Click **Create Supplier**. You can also use **Import Supplier** to add many suppliers from a file, or **Invite Supplier** to invite a supplier to connect with you on QMAS.
 
-![Supplier tab with Import Supplier, Create Supplier and Invite Supplier.](images/supplier-management/01-list.jpg)
+![Supplier tab searched for Bright Ocean, showing Bright Ocean Housewares Ltd. in Ningbo, Zhejiang, China with category Kitchenware & Tableware and status Active.](images/supplier-management/01-list.jpg)
 
 
 *Supplier tab with Import Supplier, Create Supplier and Invite Supplier.*
@@ -44,7 +44,7 @@ Click **Create Supplier**. You can also use **Import Supplier** to add many supp
 - **Location**: country or region, then province and city.
 - **Address** and **Website** (optional).
 
-![Create supplier profile — step 1, Company overview.](images/supplier-management/02-step1-overview.jpg)
+![Company overview filled in: Supplier ID SUP-2611-018, Supplier Name Bright Ocean Housewares Ltd., location China, Zhejiang, Ningbo, and the address.](images/supplier-management/02-step1-overview.jpg)
 
 
 *Create supplier profile — step 1, Company overview.*
@@ -54,44 +54,52 @@ Click **Create Supplier**. You can also use **Import Supplier** to add many supp
 
 Under **2. Contact**, fill in the **Contact person**, **Contact Email** and at least one **Email address**. For each email address, choose a type: Company, QA, Sales or Other. Click **Add email** for more. **Contact no.** is optional.
 
-![Contact section.](images/supplier-management/03-step1-contact.jpg)
+![Contact section with contact person Kelly Zhang, contact number +86, contact email and a Sales email address.](images/supplier-management/03-step1-contact.jpg)
 
 
 *Contact section.*
 
 If a required field is empty when you click **Next**, it turns red, for example “Type is required”, “Email is required”, “English name is required”, “Location is required” or “Contact person is required”.
 
-![The email type and email address are required.](images/supplier-management/04-email-required.jpg)
+![Contact section with the errors Contact person is required, Type is required and Email is required.](images/supplier-management/04-email-required.jpg)
 
 
-*The email type and email address are required.*
+*Required fields turn red when you click Next.*
 
 
 ### 4. Classification (optional)
 
 Click **Select category** to choose the product categories this supplier offers. Click **Select tag** to add your own tags. Click **Next**.
 
+![Classification step with the product category Kitchenware & Tableware, Glassware & Drinkware, and the Select tag button.](images/supplier-management/05-step2-classification.jpg)
+
+
+*Step 2 Classification.*
 
 
 ### 5. Certification (optional)
 
 Click **Add** to upload a certificate. Choose the certification type, upload the file, and fill in the rating, issue party and dates. Click **Done** to create the supplier.
 
+![Certification step with Add Certificate and the Done button.](images/supplier-management/06-step3-certification.jpg)
+
+
+*Step 3 Certification — click Add to upload a certificate, or Done.*
 
 
 ### 6. Done — supplier profile
 
 The supplier profile opens. Use the tabs **Overview**, **Product**, **Factory**, **Certificate**, **Document** and **Compliance Data** to manage everything linked to this supplier. Click the pencil icon next to the name, or next to **Contact**, to edit.
 
-![Supplier profile — Overview tab.](images/supplier-management/07-supplier-profile.jpg)
+![Supplier profile of Bright Ocean Housewares Ltd. with the Overview, Product, Factory, Certificate, Document and Compliance Data tabs, the contact card, product category, tags and rating.](images/supplier-management/07-supplier-profile.jpg)
 
 
 *Supplier profile — Overview tab.*
 
-![Supplier profile — Certificate tab, empty (No Data).](images/supplier-management/supplemental-profile-certificate.jpg)
+![Certificate tab of the supplier profile with the + Certificate button and an empty certificate list.](images/supplier-management/supplemental-profile-certificate.jpg)
 
 
-*Supplier profile — Certificate tab, empty (No Data).*
+*Supplier profile — Certificate tab. Click + Certificate to add one.*
 
 
 ## Tips

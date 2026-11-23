@@ -38,7 +38,8 @@
         "Click **Create Factory**, or **Import Factory** to add many factories from a file.",
         {
           "img": "01-list.jpg",
-          "caption": "Factory tab with Import Factory and Create Factory."
+          "caption": "Factory tab with Import Factory and Create Factory.",
+          "alt": "Factory tab searched for Bright Ocean, showing Bright Ocean Housewares (Ningbo) Factory, FAC-2611-031, in Ningbo, Zhejiang, China with status Active."
         }
       ]
     },
@@ -56,7 +57,8 @@
         },
         {
           "img": "02-step1-overview.jpg",
-          "caption": "Create factory profile — step 1, Factory Overview."
+          "caption": "Create factory profile — step 1, Factory Overview.",
+          "alt": "Factory Overview filled in: Factory ID FAC-2611-031, Factory Name Bright Ocean Housewares (Ningbo) Factory, location China, Zhejiang, Ningbo, and the address."
         }
       ]
     },
@@ -67,7 +69,8 @@
         "The equipment section lists machines and **Automation Production Line** entries: machine name, brand and model no., quantity and monthly production volume. Click **Add** for more rows.",
         {
           "img": "03-step1-scale.jpg",
-          "caption": "2. Factory Scale (optional)."
+          "caption": "2. Factory Scale and 3. Factory Capacity (both optional).",
+          "alt": "Factory Scale with 320 employees, 280 workers, 12000 square meters and an annual volume of 1500000, and Factory Capacity with 12 injection moulding machines."
         }
       ]
     },
@@ -77,13 +80,15 @@
         "Under **4. Contact**, fill in the **Contact person** and an **Email address** with its type (Company, QA, Sales or Other). **Contact no.** is optional. Click **Next**.",
         {
           "img": "04-step1-contact.jpg",
-          "caption": "Contact section and Next."
+          "caption": "Contact section and Next.",
+          "alt": "Contact section with contact person David Chen, a Company email address and a +86 contact number, then Next."
         },
         "If Contact person or the email type and address are empty, **Next** marks them as required.",
         {
           "img": "required-validation.jpg",
-          "caption": "Required fields turn red after you click Next: Contact person, email type and email.",
-          "counts_toward_98": false
+          "caption": "Required fields turn red after you click Next.",
+          "counts_toward_98": false,
+          "alt": "Contact section with the errors Contact person is required, Type is required and Email is required."
         }
       ]
     },
@@ -93,7 +98,8 @@
         "Click **Select category** for the product categories this factory makes, and **Select tag** for your own tags. Click **Next**.",
         {
           "img": "05-step2-classification.jpg",
-          "caption": "Step 2 Classification."
+          "caption": "Step 2 Classification.",
+          "alt": "Classification step with the product category Kitchenware & Tableware, Glassware & Drinkware, and the Select tag button."
         }
       ]
     },
@@ -103,12 +109,14 @@
         "Click **Add** to attach an audit report or certificate. In **Add Certification**, choose the certification type, upload the file (JPG, JPEG, PNG, PDF, DOC or XLS), and fill in the score or overall rating, issue party, issue date and expiry date. Click **Add**.",
         {
           "img": "07-add-certification.jpg",
-          "caption": "Add Certification pop-up."
+          "caption": "Add Certification pop-up.",
+          "alt": "Add Certification pop-up with Certification Type ISO9001, the file upload area, Score/Overall Rating, Issue Party ICW, Issue Date, Expiry Date and Add."
         },
         "Click **Done** to create the factory.",
         {
           "img": "06-step3-certification.jpg",
-          "caption": "Step 3 Certification."
+          "caption": "Step 3 Certification — click Add, or Done to create the factory.",
+          "alt": "Certification step with Add Certificate and the Done button."
         }
       ]
     },
@@ -118,12 +126,14 @@
         "QMAS shows “Create factory successfully!” and opens the factory profile. Use the tabs **Overview**, **Supplier**, **Certificate**, **Document** and **Compliance Data** to manage what is linked to this factory.",
         {
           "img": "08-factory-profile.jpg",
-          "caption": "Factory profile — Overview tab."
+          "caption": "Factory profile — Overview tab.",
+          "alt": "Factory profile of Bright Ocean Housewares (Ningbo) Factory with the Overview, Supplier, Certificate, Document and Compliance Data tabs and the contact card."
         },
         {
           "img": "supplemental-profile-certificate.jpg",
-          "caption": "Factory profile — Certificate tab, empty (No Data).",
-          "counts_toward_98": false
+          "caption": "Factory profile — Certificate tab. Click + Certificate to add one.",
+          "counts_toward_98": false,
+          "alt": "Certificate tab of the factory profile with the + Certificate button and an empty certificate list."
         }
       ]
     }
