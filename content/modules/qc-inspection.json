@@ -38,17 +38,7 @@
         "In the left menu, open **QC Inspection**. The charts show inspection results, service providers and job types. Tabs list **All Job**, **3rd Party Job**, **Inhouse Record** and **Draft**. Click **Create Job**.",
         {
           "img": "01-list.jpg",
-          "caption": "QC Inspection list with Create Job."
-        },
-        {
-          "img": "supplemental-3rd-party-tab.jpg",
-          "caption": "QC Inspection — 3rd Party Job tab.",
-          "counts_toward_98": false
-        },
-        {
-          "img": "supplemental-draft-tab.jpg",
-          "caption": "QC Inspection — Draft tab.",
-          "counts_toward_98": false
+          "caption": "QC Inspection list, searched by job ID, with Create Job."
         }
       ]
     },
@@ -95,13 +85,8 @@
           ]
         },
         {
-          "img": "supplemental-step1-requirement-blank.jpg",
-          "caption": "Create Job step 1 — Inspection Requirement, including Target Budget and Service Provider Preference.",
-          "counts_toward_98": false
-        },
-        {
           "img": "04-step1-filled.jpg",
-          "caption": "Step 1 filled in. Click Save to keep a draft, or Next."
+          "caption": "Step 1 Inspection Requirement filled in. Click Save to keep a draft, or Next."
         }
       ]
     },
@@ -156,7 +141,7 @@
         "QMAS shows “Create job successfully!” and opens the job. It has a Job ID and starts as **Under Review**. The **Quotes**, **Reports**, **Attachments** and **Invoices** tabs follow the job.",
         {
           "img": "10-job-detail.jpg",
-          "caption": "The new inspection job."
+          "caption": "The new inspection job, Under Review."
         }
       ]
     }

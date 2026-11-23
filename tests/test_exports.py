@@ -50,7 +50,7 @@ CLEAN_MODULES = {
     "product-testing", "qc-inspection", "supplier-management", "test-plan", "factory-audit",
 }
 # Modules whose screenshots have all been retaken with demo data.
-FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management", "product-testing", "document-management", "document-review", "efiling"}
+FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management", "product-testing", "document-management", "document-review", "efiling", "qc-inspection"}
 
 
 def skipped(slug: str, block: str) -> bool:
@@ -82,9 +82,6 @@ class GuideContentTests(unittest.TestCase):
         self.assertEqual(set(supplementary), {
             ("factory-management", "required-validation.jpg"),
             ("factory-management", "supplemental-profile-certificate.jpg"),
-            ("qc-inspection", "supplemental-step1-requirement-blank.jpg"),
-            ("qc-inspection", "supplemental-3rd-party-tab.jpg"),
-            ("qc-inspection", "supplemental-draft-tab.jpg"),
             ("supplier-management", "supplemental-profile-certificate.jpg"),
         })
 

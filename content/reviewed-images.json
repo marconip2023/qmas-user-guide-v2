@@ -342,51 +342,21 @@
     {
       "slug": "qc-inspection",
       "file": "01-list.jpg",
-      "sha256": "8c4955efa44b7ea0372c22e57905fd3acce328e4b8bee323cf3eaaf8197c4c3c",
-      "width": 1280,
-      "height": 714,
-      "bytes": 82927,
+      "sha256": "eda8125ef965c97b2a61a69fbf13a24bf5c3dba8d22ef2199eebee2658578094",
+      "width": 1528,
+      "height": 415,
+      "bytes": 55695,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "qc-inspection",
       "file": "02-looking-to.jpg",
-      "sha256": "81a4447827c282bb824d87c558a0f818934ac0fdb1d823995652d0f3a9e2402b",
-      "width": 1280,
-      "height": 714,
-      "bytes": 39257,
+      "sha256": "57b542dc3c48950111d7976491141c5c84a41091a976c176cd283da58d71a06d",
+      "width": 1600,
+      "height": 770,
+      "bytes": 58567,
       "counts_toward_98": true,
-      "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
-    },
-    {
-      "slug": "qc-inspection",
-      "file": "supplemental-step1-requirement-blank.jpg",
-      "sha256": "36ba2cc011ac6a0b4ff0e9b2d04212d6e552552c2fc513dd33e669953f094286",
-      "width": 1280,
-      "height": 714,
-      "bytes": 76569,
-      "counts_toward_98": false,
-      "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
-    },
-    {
-      "slug": "qc-inspection",
-      "file": "supplemental-3rd-party-tab.jpg",
-      "sha256": "70d0ebd30af5abe98e6a437cba62faf4d8b19e2f3e52882eee4bf28697684a6a",
-      "width": 1280,
-      "height": 714,
-      "bytes": 82745,
-      "counts_toward_98": false,
-      "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
-    },
-    {
-      "slug": "qc-inspection",
-      "file": "supplemental-draft-tab.jpg",
-      "sha256": "8bec5d33898beac2d9ecd6e8547c11eaaaa180c10ff1ebc5f4a352629277a73d",
-      "width": 1280,
-      "height": 714,
-      "bytes": 81818,
-      "counts_toward_98": false,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
@@ -826,6 +796,62 @@
       "width": 1512,
       "height": 990,
       "bytes": 151946
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "04-step1-filled.jpg",
+      "sha256": "d07c20d8bab9194db7c622d602d54e3663d4ee23083aa5d7c7cc569a3de9aaf1",
+      "width": 1600,
+      "height": 1210,
+      "bytes": 148114
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "05-select-product.jpg",
+      "sha256": "6fee0e670274e50ba8856e939cb182d30a451cdde60bafe5a1b2a74e96efadc1",
+      "width": 888,
+      "height": 892,
+      "bytes": 47979
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "06-step2-report.jpg",
+      "sha256": "209c6fd51c701dfea04457bcab7529bdb1890f002ea0a30c740d177395729bdd",
+      "width": 1600,
+      "height": 1240,
+      "bytes": 127760
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "07-step3-supplier-factory.jpg",
+      "sha256": "bf5528e71837eb88275bfcf4e054175ce7b9f243b4c03106fc343d95d874fdae",
+      "width": 1600,
+      "height": 1270,
+      "bytes": 141869
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "08-step4-additional.jpg",
+      "sha256": "2c93850d785193a6fd20ee27551a493e36a6610512e16ee5681487f3dbe5f6bc",
+      "width": 1600,
+      "height": 930,
+      "bytes": 97920
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "09-step5-review.jpg",
+      "sha256": "e9142577c5bf6bd2287f2322b0f48b2c66209f3909bb0d8e6a66259397fab208",
+      "width": 1600,
+      "height": 2330,
+      "bytes": 230986
+    },
+    {
+      "slug": "qc-inspection",
+      "file": "10-job-detail.jpg",
+      "sha256": "c887e179749999aa7ad9ef41618ea4826e35c81b85c374b6da0fcbaf971d6cb3",
+      "width": 1600,
+      "height": 900,
+      "bytes": 129795
     }
   ]
 }
