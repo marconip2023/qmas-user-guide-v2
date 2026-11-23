@@ -59,7 +59,7 @@ Under **2. Contact**, fill in the **Contact person**, **Contact Email** and at l
 
 *Contact section.*
 
-If a required field is empty when you click **Next**, it turns red, for example “Type is required” or “Email is required”. This screenshot also shows **English name is required**, **Location is required**, and **Contact person is required**. Next triggers the errors, not Submit. The fields still show empty or example placeholders, not a completed profile.
+If a required field is empty when you click **Next**, it turns red, for example “Type is required”, “Email is required”, “English name is required”, “Location is required” or “Contact person is required”.
 
 ![The email type and email address are required.](images/supplier-management/04-email-required.jpg)
 
@@ -82,8 +82,6 @@ Click **Add** to upload a certificate. Choose the certification type, upload the
 ### 6. Done — supplier profile
 
 The supplier profile opens. Use the tabs **Overview**, **Product**, **Factory**, **Certificate**, **Document** and **Compliance Data** to manage everything linked to this supplier. Click the pencil icon next to the name, or next to **Contact**, to edit.
-
-The reviewed screenshot is a readonly Overview of an existing profile. Product Category, Tag and Rating are empty. It is not the create-certification wizard, and no record was written for this shot.
 
 ![Supplier profile — Overview tab.](images/supplier-management/07-supplier-profile.jpg)
 

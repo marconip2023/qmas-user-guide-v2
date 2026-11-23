@@ -69,12 +69,10 @@ Choose **Get QC inspection quote via ICW** and click **Continue**.
 - **Inspection AQL**: Critical, Major and Minor levels. They apply to all products in this job by default.
 - **Target Budget** (currency and amount) and **Service Provider Preference**. Leave “No preference, ICW will match you with the best inspector” selected if you have no preferred provider.
 
-The reviewed screenshot of this step is the blank form. It includes Target Budget and Service Provider Preference. It is not a filled or submitted job. The filled step-1 screenshot is still pending.
-
-![Create Job step 1 Inspection Requirement, blank (includes Target Budget and Service Provider Preference).](images/qc-inspection/supplemental-step1-requirement-blank.jpg)
+![Create Job step 1 — Inspection Requirement, including Target Budget and Service Provider Preference.](images/qc-inspection/supplemental-step1-requirement-blank.jpg)
 
 
-*Create Job step 1 Inspection Requirement, blank (includes Target Budget and Service Provider Preference).*
+*Create Job step 1 — Inspection Requirement, including Target Budget and Service Provider Preference.*
 
 
 

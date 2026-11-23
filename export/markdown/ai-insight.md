@@ -45,9 +45,7 @@ You can also start from a product: open the product profile, choose **AI Risk Sc
 - **Output Mode** (required): **Full** or **Lite** report.
 - **Screening Age Grade** (optional): the age grade to screen against, for example 3+ or 8+.
 
-**Available Token** shows your balance. The number in this screenshot is redacted.
-
-The reviewed pop-up is blank. Product Page URL is only the placeholder, no images are uploaded, and Import Region, Output Mode and Screening Age Grade are empty. Verify Information and Skip Verify & Generate Report are visible and were not used. No report was generated.
+**Available Token** shows your balance.
 
 ![New AI Risk Screening pop-up.](images/ai-insight/02-new-screening.jpg)
 

@@ -1,53 +1,61 @@
 ---
-title: "Test Plan — Request a Test Plan"
+title: "Test Plan — Get an AI Test Plan for a Product"
 slug: test-plan
 document_status: published
 language: en
 ---
 
-# Test Plan — Request a Test Plan
+# Test Plan — Get an AI Test Plan for a Product
 
-Source-documented only. The Help Center has a short 2024 article for a top-menu Test Plan. The published Product Profile guide instead shows a Test Plan (AI) pop-up on Quality Requirement. These may be different features. Do not merge them into one invented flow.
+Test Plan uses AI to suggest the tests a product needs, based on its description, import country, intended users and photos. You open it from a product's Quality Requirement tab.
 
-- **Status:** Source-documented only. Not dev-verified.
-- **Help Center article:** How To Request A Test Plan
-- **Help Center last edited:** 2024-03-28
-- **Source:** https://app.notion.com/p/1a502da19803417aae2cd72190a1a542
-- **Published-guide path:** [Product profile](product-profile.md) → Quality Requirement → Test Plan (AI)
-- **Screenshots:** None on this page. The product-profile pop-up image is still pending review.
+- **Module:** Product Management → product profile → Quality Requirement
+- **Open:** https://qmas.icw.io/product/list → click a product → Quality Requirement → Test Plan
+- **See also:** [Product Management — Every Tab of the Product Profile](product-profile.md)
 
 ## Overview
 
-1. **Historical Help Center path:** top menu **TEST PLAN**, then product details, then receive or download a PDF.
-2. **Current published-guide path:** product profile → Quality Requirement → **Test Plan (AI)** pop-up.
-3. The internal index previously marked Test Plan as coming soon. A dev check is still required.
+1. Open a product and go to **Quality Requirement**.
+2. Click **Test Plan**.
+3. Fill in the product information and upload photos.
+4. Click **Generate Test Plan**.
 
 ## Step-by-step
 
-### 1. Help Center steps (2024, quoted closely)
+### 1. Open Test Plan
 
-This is the entire Help Center article. It was last edited on 2024-03-28.
-
-1. “Navigate to the top menu bar, select **TEST PLAN**.”
-2. “Fill out your product details.”
-3. “Receive your test plan, you can also download it in PDF format.”
-
-Do not assume the 2024 top-menu path still exists.
+On **Product Management**, click a product to open its profile. In the left menu, click **Quality Requirement**, then click **Test Plan** next to the title.
 
 
-### 2. What the published guide already shows
+### 2. Fill in the information
 
-The [Product Profile](product-profile.md) guide documents a **Test Plan (AI)** control on Quality Requirement. Its pop-up slot is `27-test-plan.jpg`, still pending privacy review. That guide does not show a generated plan or an apply-to-requirements result.
+- **Product Description** (required): describe the product. More detail gives better results. QMAS fills in the product name for you.
+- **Import Country** (required): where the product will be sold.
+- **Product Intended Used By** (required): who the product is for.
+- **Product Images (Multiple Views)** (required): upload up to 6 photos (PNG, JPEG, JPG, WEBP, GIF, AVIF or HEIC).
 
-Keep both descriptions until a dev check says they are the same feature.
+![Test Plan pop-up with Product Description, Import Country, Product Intended Used By, product image upload and Generate Test Plan.](images/test-plan/27-test-plan.jpg)
+
+
+*Test Plan pop-up.*
+
+
+### 3. Generate the test plan
+
+Click **Generate Test Plan**. To add tests as quality requirements, use **Add Requirement** or a template on the same Quality Requirement tab.
 
 
 ## Tips
 
-- Do not copy Help Center screenshots. Do not invent a generated-plan screenshot.
+- Give a detailed product description, including materials, age grade and functions, for a more accurate plan.
+- Upload photos from several angles.
 
 ## FAQ
 
-**Q: What still needs a dev check?**
+**Q: Where is Test Plan?**
 
-A: Whether a standalone Test Plan entry remains in the left or top navigation; its current fields, outputs, and any fee or token; and, if it is gone, whether this 2024 article should be retired in favour of a longer Quality Requirement Test Plan (AI) guide.
+A: Open a product → Quality Requirement → Test Plan.
+
+**Q: What do I need to generate a test plan?**
+
+A: A product description, the import country, who the product is intended for, and product photos.

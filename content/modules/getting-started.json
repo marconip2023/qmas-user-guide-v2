@@ -13,10 +13,6 @@
     [
       "Company Profile",
       "https://qmas.icw.io/company-profile"
-    ],
-    [
-      "Checked against",
-      "QMAS dev, 9 Nov 2026"
     ]
   ],
   "overview": [
@@ -44,8 +40,7 @@
         "**Ask TicMate** on the right edge opens the TicMate assistant.",
         {
           "img": "01-home.jpg",
-          "caption": "Home page.",
-          "caption_note": "This reviewed screenshot shows the TicMate workflow shortcuts. Attention and Business Overview are described in the steps and are not in this crop."
+          "caption": "Home page."
         }
       ]
     },
@@ -87,8 +82,7 @@
         },
         {
           "img": "02-settings-menu.jpg",
-          "caption": "Settings menu.",
-          "caption_note": "Menu opened from the account avatar: Company Profile, Password, Languages, Account Management, Assign TicMart Job and Logout."
+          "caption": "Settings menu."
         }
       ]
     },

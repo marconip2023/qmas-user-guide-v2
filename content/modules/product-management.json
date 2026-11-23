@@ -21,10 +21,6 @@
     [
       "Steps",
       "1 Product Profile → 2 Related Product → Done"
-    ],
-    [
-      "Checked against",
-      "QMAS dev, 9 Nov 2026"
     ]
   ],
   "overview": [
@@ -42,8 +38,7 @@
         "Filter the list with **Product Category**, **Customer Product Category**, **Product Number**, **Status**, **Created By** and **Team**. **Sort by Date modified** changes the order. **Reset** clears the filters.",
         {
           "img": "01-list.jpg",
-          "caption": "Product Management list with Import Product and + New Product at the top right.",
-          "caption_note": "Reviewed screenshot of the list filters and column headers. No data rows are shown."
+          "caption": "Product Management list with Import Product and + New Product at the top right."
         }
       ]
     },
@@ -83,8 +78,7 @@
         "The supplier card appears. Use **Change Supplier** to pick another one, or **Edit this profile** to update the supplier.",
         {
           "img": "05-supplier-shipping.jpg",
-          "caption": "Selected supplier, followed by 3. Shipping Information (optional).",
-          "caption_note": "The supplier card body in this screenshot is intentionally blank. Change Supplier and Edit this profile remain visible. The selected test supplier is shown on the Select supplier screenshot."
+          "caption": "Selected supplier, followed by 3. Shipping Information (optional)."
         }
       ]
     },
@@ -119,19 +113,11 @@
       "h": "6. Done — find your product",
       "body": [
         "QMAS shows “Product added” and returns to the Product Management list. The new product is at the top.",
-        "The screenshot of that new row was not captured, because it would require creating a real product. The placeholder is not a picture of a finished create.",
-        {
-          "img": "08-product-added.jpg",
-          "caption": "The new product at the top of the list.",
-          "availability": "not-captured",
-          "pending_note": "Not captured. A real product was not created for this screenshot, so this placeholder is not confirmation of a completed create."
-        },
         "Click the product to open its profile. From the left menu of the profile you can manage **Document**, **Shipping Detail**, **Compliance Data**, **Quality Requirement**, **AI Risk Screening**, **CPSC eFiling** and **Packaging Detail**.",
         "The left menu also includes **QR Code**.",
         {
           "img": "09-product-profile.jpg",
-          "caption": "Product profile.",
-          "caption_note": "Left menu includes Document, Shipping Detail, Compliance Data, Quality Requirement, AI Risk Screening, CPSC eFiling, Packaging Detail and QR Code. The Document tab shows New Folder, Upload, All, Archived, Type, Source, Checked, Sort and Reset."
+          "caption": "Product profile."
         }
       ]
     },

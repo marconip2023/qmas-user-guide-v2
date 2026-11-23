@@ -39,8 +39,6 @@ In the left menu, open **eFiling**. The list shows each eFiling with its log no.
 - **Select Document in QMAS**: choose a document already in Document Management, with no re-upload.
 - **Start With Blank**: fill the form yourself.
 
-The reviewed dialog is blank. No report was uploaded and no extraction was run. Next is disabled. Start With Blank is visible and was not used.
-
 ![Add Documents for AI Extract.](images/efiling/02-ai-extract.jpg)
 
 

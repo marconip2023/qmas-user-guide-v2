@@ -690,6 +690,14 @@
       "width": 1210,
       "height": 646,
       "bytes": 40389
+    },
+    {
+      "slug": "test-plan",
+      "file": "27-test-plan.jpg",
+      "sha256": "e8ee327f7ba932a65a8ee23f4b3cf019e2ebc98bf6577399cb6eec05bb7574df",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 122602
     }
   ]
 }

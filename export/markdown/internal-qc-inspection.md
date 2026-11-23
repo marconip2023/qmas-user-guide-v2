@@ -47,8 +47,6 @@ In the left menu, open **Internal QC Inspection**. The tabs show **All Job**, **
 
 Choose the **Inspection Date**, **Inspection type**, **Inspection Level** and the **AQL** (Critical, Major, Minor). There is no budget or service provider, because your own team does the inspection. Click **Next**.
 
-The reviewed screenshot is that blank form. It does not show Target Budget or Service Provider Preference. Wizard steps 2–5 are labels only. Those screens were not captured and were not invented.
-
 ![Step 1 Inspection Requirement for an internal inspection.](images/internal-qc-inspection/03-step1-requirement.jpg)
 
 

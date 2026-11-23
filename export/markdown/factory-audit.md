@@ -1,72 +1,68 @@
 ---
-title: "Factory Audit — Request a Quotation"
+title: "Factory Audit — Request a Factory Audit"
 slug: factory-audit
 document_status: published
 language: en
 ---
 
-# Factory Audit — Request a Quotation
+# Factory Audit — Request a Factory Audit
 
-Source-documented only. The original Help Center describes how to request a factory audit quotation, confirm a booking, and open the report and invoice. This article was last edited on 2024-04-02 and was not updated in November 2026. It is not confirmed on the current QMAS dev site. There is no published guide page and no reviewed screenshot.
+Request a social-compliance or quality audit for a factory, such as SEDEX, BSCI, FAMA or WRAP, and track the audit jobs in one list.
 
-- **Status:** Source-documented only. Not dev-verified.
-- **Help Center article:** How To Request Quotation For Factory Audit From Global Laboratories
-- **Help Center last edited:** 2024-04-02
-- **Source:** https://app.notion.com/p/8bdd7dbfdb1347dd86da4694aba5dd1e
-- **Screenshots:** None. Unreviewed Help Center images are not included.
+- **Module:** Factory Audit
+- **Open:** https://qmas.icw.io/factory_audit
+- **Start here:** Factory Audit → Create Factory Audit Order
 
 ## Overview
 
-1. The Help Center says: “The QMAS Factory Audit Process Management Module lets you execute and monitor your factory audit workflow online.”
-2. The 2024 article covers a quotation, booking confirmation, progress, the report, and invoices.
-3. Getting Started Attention cards already name **Factory Audit**, but the exact current path was not re-opened on dev.
+1. Open **Factory Audit** in the left menu.
+2. Click **Create Factory Audit Order**.
+3. Step 1 **Audit Requirements**: choose the audit scheme and date.
+4. Step 2 **Factory**: enter the factory and its contact.
+5. Click **Submit**, or **Save Draft** to finish later.
 
 ## Step-by-step
 
-### 1. Request a quotation (2024 labels)
+### 1. Open Factory Audit
 
-These labels are Help Center text from 2024. Confirm them on dev before treating them as the current buttons.
+In the left menu, open **Factory Audit**. The **Jobs** tab lists your audit jobs with the factory name and address, audit scheme, creator, team, audit date, date created and job status. Use **Audit Scheme**, **Job Status**, **Sort by Date**, **Created By** and **Team** to filter, or search by factory name. Click **Reset** to clear the filters.
 
-1. In the left menu, go to **Factory Audit** and click **Create Factory Audit Order**.
-2. Fill out **Audit Requirements**, then click **NEXT**.
-3. Fill out **Factory info** and contact person information, then click **Submit**.
+Click **Create Factory Audit Order** at the top right.
 
 
-### 2. Receive a quotation and confirm the booking
+### 2. Audit Requirements
 
-The Help Center says to return to **Factory Audit List** “at the top menu bar”. That top-menu wording is likely outdated. Confirm whether the list is in the left menu.
+- **Audit Scheme**: SEDEX 4P, SEDEX 2P, BSCI, FAMA, WRAP or Other.
+- For SEDEX, choose the **announcement type** (Announced, Semi-announced or Unannounced) and answer **Are you SEDEX Member?** (Yes, No or Provide Later). If you answer Yes, enter your SEDEX no.
+- **Audit Date**: the date you want the audit.
+- **Remarks** (optional): anything the auditor should know.
 
-1. After submit, job status is **Under Review**.
-2. When the request is approved, status becomes **Waiting for Quote**.
-3. When quotes are ready, status becomes **Quote Available**.
-4. Click **View Detail**.
-5. Quotes are under the **QUOTES** tab.
-6. Click **Accept Quotes** to confirm the booking.
+Click **Next**, or **Save Draft** to finish later.
 
 
-### 3. Monitor progress
+### 3. Factory
 
-1. After accepting the quotation, status becomes **Waiting for reserve booking**.
-2. When the booking is confirmed, status becomes **Booking Reserved**.
-3. When the audit is completed, status becomes **Completed**.
+- **1. Factory Info**: factory name in English (and the local-language name if you have it), location (country/region, province, city), address and number of employees.
+- **2. Factory Contact**: contact person, contact number, email address and factory telephone.
 
-The Help Center source has typographical errors (“you quotes”, “you job status swill change”). Those are not treated as UI labels.
-
-
-### 4. View the report and invoice
-
-1. Click **View Detail** next to the job status.
-2. Open the **REPORT** tab to view the audit report.
-3. Locate the invoice under **INVOICES**.
+Click **Submit** to send the request, or **Save Draft** to finish later. The job then appears in the **Jobs** list.
 
 
 ## Tips
 
-- Do not copy Help Center screenshots into this public draft. They were not privacy-reviewed.
-- Before anyone calls these labels current, check the left-nav name, the create button, the status names, **Accept Quotes**, and whether Quotes, Report, and Invoices tabs still exist.
+- Use the Home page **Attention** card for Factory Audit to see audit jobs that need your action.
+- Save a draft if you are waiting for the factory's contact details.
 
 ## FAQ
 
-**Q: Is this the current Factory Audit screen?**
+**Q: Which audit schemes can I request?**
 
-A: Not confirmed. This page repeats the 2024 Help Center article only. Verify it on qmas-dev.icw.io before publishing it as current UI.
+A: SEDEX 4P, SEDEX 2P, BSCI, FAMA, WRAP, or Other.
+
+**Q: Can I finish the request later?**
+
+A: Yes. Click Save Draft on either step.
+
+**Q: Where do I see my audit jobs?**
+
+A: Open Factory Audit in the left menu. The Jobs tab lists every audit job and its status.

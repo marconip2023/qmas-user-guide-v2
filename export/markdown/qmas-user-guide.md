@@ -12,11 +12,11 @@ language: en
 - [Getting Started — Home, Settings and Company Profile](#getting-started)
 - [Product Management — Create and Edit a Product](#product-management)
 - [Product Management — Every Tab of the Product Profile](#product-profile)
-- [Test Plan — Request a Test Plan](#test-plan)
+- [Test Plan — Get an AI Test Plan for a Product](#test-plan)
 - [eFiling — Submit eFiling to CPSC](#efiling)
 - [Supplier Management — Create a Supplier](#supplier-management)
 - [Factory Management — Create a Factory](#factory-management)
-- [Factory Audit — Request a Quotation](#factory-audit)
+- [Factory Audit — Request a Factory Audit](#factory-audit)
 - [Document Management — Upload a Document](#document-management)
 - [QC Inspection — Get a QC Inspection Quote via ICW](#qc-inspection)
 - [Internal QC Inspection — Start an Internal Inspection](#internal-qc-inspection)
@@ -337,9 +337,6 @@ Product linkage helps you manage compliance reports. For example, link a raw mat
 
 QMAS shows “Product added” and returns to the Product Management list. The new product is at the top.
 
-The screenshot of that new row was not captured, because it would require creating a real product. The placeholder is not a picture of a finished create.
-
-
 Click the product to open its profile. From the left menu of the profile you can manage **Document**, **Shipping Detail**, **Compliance Data**, **Quality Requirement**, **AI Risk Screening**, **CPSC eFiling** and **Packaging Detail**.
 
 The left menu also includes **QR Code**.
@@ -457,7 +454,7 @@ Shows the length, width, height, gross and net weight, quantity and barcode for 
 ![Shipping Detail tab with 0.00 measurements and N/A barcodes for Selling Unit, Inner Carton and Outer Carton.](images/product-profile/04-shipping-detail.jpg)
 
 
-*Shipping Detail tab — empty values (0.00 / N/A).*
+*Shipping Detail tab.*
 
 
 ### 3. Compliance Data
@@ -702,52 +699,60 @@ A: Open a product → Quality Requirement → ⋯ → Templates → Save As Temp
 A: On the requirement click +, attach the test or certificate data, then ⋯ → Mark As Completed.
 
 
-# Test Plan — Request a Test Plan
+# Test Plan — Get an AI Test Plan for a Product
 
-Source-documented only. The Help Center has a short 2024 article for a top-menu Test Plan. The published Product Profile guide instead shows a Test Plan (AI) pop-up on Quality Requirement. These may be different features. Do not merge them into one invented flow.
+Test Plan uses AI to suggest the tests a product needs, based on its description, import country, intended users and photos. You open it from a product's Quality Requirement tab.
 
-- **Status:** Source-documented only. Not dev-verified.
-- **Help Center article:** How To Request A Test Plan
-- **Help Center last edited:** 2024-03-28
-- **Source:** https://app.notion.com/p/1a502da19803417aae2cd72190a1a542
-- **Published-guide path:** [Product profile](product-profile.md) → Quality Requirement → Test Plan (AI)
-- **Screenshots:** None on this page. The product-profile pop-up image is still pending review.
+- **Module:** Product Management → product profile → Quality Requirement
+- **Open:** https://qmas.icw.io/product/list → click a product → Quality Requirement → Test Plan
+- **See also:** [Product Management — Every Tab of the Product Profile](product-profile.md)
 
 ## Overview
 
-1. **Historical Help Center path:** top menu **TEST PLAN**, then product details, then receive or download a PDF.
-2. **Current published-guide path:** product profile → Quality Requirement → **Test Plan (AI)** pop-up.
-3. The internal index previously marked Test Plan as coming soon. A dev check is still required.
+1. Open a product and go to **Quality Requirement**.
+2. Click **Test Plan**.
+3. Fill in the product information and upload photos.
+4. Click **Generate Test Plan**.
 
 ## Step-by-step
 
-### 1. Help Center steps (2024, quoted closely)
+### 1. Open Test Plan
 
-This is the entire Help Center article. It was last edited on 2024-03-28.
-
-1. “Navigate to the top menu bar, select **TEST PLAN**.”
-2. “Fill out your product details.”
-3. “Receive your test plan, you can also download it in PDF format.”
-
-Do not assume the 2024 top-menu path still exists.
+On **Product Management**, click a product to open its profile. In the left menu, click **Quality Requirement**, then click **Test Plan** next to the title.
 
 
-### 2. What the published guide already shows
+### 2. Fill in the information
 
-The [Product Profile](product-profile.md) guide documents a **Test Plan (AI)** control on Quality Requirement. Its pop-up slot is `27-test-plan.jpg`, still pending privacy review. That guide does not show a generated plan or an apply-to-requirements result.
+- **Product Description** (required): describe the product. More detail gives better results. QMAS fills in the product name for you.
+- **Import Country** (required): where the product will be sold.
+- **Product Intended Used By** (required): who the product is for.
+- **Product Images (Multiple Views)** (required): upload up to 6 photos (PNG, JPEG, JPG, WEBP, GIF, AVIF or HEIC).
 
-Keep both descriptions until a dev check says they are the same feature.
+![Test Plan pop-up with Product Description, Import Country, Product Intended Used By, product image upload and Generate Test Plan.](images/test-plan/27-test-plan.jpg)
+
+
+*Test Plan pop-up.*
+
+
+### 3. Generate the test plan
+
+Click **Generate Test Plan**. To add tests as quality requirements, use **Add Requirement** or a template on the same Quality Requirement tab.
 
 
 ## Tips
 
-- Do not copy Help Center screenshots. Do not invent a generated-plan screenshot.
+- Give a detailed product description, including materials, age grade and functions, for a more accurate plan.
+- Upload photos from several angles.
 
 ## FAQ
 
-**Q: What still needs a dev check?**
+**Q: Where is Test Plan?**
 
-A: Whether a standalone Test Plan entry remains in the left or top navigation; its current fields, outputs, and any fee or token; and, if it is gone, whether this 2024 article should be retired in favour of a longer Quality Requirement Test Plan (AI) guide.
+A: Open a product → Quality Requirement → Test Plan.
+
+**Q: What do I need to generate a test plan?**
+
+A: A product description, the import country, who the product is intended for, and product photos.
 
 
 # eFiling — Submit eFiling to CPSC
@@ -783,8 +788,6 @@ In the left menu, open **eFiling**. The list shows each eFiling with its log no.
 - **Upload Report & Auto-fill by AI**: drop a PDF test report. AI extracts the data and fills the form.
 - **Select Document in QMAS**: choose a document already in Document Management, with no re-upload.
 - **Start With Blank**: fill the form yourself.
-
-The reviewed dialog is blank. No report was uploaded and no extraction was run. Next is disabled. Start With Blank is visible and was not used.
 
 ![Add Documents for AI Extract.](images/efiling/02-ai-extract.jpg)
 
@@ -882,7 +885,7 @@ Under **2. Contact**, fill in the **Contact person**, **Contact Email** and at l
 
 *Contact section.*
 
-If a required field is empty when you click **Next**, it turns red, for example “Type is required” or “Email is required”. This screenshot also shows **English name is required**, **Location is required**, and **Contact person is required**. Next triggers the errors, not Submit. The fields still show empty or example placeholders, not a completed profile.
+If a required field is empty when you click **Next**, it turns red, for example “Type is required”, “Email is required”, “English name is required”, “Location is required” or “Contact person is required”.
 
 ![The email type and email address are required.](images/supplier-management/04-email-required.jpg)
 
@@ -905,8 +908,6 @@ Click **Add** to upload a certificate. Choose the certification type, upload the
 ### 6. Done — supplier profile
 
 The supplier profile opens. Use the tabs **Overview**, **Product**, **Factory**, **Certificate**, **Document** and **Compliance Data** to manage everything linked to this supplier. Click the pencil icon next to the name, or next to **Contact**, to edit.
-
-The reviewed screenshot is a readonly Overview of an existing profile. Product Category, Tag and Rating are empty. It is not the create-certification wizard, and no record was written for this shot.
 
 ![Supplier profile — Overview tab.](images/supplier-management/07-supplier-profile.jpg)
 
@@ -1009,12 +1010,12 @@ Under **4. Contact**, fill in the **Contact person** and an **Email address** wi
 
 *Contact section and Next.*
 
-If Contact person or the email type and address are empty, **Next** (not Submit) marks them required. The fields stay on example placeholders.
+If Contact person or the email type and address are empty, **Next** marks them as required.
 
-![Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.](images/factory-management/required-validation.jpg)
+![Required fields turn red after you click Next: Contact person, email type and email.](images/factory-management/required-validation.jpg)
 
 
-*Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.*
+*Required fields turn red after you click Next: Contact person, email type and email.*
 
 
 ### 5. Classification (optional)
@@ -1035,8 +1036,6 @@ Click **Done** to create the factory.
 ### 7. Done — factory profile
 
 QMAS shows “Create factory successfully!” and opens the factory profile. Use the tabs **Overview**, **Supplier**, **Certificate**, **Document** and **Compliance Data** to manage what is linked to this factory.
-
-The reviewed screenshot is a readonly Overview of an existing profile. Product Category, Tag, Factory Capacity and Factory Scale are empty. It is not the Add Certification pop-up, and no record was written for this shot.
 
 ![Factory profile — Overview tab.](images/factory-management/08-factory-profile.jpg)
 
@@ -1068,71 +1067,67 @@ A: Yes. Click Import Factory on the Factory tab.
 A: In step 3 Certification of Create Factory, or later from the Certificate tab of the factory profile.
 
 
-# Factory Audit — Request a Quotation
+# Factory Audit — Request a Factory Audit
 
-Source-documented only. The original Help Center describes how to request a factory audit quotation, confirm a booking, and open the report and invoice. This article was last edited on 2024-04-02 and was not updated in November 2026. It is not confirmed on the current QMAS dev site. There is no published guide page and no reviewed screenshot.
+Request a social-compliance or quality audit for a factory, such as SEDEX, BSCI, FAMA or WRAP, and track the audit jobs in one list.
 
-- **Status:** Source-documented only. Not dev-verified.
-- **Help Center article:** How To Request Quotation For Factory Audit From Global Laboratories
-- **Help Center last edited:** 2024-04-02
-- **Source:** https://app.notion.com/p/8bdd7dbfdb1347dd86da4694aba5dd1e
-- **Screenshots:** None. Unreviewed Help Center images are not included.
+- **Module:** Factory Audit
+- **Open:** https://qmas.icw.io/factory_audit
+- **Start here:** Factory Audit → Create Factory Audit Order
 
 ## Overview
 
-1. The Help Center says: “The QMAS Factory Audit Process Management Module lets you execute and monitor your factory audit workflow online.”
-2. The 2024 article covers a quotation, booking confirmation, progress, the report, and invoices.
-3. Getting Started Attention cards already name **Factory Audit**, but the exact current path was not re-opened on dev.
+1. Open **Factory Audit** in the left menu.
+2. Click **Create Factory Audit Order**.
+3. Step 1 **Audit Requirements**: choose the audit scheme and date.
+4. Step 2 **Factory**: enter the factory and its contact.
+5. Click **Submit**, or **Save Draft** to finish later.
 
 ## Step-by-step
 
-### 1. Request a quotation (2024 labels)
+### 1. Open Factory Audit
 
-These labels are Help Center text from 2024. Confirm them on dev before treating them as the current buttons.
+In the left menu, open **Factory Audit**. The **Jobs** tab lists your audit jobs with the factory name and address, audit scheme, creator, team, audit date, date created and job status. Use **Audit Scheme**, **Job Status**, **Sort by Date**, **Created By** and **Team** to filter, or search by factory name. Click **Reset** to clear the filters.
 
-1. In the left menu, go to **Factory Audit** and click **Create Factory Audit Order**.
-2. Fill out **Audit Requirements**, then click **NEXT**.
-3. Fill out **Factory info** and contact person information, then click **Submit**.
+Click **Create Factory Audit Order** at the top right.
 
 
-### 2. Receive a quotation and confirm the booking
+### 2. Audit Requirements
 
-The Help Center says to return to **Factory Audit List** “at the top menu bar”. That top-menu wording is likely outdated. Confirm whether the list is in the left menu.
+- **Audit Scheme**: SEDEX 4P, SEDEX 2P, BSCI, FAMA, WRAP or Other.
+- For SEDEX, choose the **announcement type** (Announced, Semi-announced or Unannounced) and answer **Are you SEDEX Member?** (Yes, No or Provide Later). If you answer Yes, enter your SEDEX no.
+- **Audit Date**: the date you want the audit.
+- **Remarks** (optional): anything the auditor should know.
 
-1. After submit, job status is **Under Review**.
-2. When the request is approved, status becomes **Waiting for Quote**.
-3. When quotes are ready, status becomes **Quote Available**.
-4. Click **View Detail**.
-5. Quotes are under the **QUOTES** tab.
-6. Click **Accept Quotes** to confirm the booking.
+Click **Next**, or **Save Draft** to finish later.
 
 
-### 3. Monitor progress
+### 3. Factory
 
-1. After accepting the quotation, status becomes **Waiting for reserve booking**.
-2. When the booking is confirmed, status becomes **Booking Reserved**.
-3. When the audit is completed, status becomes **Completed**.
+- **1. Factory Info**: factory name in English (and the local-language name if you have it), location (country/region, province, city), address and number of employees.
+- **2. Factory Contact**: contact person, contact number, email address and factory telephone.
 
-The Help Center source has typographical errors (“you quotes”, “you job status swill change”). Those are not treated as UI labels.
-
-
-### 4. View the report and invoice
-
-1. Click **View Detail** next to the job status.
-2. Open the **REPORT** tab to view the audit report.
-3. Locate the invoice under **INVOICES**.
+Click **Submit** to send the request, or **Save Draft** to finish later. The job then appears in the **Jobs** list.
 
 
 ## Tips
 
-- Do not copy Help Center screenshots into this public draft. They were not privacy-reviewed.
-- Before anyone calls these labels current, check the left-nav name, the create button, the status names, **Accept Quotes**, and whether Quotes, Report, and Invoices tabs still exist.
+- Use the Home page **Attention** card for Factory Audit to see audit jobs that need your action.
+- Save a draft if you are waiting for the factory's contact details.
 
 ## FAQ
 
-**Q: Is this the current Factory Audit screen?**
+**Q: Which audit schemes can I request?**
 
-A: Not confirmed. This page repeats the 2024 Help Center article only. Verify it on qmas-dev.icw.io before publishing it as current UI.
+A: SEDEX 4P, SEDEX 2P, BSCI, FAMA, WRAP, or Other.
+
+**Q: Can I finish the request later?**
+
+A: Yes. Click Save Draft on either step.
+
+**Q: Where do I see my audit jobs?**
+
+A: Open Factory Audit in the left menu. The Jobs tab lists every audit job and its status.
 
 
 # Document Management — Upload a Document
@@ -1277,12 +1272,10 @@ Choose **Get QC inspection quote via ICW** and click **Continue**.
 - **Inspection AQL**: Critical, Major and Minor levels. They apply to all products in this job by default.
 - **Target Budget** (currency and amount) and **Service Provider Preference**. Leave “No preference, ICW will match you with the best inspector” selected if you have no preferred provider.
 
-The reviewed screenshot of this step is the blank form. It includes Target Budget and Service Provider Preference. It is not a filled or submitted job. The filled step-1 screenshot is still pending.
-
-![Create Job step 1 Inspection Requirement, blank (includes Target Budget and Service Provider Preference).](images/qc-inspection/supplemental-step1-requirement-blank.jpg)
+![Create Job step 1 — Inspection Requirement, including Target Budget and Service Provider Preference.](images/qc-inspection/supplemental-step1-requirement-blank.jpg)
 
 
-*Create Job step 1 Inspection Requirement, blank (includes Target Budget and Service Provider Preference).*
+*Create Job step 1 — Inspection Requirement, including Target Budget and Service Provider Preference.*
 
 
 
@@ -1381,8 +1374,6 @@ In the left menu, open **Internal QC Inspection**. The tabs show **All Job**, **
 
 Choose the **Inspection Date**, **Inspection type**, **Inspection Level** and the **AQL** (Critical, Major, Minor). There is no budget or service provider, because your own team does the inspection. Click **Next**.
 
-The reviewed screenshot is that blank form. It does not show Target Budget or Service Provider Preference. Wizard steps 2–5 are labels only. Those screens were not captured and were not invented.
-
 ![Step 1 Inspection Requirement for an internal inspection.](images/internal-qc-inspection/03-step1-requirement.jpg)
 
 
@@ -1451,7 +1442,7 @@ In the left menu, open **Document Review**. The dashboard shows service provider
 
 ### 2. Job Type
 
-Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Review** and/or **Compliance Review**. Optionally fill in **Buyer Name**, **Service Required** (Regular by default) and **Submission Remark**. The screenshot shows this form at those defaults, before a review type is ticked or a product is added. It is not a submitted job.
+Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Review** and/or **Compliance Review**. Optionally fill in **Buyer Name**, **Service Required** (Regular by default) and **Submission Remark**.
 
 ![Create Job — 1. Job Type and 2. Product Information.](images/document-review/02-create-job-top.jpg)
 
@@ -1481,8 +1472,6 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 ### 5. Create Job for supplier (Flows B and C)
 
 Click **Create Job for supplier**. Fill in Job Type and Product Information as above. Then:
-
-The screenshot is the default form: no supplier is selected, and section 5 is clipped at the bottom.
 
 - **Select Connected Supplier**: choose the supplier who will upload. Only suppliers connected with you on QMAS are listed. See Supplier Management → Invite Supplier.
 - **Select Partner** (optional).
@@ -1568,9 +1557,7 @@ You can also start from a product: open the product profile, choose **AI Risk Sc
 - **Output Mode** (required): **Full** or **Lite** report.
 - **Screening Age Grade** (optional): the age grade to screen against, for example 3+ or 8+.
 
-**Available Token** shows your balance. The number in this screenshot is redacted.
-
-The reviewed pop-up is blank. Product Page URL is only the placeholder, no images are uploaded, and Import Region, Output Mode and Screening Age Grade are empty. Verify Information and Skip Verify & Generate Report are visible and were not used. No report was generated.
+**Available Token** shows your balance.
 
 ![New AI Risk Screening pop-up.](images/ai-insight/02-new-screening.jpg)
 

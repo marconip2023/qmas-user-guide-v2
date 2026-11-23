@@ -39,7 +39,7 @@
         },
         {
           "slug": "test-plan",
-          "label": "Request a Test Plan (Help Center, 2024)"
+          "label": "Get an AI test plan for a product"
         },
         {
           "slug": "efiling",
@@ -61,7 +61,7 @@
         },
         {
           "slug": "factory-audit",
-          "label": "Request a Factory Audit quotation (Help Center, 2024)"
+          "label": "Request a factory audit"
         }
       ]
     },

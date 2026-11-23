@@ -66,7 +66,7 @@ Shows the length, width, height, gross and net weight, quantity and barcode for 
 ![Shipping Detail tab with 0.00 measurements and N/A barcodes for Selling Unit, Inner Carton and Outer Carton.](images/product-profile/04-shipping-detail.jpg)
 
 
-*Shipping Detail tab — empty values (0.00 / N/A).*
+*Shipping Detail tab.*
 
 
 ### 3. Compliance Data

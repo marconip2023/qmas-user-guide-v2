@@ -100,7 +100,7 @@
         "Shows the length, width, height, gross and net weight, quantity and barcode for the **Selling Unit**, **Inner Carton** and **Outer Carton**. To change them, click **⋮** next to the product name → **Edit product** and update **Shipping Information**.",
         {
           "img": "04-shipping-detail.jpg",
-          "caption": "Shipping Detail tab — empty values (0.00 / N/A).",
+          "caption": "Shipping Detail tab.",
           "alt": "Shipping Detail tab with 0.00 measurements and N/A barcodes for Selling Unit, Inner Carton and Outer Carton."
         }
       ]

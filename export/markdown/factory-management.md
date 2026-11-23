@@ -71,12 +71,12 @@ Under **4. Contact**, fill in the **Contact person** and an **Email address** wi
 
 *Contact section and Next.*
 
-If Contact person or the email type and address are empty, **Next** (not Submit) marks them required. The fields stay on example placeholders.
+If Contact person or the email type and address are empty, **Next** marks them as required.
 
-![Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.](images/factory-management/required-validation.jpg)
+![Required fields turn red after you click Next: Contact person, email type and email.](images/factory-management/required-validation.jpg)
 
 
-*Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.*
+*Required fields turn red after you click Next: Contact person, email type and email.*
 
 
 ### 5. Classification (optional)
@@ -97,8 +97,6 @@ Click **Done** to create the factory.
 ### 7. Done — factory profile
 
 QMAS shows “Create factory successfully!” and opens the factory profile. Use the tabs **Overview**, **Supplier**, **Certificate**, **Document** and **Compliance Data** to manage what is linked to this factory.
-
-The reviewed screenshot is a readonly Overview of an existing profile. Product Category, Tag, Factory Capacity and Factory Scale are empty. It is not the Add Certification pop-up, and no record was written for this shot.
 
 ![Factory profile — Overview tab.](images/factory-management/08-factory-profile.jpg)
 

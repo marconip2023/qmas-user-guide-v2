@@ -41,7 +41,7 @@ In the left menu, open **Document Review**. The dashboard shows service provider
 
 ### 2. Job Type
 
-Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Review** and/or **Compliance Review**. Optionally fill in **Buyer Name**, **Service Required** (Regular by default) and **Submission Remark**. The screenshot shows this form at those defaults, before a review type is ticked or a product is added. It is not a submitted job.
+Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Review** and/or **Compliance Review**. Optionally fill in **Buyer Name**, **Service Required** (Regular by default) and **Submission Remark**.
 
 ![Create Job — 1. Job Type and 2. Product Information.](images/document-review/02-create-job-top.jpg)
 
@@ -71,8 +71,6 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 ### 5. Create Job for supplier (Flows B and C)
 
 Click **Create Job for supplier**. Fill in Job Type and Product Information as above. Then:
-
-The screenshot is the default form: no supplier is selected, and section 5 is clipped at the bottom.
 
 - **Select Connected Supplier**: choose the supplier who will upload. Only suppliers connected with you on QMAS are listed. See Supplier Management → Invite Supplier.
 - **Select Partner** (optional).

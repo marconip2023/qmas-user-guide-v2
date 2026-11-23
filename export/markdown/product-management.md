@@ -106,9 +106,6 @@ Product linkage helps you manage compliance reports. For example, link a raw mat
 
 QMAS shows “Product added” and returns to the Product Management list. The new product is at the top.
 
-The screenshot of that new row was not captured, because it would require creating a real product. The placeholder is not a picture of a finished create.
-
-
 Click the product to open its profile. From the left menu of the profile you can manage **Document**, **Shipping Detail**, **Compliance Data**, **Quality Requirement**, **AI Risk Screening**, **CPSC eFiling** and **Packaging Detail**.
 
 The left menu also includes **QR Code**.
