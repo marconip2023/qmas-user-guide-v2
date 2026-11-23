@@ -76,26 +76,26 @@
     {
       "slug": "getting-started",
       "file": "01-home.jpg",
-      "sha256": "a1caab1a34c0b43492ead95c2b86b8510e5093ac5b866de785eae25e2d878ceb",
-      "width": 1855,
-      "height": 500,
-      "bytes": 100706
+      "sha256": "afb30bca649666e55ba80b6b7d113c82b3677b79b5edea84741b53082e4f28ea",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 162779
     },
     {
       "slug": "getting-started",
       "file": "02-settings-menu.jpg",
-      "sha256": "67c9a6a1885bca24d6ea9e3e78d459c424e7a167786abb44e7a6e61b8be282d2",
-      "width": 241,
-      "height": 277,
-      "bytes": 13454
+      "sha256": "803e8122beb6dd4c5934ae6045e65cfa94baa8c8a038994fdbced9fd9816ae97",
+      "width": 800,
+      "height": 500,
+      "bytes": 36905
     },
     {
       "slug": "getting-started",
       "file": "03-company-profile.jpg",
-      "sha256": "7a732128dd28ef87dcc0e5364c42ecb5c055b30bf962d28d1255a76c5949f04f",
-      "width": 1050,
-      "height": 820,
-      "bytes": 74035
+      "sha256": "77208f82c2e13e9f27c5b48a6d3f677a05b9c267936483fcae449fe3d760991a",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 166849
     },
     {
       "slug": "product-management",
@@ -392,20 +392,20 @@
     {
       "slug": "ai-insight",
       "file": "01-list.jpg",
-      "sha256": "e7913245aaa525d9e3d25e67c84e395ba0d1f5abb7f98e416e4d8a7613fc814e",
-      "width": 1280,
-      "height": 714,
-      "bytes": 44218,
+      "sha256": "fdbafd2a6ffa580620a592b318f9bb31841bad114292803d88eb396d2ca38f1c",
+      "width": 1600,
+      "height": 545,
+      "bytes": 69088,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "ai-insight",
       "file": "02-new-screening.jpg",
-      "sha256": "0ff1da5a8f195a70a07a733542096c4d48288e0f549b2229d2be67d2ab4d7d8d",
-      "width": 1280,
-      "height": 714,
-      "bytes": 68356,
+      "sha256": "fbc6efaa8040d2c9ce9bf21287a5e9dccb7eb0769b7586f4a803e69b88cc37b4",
+      "width": 888,
+      "height": 764,
+      "bytes": 70898,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
@@ -852,6 +852,22 @@
       "width": 1600,
       "height": 900,
       "bytes": 129795
+    },
+    {
+      "slug": "ai-insight",
+      "file": "03-screening-details.jpg",
+      "sha256": "180f94e15fdd86c38852336298098703ba07394ba2a3c451a7a5b37c3564a924",
+      "width": 720,
+      "height": 554,
+      "bytes": 53329
+    },
+    {
+      "slug": "ai-insight",
+      "file": "04-product-profile-entry.jpg",
+      "sha256": "bb3707aed949362cce998b3943cbbea09f77ec80d5d9ce9d03abeca5727881ab",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 128693
     }
   ]
 }

@@ -533,18 +533,18 @@ caption.visually-hidden { /* name comes from the region label */ }
 <h2>Step-by-step</h2>
 <h3 id="1-home">1. Home</h3>
 <p><strong>TicMate</strong> says “I’m TicMate. What would you like to do today?” and lists these workflow shortcuts:</p>
-<ul><li><strong>Generate product risk assessment report</strong> (AI Assessment workflow).</li><li><strong>Generate export market requirements</strong> (AI Insight workflow).</li><li><strong>CPSC eFiling</strong>. If it shows “API Setup Required”, set up your Certifier ID in Company Profile first.</li><li><strong>Request product testing with your lab partner</strong> (Product Testing).</li><li><strong>Request technical files from your supplier/factory</strong> (Document Review).</li></ul>
+<ul><li><strong>Generate product risk screening report</strong> (AI Screening Workflow).</li><li><strong>Generate export market requirements</strong> (AI Test Plan Workflow).</li><li><strong>CPSC eFiling</strong>. If it shows “API Setup Required”, set up your Certifier ID in Company Profile first.</li><li><strong>Request product testing with your lab partner</strong> (Product Testing).</li><li><strong>Request technical files from your supplier/factory</strong> (Document Review).</li></ul>
 <p><strong>Attention</strong> counts the items that need action in each module, such as Product Testing, Document Review, QC Inspection, IQC Inspection, Factory Audit, Pending Review Doc and Expired Doc. Click a card to see them.</p>
 <p><strong>Business Overview</strong> shows your active products, suppliers, factories and partners. Click <strong>›</strong> to open the list.</p>
 <p><strong>Ask TicMate</strong> on the right edge opens the TicMate assistant.</p>
-<figure class="shot"><img src="../assets/reviewed/getting-started/01-home.jpg" alt="Home page." width="1855" height="500" fetchpriority="high" decoding="async"><figcaption>Home page.</figcaption></figure>
+<figure class="shot"><img src="../assets/reviewed/getting-started/01-home.jpg" alt="Home page." width="1600" height="1000" fetchpriority="high" decoding="async"><figcaption>Home page.</figcaption></figure>
 <h3 id="2-settings-menu">2. Settings menu</h3>
 <p>Click your <strong>avatar</strong> (account control) in the top bar:</p>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Option, What it does"><table><thead><tr><th scope="col">Option</th><th scope="col">What it does</th></tr></thead><tbody><tr><td>Company Profile</td><td>Company details, certificates, documents, product categories and CPSC eFiling Certifier ID.</td></tr><tr><td>Password</td><td>Change your password.</td></tr><tr><td>Languages</td><td>Change the system language.</td></tr><tr><td>Account Management</td><td>Manage your company&#x27;s user accounts.</td></tr><tr><td>Assign TicMart Job</td><td>Assign jobs from the TicMart marketplace.</td></tr><tr><td>Logout</td><td>Signs you out of QMAS.</td></tr></tbody></table></div>
-<figure class="shot"><img src="../assets/reviewed/getting-started/02-settings-menu.jpg" alt="Settings menu." width="241" height="277" loading="lazy" decoding="async"><figcaption>Settings menu.</figcaption></figure>
+<figure class="shot"><img src="../assets/reviewed/getting-started/02-settings-menu.jpg" alt="Settings menu." width="800" height="500" loading="lazy" decoding="async"><figcaption>Settings menu.</figcaption></figure>
 <h3 id="3-company-profile">3. Company Profile</h3>
 <p>Click the pencil icon next to the company name to edit it. The <strong>Overview</strong>, <strong>Certificate</strong> and <strong>Document</strong> tabs hold your company information. <strong>CPSC eFiling - Certifier ID</strong> is where you add and manage the API key for eFiling. <strong>Product Category</strong> lists the categories your company works with.</p>
-<figure class="shot"><img src="../assets/reviewed/getting-started/03-company-profile.jpg" alt="Company Profile." width="1050" height="820" loading="lazy" decoding="async"><figcaption>Company Profile.</figcaption></figure>
+<figure class="shot"><img src="../assets/reviewed/getting-started/03-company-profile.jpg" alt="Company Profile." width="1600" height="1000" loading="lazy" decoding="async"><figcaption>Company Profile.</figcaption></figure>
 <h2>Tips</h2>
 <aside class="tip"><p>The question-mark icon opens the QMAS Help Center.</p></aside>
 <aside class="tip"><p>The coin icon shows your credits and tokens for paid features such as AI Insight.</p></aside>
@@ -1141,16 +1141,18 @@ caption.visually-hidden { /* name comes from the region label */ }
 <h2>Step-by-step</h2>
 <h3 id="1-open-ai-risk-screening">1. Open AI Risk Screening</h3>
 <p>In the left menu, open <strong>AI Risk Screening</strong>. The list shows every screening with its import region, output mode (Full or Lite), status and upload date. Click <strong>Add</strong>.</p>
-<p>The guide still files this module under AI Insight. The current screen title and address are AI Risk Screening (`/ai-risk-screening`).</p>
-<figure class="shot"><img src="../assets/reviewed/ai-insight/01-list.jpg" alt="AI Risk Screening list." width="1280" height="714" fetchpriority="high" decoding="async"><figcaption>AI Risk Screening list.</figcaption></figure>
+<p>In QMAS this module appears as <strong>AI Risk Screening</strong> (address `/ai-risk-screening`).</p>
+<figure class="shot"><img src="../assets/reviewed/ai-insight/01-list.jpg" alt="AI Risk Screening list, searched by name." width="1600" height="545" fetchpriority="high" decoding="async"><figcaption>AI Risk Screening list, searched by name.</figcaption></figure>
 <p>You can also start from a product: open the product profile, choose <strong>AI Risk Screening</strong> in its left menu, then click <strong>Add</strong>.</p>
+<figure class="shot"><img src="../assets/reviewed/ai-insight/04-product-profile-entry.jpg" alt="AI Risk Screening inside a product profile, with Add." width="1600" height="1000" loading="lazy" decoding="async"><figcaption>AI Risk Screening inside a product profile, with Add.</figcaption></figure>
 <h3 id="2-fill-in-the-screening">2. Fill in the screening</h3>
 <ul><li><strong>Product Page URL</strong> (optional): a link to the product page.</li><li><strong>Product Images</strong> (required): up to 6 photos from different views. PNG, JPEG, JPG, WEBP, GIF, AVIF or HEIC.</li><li><strong>Import Region</strong> (required): where the product will be sold.</li><li><strong>Output Mode</strong> (required): <strong>Full</strong> or <strong>Lite</strong> report.</li><li><strong>Screening Age Grade</strong> (optional): the age grade to screen against, for example 3+ or 8+.</li></ul>
 <p><strong>Available Token</strong> shows your balance.</p>
-<figure class="shot"><img src="../assets/reviewed/ai-insight/02-new-screening.jpg" alt="New AI Risk Screening pop-up." width="1280" height="714" loading="lazy" decoding="async"><figcaption>New AI Risk Screening pop-up.</figcaption></figure>
+<figure class="shot"><img src="../assets/reviewed/ai-insight/02-new-screening.jpg" alt="New AI Risk Screening pop-up." width="888" height="764" loading="lazy" decoding="async"><figcaption>New AI Risk Screening pop-up.</figcaption></figure>
 <h3 id="3-verify-and-generate">3. Verify and generate</h3>
 <p>Click <strong>Verify Information</strong> (recommended: verification improves accuracy and gives a more reliable report), or <strong>Skip Verify &amp; Generate Report</strong> to go straight to the report.</p>
 <p>The new screening appears in the list. When its status is <strong>Completed</strong>, the report is ready. Click the <strong>ⓘ</strong> icon to see the screening details.</p>
+<figure class="shot"><img src="../assets/reviewed/ai-insight/03-screening-details.jpg" alt="Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode." width="720" height="554" loading="lazy" decoding="async"><figcaption>Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode.</figcaption></figure>
 <h2>Tips</h2>
 <aside class="tip"><p>Use clear photos from several angles (front, back, label, packaging) for a better result.</p></aside>
 <aside class="tip"><p>Check your Available Token balance before you generate.</p></aside>

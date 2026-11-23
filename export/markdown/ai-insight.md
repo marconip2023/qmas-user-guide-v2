@@ -26,15 +26,19 @@ Upload product photos and let AI identify compliance risks and requirements for 
 
 In the left menu, open **AI Risk Screening**. The list shows every screening with its import region, output mode (Full or Lite), status and upload date. Click **Add**.
 
-The guide still files this module under AI Insight. The current screen title and address are AI Risk Screening (`/ai-risk-screening`).
+In QMAS this module appears as **AI Risk Screening** (address `/ai-risk-screening`).
 
-![AI Risk Screening list.](images/ai-insight/01-list.jpg)
+![AI Risk Screening list, searched by name.](images/ai-insight/01-list.jpg)
 
 
-*AI Risk Screening list.*
+*AI Risk Screening list, searched by name.*
 
 You can also start from a product: open the product profile, choose **AI Risk Screening** in its left menu, then click **Add**.
 
+![AI Risk Screening inside a product profile, with Add.](images/ai-insight/04-product-profile-entry.jpg)
+
+
+*AI Risk Screening inside a product profile, with Add.*
 
 
 ### 2. Fill in the screening
@@ -59,6 +63,10 @@ Click **Verify Information** (recommended: verification improves accuracy and gi
 
 The new screening appears in the list. When its status is **Completed**, the report is ready. Click the **ⓘ** icon to see the screening details.
 
+![Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode.](images/ai-insight/03-screening-details.jpg)
+
+
+*Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode.*
 
 
 ## Tips

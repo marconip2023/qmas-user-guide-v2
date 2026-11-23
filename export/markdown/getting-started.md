@@ -25,8 +25,8 @@ Find your way around QMAS: the Home page, the top bar and your company settings.
 
 **TicMate** says “I’m TicMate. What would you like to do today?” and lists these workflow shortcuts:
 
-- **Generate product risk assessment report** (AI Assessment workflow).
-- **Generate export market requirements** (AI Insight workflow).
+- **Generate product risk screening report** (AI Screening Workflow).
+- **Generate export market requirements** (AI Test Plan Workflow).
 - **CPSC eFiling**. If it shows “API Setup Required”, set up your Certifier ID in Company Profile first.
 - **Request product testing with your lab partner** (Product Testing).
 - **Request technical files from your supplier/factory** (Document Review).

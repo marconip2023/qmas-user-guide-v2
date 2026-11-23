@@ -50,7 +50,7 @@ CLEAN_MODULES = {
     "product-testing", "qc-inspection", "supplier-management", "test-plan", "factory-audit",
 }
 # Modules whose screenshots have all been retaken with demo data.
-FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management", "product-testing", "document-management", "document-review", "efiling", "qc-inspection", "internal-qc-inspection"}
+FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management", "product-testing", "document-management", "document-review", "efiling", "qc-inspection", "internal-qc-inspection", "ai-insight", "getting-started"}
 
 
 def skipped(slug: str, block: str) -> bool:
