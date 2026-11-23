@@ -36,7 +36,7 @@
         "In the left menu, open **Internal QC Inspection**. The tabs show **All Job**, **Onsite Job Calendar** and **Draft**. Click **Create Job**. To add many jobs at once, use **Import Job**.",
         {
           "img": "01-list.jpg",
-          "caption": "Internal QC Inspection list with Import Job and Create Job."
+          "caption": "Internal QC Inspection list, searched by job ID, with Import Job and Create Job."
         }
       ]
     },

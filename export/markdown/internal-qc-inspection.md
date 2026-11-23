@@ -27,10 +27,10 @@ Schedule an inspection that your own QC team carries out, without a third-party 
 
 In the left menu, open **Internal QC Inspection**. The tabs show **All Job**, **Onsite Job Calendar** and **Draft**. Click **Create Job**. To add many jobs at once, use **Import Job**.
 
-![Internal QC Inspection list with Import Job and Create Job.](images/internal-qc-inspection/01-list.jpg)
+![Internal QC Inspection list, searched by job ID, with Import Job and Create Job.](images/internal-qc-inspection/01-list.jpg)
 
 
-*Internal QC Inspection list with Import Job and Create Job.*
+*Internal QC Inspection list, searched by job ID, with Import Job and Create Job.*
 
 
 ### 2. Start internal inspection
