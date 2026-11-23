@@ -33,7 +33,8 @@
         "In the left menu, open **Document Management**. The tabs show **All**, **Pending Review**, **Expired**, **Archived** and **Trash** documents. Click **Upload** at the top right and choose your file.",
         {
           "img": "01-list.jpg",
-          "caption": "Document Management list with the Upload button."
+          "caption": "Document Management list with the Upload button.",
+          "alt": "Document Management list on the All tab with Upload, filters and the test report HK2611-05112_Food_Jar_Test_Report.pdf at the top."
         }
       ]
     },
@@ -43,7 +44,8 @@
         "The **Upload Document** pop-up shows the file name. Click the pencil icon to rename it. Under **Type**, type or select a document type, for example **Test Report**.",
         {
           "img": "02-upload-modal.jpg",
-          "caption": "Upload Document pop-up."
+          "caption": "Upload Document pop-up.",
+          "alt": "Upload Document pop-up for HK2611-05112_Food_Jar_Test_Report.pdf with Type Test Report and the Save To, Dates & Reminder and Compliance Data tabs."
         }
       ]
     },
@@ -53,17 +55,19 @@
         "On the **Save To** tab, click **Add Supplier**, **Add Factory** or **Add Product**. Select the items in the pop-up and click **Confirm**. A document can be linked to several items. Click **Remove** to unlink one.",
         {
           "img": "03-save-to.jpg",
-          "caption": "The document linked to a product."
+          "caption": "The document linked to a product.",
+          "alt": "Save To tab with Add Supplier, Add Factory, Add Product and the linked product Kids Insulated Food Jar 400 ml with Remove."
         }
       ]
     },
     {
       "h": "4. Dates & Reminder",
       "body": [
-        "Set the **Issue Date**, **Expiry Date** and **Review Date**. Under **Email Reminder**, choose **On Expiry Date**, **On Review Date** or **Custom** to get an email reminder. Use **Clear All Settings** to start again.",
+        "Set the **Issue Date**, **Expiry Date** and **Review Date**. Under **Email Reminder**, choose **On Expiry Date**, **On Review Date** or **Custom** to get an email reminder. Add a **Note** to include in the reminder email. Use **Clear All Settings** to start again.",
         {
           "img": "04-dates-reminder.jpg",
-          "caption": "Dates & Reminder tab."
+          "caption": "Dates & Reminder tab.",
+          "alt": "Dates & Reminder tab with issue date 18 Nov 26, expiry date 17 Nov 27, review date 17 Oct 27 and the On Expiry Date email reminder."
         }
       ]
     },
@@ -73,7 +77,8 @@
         "Click **Edit** next to **Test Data**, **Certificate Data** or **Other** to record the details from the document, such as test items and results or certificate numbers.",
         {
           "img": "05-compliance-data.jpg",
-          "caption": "Compliance Data tab."
+          "caption": "Compliance Data tab.",
+          "alt": "Compliance Data tab with Test Data, Certificate Data and Other, each with Edit."
         }
       ]
     },
@@ -83,7 +88,8 @@
         "Click **Confirm**. QMAS shows a success message and the document appears at the top of the list, with its type and the number of linked products, suppliers and factories.",
         {
           "img": "06-uploaded.jpg",
-          "caption": "The uploaded document at the top of the list."
+          "caption": "The uploaded document at the top of the list.",
+          "alt": "The uploaded test report at the top of the list with type Test Report, review and expiry dates and 1 linked product."
         }
       ]
     }

@@ -212,40 +212,40 @@
     {
       "slug": "document-management",
       "file": "01-list.jpg",
-      "sha256": "45ea42374e08adb40b13f8d3fc878f9dc817ef6f3832a6fd5e3bc467770b9961",
-      "width": 1280,
-      "height": 714,
-      "bytes": 73994,
+      "sha256": "079373ea8513d48841b7fe7330946e555d5a730ece16137f5e33c33feb65bcb2",
+      "width": 1600,
+      "height": 655,
+      "bytes": 82252,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "document-review",
       "file": "01-list.jpg",
-      "sha256": "33edaddf5440dffacb66e1a661836e47b061d84e538289ae79f23c7c4c169f35",
-      "width": 1280,
-      "height": 714,
-      "bytes": 96127,
+      "sha256": "1259a2d185f6bf6aa91324411031d50443e95990c0e2d13de7ee983dd2725427",
+      "width": 1600,
+      "height": 960,
+      "bytes": 159540,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "document-review",
       "file": "02-create-job-top.jpg",
-      "sha256": "d34d0e901fecfae7c6d274581fa1e93726ec46bc44b2b521a2b2279ea771648b",
-      "width": 1280,
-      "height": 714,
-      "bytes": 68640,
+      "sha256": "769c8f10e0aeda529762b79087ba4a09a75bfe404943bc5425f0e2eda70ab91d",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 163128,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "document-review",
       "file": "06-supplier-job-top.jpg",
-      "sha256": "919692d79bbadfd45e4bc9961ca38667d3029c18d2ada5ec6d458d0887e70912",
-      "width": 1280,
-      "height": 714,
-      "bytes": 72881,
+      "sha256": "2db6ba34c8bc85a1e7201923f28420070490e4cf15b28e05a4bcf2329b19f52c",
+      "width": 1600,
+      "height": 930,
+      "bytes": 156449,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
@@ -738,6 +738,78 @@
       "width": 1200,
       "height": 760,
       "bytes": 64264
+    },
+    {
+      "slug": "document-management",
+      "file": "02-upload-modal.jpg",
+      "sha256": "11fe1fb6d314617539e7e025f0c596750ba3f60fc8a4f1ca8a4c3cf5d4b24027",
+      "width": 1280,
+      "height": 442,
+      "bytes": 45423
+    },
+    {
+      "slug": "document-management",
+      "file": "03-save-to.jpg",
+      "sha256": "650bf2538cede1c26b44665693f92020dd34126c39562c6aafd0763756897cf3",
+      "width": 1280,
+      "height": 472,
+      "bytes": 50171
+    },
+    {
+      "slug": "document-management",
+      "file": "04-dates-reminder.jpg",
+      "sha256": "1987be7f74e047877b62405a5b6248e4cb09ea385833d5afd4053bfd0e380295",
+      "width": 1280,
+      "height": 722,
+      "bytes": 73453
+    },
+    {
+      "slug": "document-management",
+      "file": "05-compliance-data.jpg",
+      "sha256": "ef040a9998fc4a6bba4ea799c20e2c9de988632823c75691c507abb938d86676",
+      "width": 1280,
+      "height": 472,
+      "bytes": 49159
+    },
+    {
+      "slug": "document-management",
+      "file": "06-uploaded.jpg",
+      "sha256": "079373ea8513d48841b7fe7330946e555d5a730ece16137f5e33c33feb65bcb2",
+      "width": 1600,
+      "height": 655,
+      "bytes": 82252
+    },
+    {
+      "slug": "document-review",
+      "file": "03-product-info.jpg",
+      "sha256": "fa146624c6af50f71a9b30d87011a93195b169d2c2e397a70e223bd41f3f6ea7",
+      "width": 1480,
+      "height": 1175,
+      "bytes": 147112
+    },
+    {
+      "slug": "document-review",
+      "file": "04-tcf-requirements.jpg",
+      "sha256": "0d2eb99d3ea870a60f9d57a866da267bcb866121cf940af81390ece27bd6da85",
+      "width": 1480,
+      "height": 585,
+      "bytes": 64806
+    },
+    {
+      "slug": "document-review",
+      "file": "05-docs-partner-provider.jpg",
+      "sha256": "730d0ddd8ed20ff577df3f7c04ab589cd31481f282c90773a87cd84c8ad31ad6",
+      "width": 1520,
+      "height": 1000,
+      "bytes": 103444
+    },
+    {
+      "slug": "document-review",
+      "file": "07-supplier-job-provider.jpg",
+      "sha256": "b96f38177022844fa302d64a3d088eb8c2b8f292cde27d05d1f35f9c433293fe",
+      "width": 1520,
+      "height": 985,
+      "bytes": 86675
     }
   ]
 }

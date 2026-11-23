@@ -1172,7 +1172,7 @@ Upload a compliance document, link it to products, suppliers or factories, set i
 
 In the left menu, open **Document Management**. The tabs show **All**, **Pending Review**, **Expired**, **Archived** and **Trash** documents. Click **Upload** at the top right and choose your file.
 
-![Document Management list with the Upload button.](images/document-management/01-list.jpg)
+![Document Management list on the All tab with Upload, filters and the test report HK2611-05112_Food_Jar_Test_Report.pdf at the top.](images/document-management/01-list.jpg)
 
 
 *Document Management list with the Upload button.*
@@ -1182,30 +1182,50 @@ In the left menu, open **Document Management**. The tabs show **All**, **Pending
 
 The **Upload Document** pop-up shows the file name. Click the pencil icon to rename it. Under **Type**, type or select a document type, for example **Test Report**.
 
+![Upload Document pop-up for HK2611-05112_Food_Jar_Test_Report.pdf with Type Test Report and the Save To, Dates & Reminder and Compliance Data tabs.](images/document-management/02-upload-modal.jpg)
+
+
+*Upload Document pop-up.*
 
 
 ### 3. Save To — link the document
 
 On the **Save To** tab, click **Add Supplier**, **Add Factory** or **Add Product**. Select the items in the pop-up and click **Confirm**. A document can be linked to several items. Click **Remove** to unlink one.
 
+![Save To tab with Add Supplier, Add Factory, Add Product and the linked product Kids Insulated Food Jar 400 ml with Remove.](images/document-management/03-save-to.jpg)
+
+
+*The document linked to a product.*
 
 
 ### 4. Dates & Reminder
 
-Set the **Issue Date**, **Expiry Date** and **Review Date**. Under **Email Reminder**, choose **On Expiry Date**, **On Review Date** or **Custom** to get an email reminder. Use **Clear All Settings** to start again.
+Set the **Issue Date**, **Expiry Date** and **Review Date**. Under **Email Reminder**, choose **On Expiry Date**, **On Review Date** or **Custom** to get an email reminder. Add a **Note** to include in the reminder email. Use **Clear All Settings** to start again.
 
+![Dates & Reminder tab with issue date 18 Nov 26, expiry date 17 Nov 27, review date 17 Oct 27 and the On Expiry Date email reminder.](images/document-management/04-dates-reminder.jpg)
+
+
+*Dates & Reminder tab.*
 
 
 ### 5. Compliance Data
 
 Click **Edit** next to **Test Data**, **Certificate Data** or **Other** to record the details from the document, such as test items and results or certificate numbers.
 
+![Compliance Data tab with Test Data, Certificate Data and Other, each with Edit.](images/document-management/05-compliance-data.jpg)
+
+
+*Compliance Data tab.*
 
 
 ### 6. Confirm
 
 Click **Confirm**. QMAS shows a success message and the document appears at the top of the list, with its type and the number of linked products, suppliers and factories.
 
+![The uploaded test report at the top of the list with type Test Report, review and expiry dates and 1 linked product.](images/document-management/06-uploaded.jpg)
+
+
+*The uploaded document at the top of the list.*
 
 
 ## Tips
@@ -1474,9 +1494,17 @@ Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Rev
 
 Keep **Select Product For Review = Yes**. Click **Existing Product** to pick products, or **New Product** to create one. For each product, check the **Basic Information**, then fill in **Additional Information**: Test Age Grade, Label Age Grade, Export Market and Country Of Origin are required.
 
+![Basic Information and Additional Information for the selected product.](images/document-review/03-product-info.jpg)
+
+
+*Basic Information and Additional Information for the selected product.*
 
 Below that you can add **PO Information**, upload **Product Pictures & Reference Documents**, set the **TCF Requests** (choose document types or import a TCF template) and add **Quality Requirements**.
 
+![TCF Requests and Requirements.](images/document-review/04-tcf-requirements.jpg)
+
+
+*TCF Requests and Requirements.*
 
 
 ### 4. Documents for Review, partner and provider (Flow A)
@@ -1487,6 +1515,10 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 
 **Service Provider**: choose the connected lab under **Connected Provider**. Click **Confirm**.
 
+![Documents for Review, Select Partner and Service Provider.](images/document-review/05-docs-partner-provider.jpg)
+
+
+*Documents for Review, Select Partner and Service Provider.*
 
 
 ### 5. Create Job for supplier (Flows B and C)
@@ -1503,6 +1535,10 @@ Click **Create Job for supplier**. Fill in Job Type and Product Information as a
 
 *Create Job for Supplier.*
 
+![Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).](images/document-review/07-supplier-job-provider.jpg)
+
+
+*Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).*
 
 
 ### 6. Follow the review

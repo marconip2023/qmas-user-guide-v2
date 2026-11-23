@@ -53,9 +53,17 @@ Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Rev
 
 Keep **Select Product For Review = Yes**. Click **Existing Product** to pick products, or **New Product** to create one. For each product, check the **Basic Information**, then fill in **Additional Information**: Test Age Grade, Label Age Grade, Export Market and Country Of Origin are required.
 
+![Basic Information and Additional Information for the selected product.](images/document-review/03-product-info.jpg)
+
+
+*Basic Information and Additional Information for the selected product.*
 
 Below that you can add **PO Information**, upload **Product Pictures & Reference Documents**, set the **TCF Requests** (choose document types or import a TCF template) and add **Quality Requirements**.
 
+![TCF Requests and Requirements.](images/document-review/04-tcf-requirements.jpg)
+
+
+*TCF Requests and Requirements.*
 
 
 ### 4. Documents for Review, partner and provider (Flow A)
@@ -66,6 +74,10 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 
 **Service Provider**: choose the connected lab under **Connected Provider**. Click **Confirm**.
 
+![Documents for Review, Select Partner and Service Provider.](images/document-review/05-docs-partner-provider.jpg)
+
+
+*Documents for Review, Select Partner and Service Provider.*
 
 
 ### 5. Create Job for supplier (Flows B and C)
@@ -82,6 +94,10 @@ Click **Create Job for supplier**. Fill in Job Type and Product Information as a
 
 *Create Job for Supplier.*
 
+![Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).](images/document-review/07-supplier-job-provider.jpg)
+
+
+*Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).*
 
 
 ### 6. Follow the review
