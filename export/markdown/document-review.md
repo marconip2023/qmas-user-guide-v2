@@ -2,33 +2,16 @@
 title: "Document Review — Create a Review Job"
 slug: document-review
 document_status: published
-version: 2026-11-13-draft
 language: en
-notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-confidence: published-guide-plus-dev-verified-corrections
-image_policy: Reviewed replacement screenshots use a relative path. Other screenshots are explicit placeholders and are not linked.
 ---
 
 # Document Review — Create a Review Job
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed list and blank create-job screens are current UI verified. There is no Document Review Help Center article. The supplier article only says a connected supplier can be assigned Document Review jobs, and that mention is source-only.
-
-Do not mark this whole module unverified. Approve, reject, and resubmit remain gaps. Source: QMAS Help Center — Manage your QMAS Supplier Compliance Profile, last edited 2026-01-16 15:38:01 HKT, for the invite mention only.
-
-- [Manage your QMAS Supplier Compliance Profile](https://app.notion.com/p/aa532b63c9554db99b57676ee83d489c) (last edited 2026-01-16 15:38:01 HKT). Invite and connection mention only. It does not describe how to conclude a review job.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Get compliance documents (CPC, GCC, DoC, test reports, TCF) reviewed by a lab or by yourself, whether you upload them or your supplier does.
 
 - **Module:** Document Review
 - **Start here:** https://qmas.icw.io/document-review → **Create Job** or **Create Job for supplier**
 - **Direct links:** You upload: https://qmas.icw.io/document-review/upload-document/create · Supplier uploads: https://qmas.icw.io/document-review/upload-document/request
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -65,26 +48,14 @@ Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Rev
 
 *Create Job — 1. Job Type and 2. Product Information.*
 
-Blank/default form, not a submitted job. Job Type shows the Document Review default and Service Required shows Regular. Sections 3 and 4 are also in view. The account header was redacted.
-
 
 ### 3. Product Information
 
 Keep **Select Product For Review = Yes**. Click **Existing Product** to pick products, or **New Product** to create one. For each product, check the **Basic Information**, then fill in **Additional Information**: Test Age Grade, Label Age Grade, Export Market and Country Of Origin are required.
 
-> **Image pending privacy review:** `03-product-info.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Basic Information and Additional Information for the selected product.*
 
 Below that you can add **PO Information**, upload **Product Pictures & Reference Documents**, set the **TCF Requests** (choose document types or import a TCF template) and add **Quality Requirements**.
 
-> **Image pending privacy review:** `04-tcf-requirements.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*TCF Requests and Requirements.*
 
 
 ### 4. Documents for Review, partner and provider (Flow A)
@@ -95,11 +66,6 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 
 **Service Provider**: choose the connected lab under **Connected Provider**. Click **Confirm**.
 
-> **Image pending privacy review:** `05-docs-partner-provider.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Documents for Review, Select Partner and Service Provider.*
 
 
 ### 5. Create Job for supplier (Flows B and C)
@@ -118,13 +84,6 @@ The screenshot is the default form: no supplier is selected, and section 5 is cl
 
 *Create Job for Supplier.*
 
-Blank/default form, not a submitted job. Sections 1–5 are in view and section 5 is clipped at the bottom. No supplier is selected. The account header was redacted.
-
-> **Image pending privacy review:** `07-supplier-job-provider.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).*
 
 
 ### 6. Follow the review
@@ -157,29 +116,3 @@ A: You review the supplier's documents yourself instead of a lab.
 **Q: Why can't I find my supplier in Select Connected Supplier?**
 
 A: Only suppliers connected with you on QMAS are listed. Invite them from Supplier / Factory Management → Invite Supplier.
-
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Document Review Help Center article.
-
-The only related Help Center text is on the supplier profile article (last edited 2026-01-16): inviting or connecting a supplier “allows you to assign Document Review jobs to your connected suppliers.” Statuses Invite, No Connection, and Connected are documented there. That text does not describe how to conclude a review job.
-
-### Remaining gaps
-
-- Job detail after create: View detail, conclusion controls (the steps above name Approve, Reject, N/A, and Waiting), and re-upload after reject. Zero screenshots.
-- List filters, Export, and My Job versus View Only.
-- Save or reuse a TCF template (tip only today).
-- The Quality Requirements block on the create form is thin.
-- Filed typos (“Exising Product”, “JEPG”, “Select Connect Supplier”). This guide uses corrected English. Confirm the live UI.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

@@ -1,19 +1,10 @@
 ---
 title: "QMAS User Guide"
 document_status: published
-version: 2026-11-13-draft
 language: en
-notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-image_policy: Per-module files and this combined file are generated from the same content JSON.
 ---
 
 # QMAS User Guide
-
-> Published QMAS User Guide.
-
-Notion working hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-
-QMAS Chatbot: https://workflow-dev.icw.io/chat/QDSPY8f58691bu1P. Published about 17:40 HKT on 13 Nov 2026. The published product name is Marco Test 3.0. The published product text and 2 images were checked. The header in that app still reads QMAS Chatbot 2.0.
 
 ## Contents
 
@@ -33,18 +24,6 @@ QMAS Chatbot: https://workflow-dev.icw.io/chat/QDSPY8f58691bu1P. Published about
 - [AI Insight — Run an AI Risk Screening](#ai-insight)
 
 # Product Testing — Request a Quotation
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed create-job screens are current UI verified. Quote Available, Preliminary Accept, and Final Quote are older Help Center wording and are not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — How To Request Quotation For Product Testing From Global Laboratories, last edited 2026-11-04 11:18:27 HKT. The November 2026 update covers the create path. The later quote and accept flow still needs verification.
-
-- [How To Request Quotation For Product Testing From Global Laboratories](https://app.notion.com/p/a57449507c7c4ceea2ed34a1dbbe9f12) (last edited 2026-11-04 11:18:27 HKT). Create path is current UI verified. Preliminary Accept and Final Quote are source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Create a product testing job and get a quotation from a laboratory.
 
@@ -169,65 +148,13 @@ After you click **Submit**, QMAS shows “Product testing created successfully�
 - Item name and item no. on report are what the lab prints on the test report. Check them before you continue.
 - To leave the wizard, click **✕** at the top right.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Source-documented — create path (Help Center updated 2026-11-04)
-
-Source: How To Request Quotation For Product Testing From Global Laboratories, https://app.notion.com/p/a57449507c7c4ceea2ed34a1dbbe9f12. Direct link cited there: https://qmas.icw.io/product-testing/create-job.
-
-The November 2026 create steps already match this page. Help Center step 7 also says you can tick **Connected Provider** (a lab already linked to the account), **ICW** (ICW finds a lab; preferred lab or “No Preference”), and/or **TicMart (Marketplace)**, then Submit. This page still only has an ICW screenshot.
-
-### Source-documented — post-submit quote flow (older wording; needs verification)
-
-This “receive and confirm” section was not rewritten in November 2026.
-
-1. After submission, the job appears on the list with status **under review**.
-2. When the quotation is ready, the status changes to **Quote Available**.
-3. Open order details. Under **Quotations**, select a quotation and click **Preliminary Accept**.
-4. The Help Center says the designated agency or ICW agency service will then contact you about sample delivery.
-5. “The price may vary according to the actual sample. Accept the **Final Quote** to proceed to product testing.”
-
-A 2022 FAQ says cancelling an order is done by contacting customer support via email or online chat. Not re-verified.
-
-### Remaining gaps
-
-- Screenshots and current-UI confirmation for Connected Provider and TicMart.
-- Job-detail tabs named in the create steps but not walked through: Quotes, Failure Records, Reports, Attachments, Invoices, Tag, Activity Log, Message Board.
-- Edit, cancel, reopen, list search, status filters, and charts.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Getting Started — Home, Settings and Company Profile
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** Home, Settings, and Company Profile are current UI verified, including the avatar account control and the five TicMate shortcuts. The 2024 Help Center onboarding steps are source-only and not dev-verified.
-
-Do not mark this whole module unverified. The reviewed Home screenshots are current UI. Source: QMAS Help Center — Getting Started, last edited 2024-04-02 15:23:02 HKT, for the onboarding pointers only.
-
-- [Getting Started](https://app.notion.com/p/cee08d7673aa467797efb39efe68bbdc) (last edited 2024-04-02 15:23:02 HKT). Onboarding pointers only. Source-only, not dev-verified.
-- [Set Up Your Product Compliance Module](https://app.notion.com/p/3200ac0e049d4aa8b2409bad15cea3cd) (last edited 2024-04-02 19:08:58 HKT). Related 2024 setup pointer. Source-only, not dev-verified.
-- [Set Up Your Supplier Management Module](https://app.notion.com/p/01167450c4d54a98a3670fe13e056f12) (last edited 2024-04-02 18:20:47 HKT). Related 2024 setup pointer. Source-only, not dev-verified.
-- [FAQs](https://app.notion.com/p/84844e89cab14819b021b0aa8e33ef31) (last edited 2022-12-19 15:59:00 HKT). Related FAQ pointer. Source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Find your way around QMAS: the Home page, the top bar and your company settings.
 
 - **Home:** https://qmas.icw.io/home
 - **Company Profile:** https://qmas.icw.io/company-profile
-- **Checked against:** QMAS dev, 9 Nov 2026
 
 ## Overview
 
@@ -259,8 +186,6 @@ Find your way around QMAS: the Home page, the top bar and your company settings.
 
 *Home page.*
 
-This reviewed screenshot shows the TicMate workflow shortcuts. Attention and Business Overview are described in the steps and are not in this crop.
-
 
 ### 2. Settings menu
 
@@ -279,8 +204,6 @@ Click your **avatar** (account control) in the top bar:
 
 
 *Settings menu.*
-
-Menu opened from the account avatar: Company Profile, Password, Languages, Account Management, Assign TicMart Job and Logout.
 
 
 ### 3. Company Profile
@@ -312,73 +235,8 @@ A: Click your avatar (account control) in the top bar, then Password.
 
 A: Click your avatar (account control), then Company Profile (https://qmas.icw.io/company-profile).
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Dev-verified — already in the steps above
-
-Settings opens from the **avatar / account control**. That correction is already in the steps above.
-
-Home shows **5** TicMate workflow shortcuts: AI Assessment, AI Insight, CPSC eFiling, Product Testing, Document Review.
-
-### Source-documented — Help Center onboarding (last edited 2024-04-02)
-
-Source: Help Center Getting Started, https://app.notion.com/p/cee08d7673aa467797efb39efe68bbdc. This does not replace the Home walkthrough above.
-
-The 2024 landing tells new accounts to watch the walkthrough videos, set up Product Compliance and Supplier Management, schedule an onboarding session after the customer-success email (or use Help Center Support if that email is missing), then use the Help Center and product-update emails.
-
-Those 2024 setup guides still say “top menu bar”. Prefer this page and the current create guides for live steps.
-
-- Set Up Your Product Compliance Module (2024-04-02), historical: https://app.notion.com/p/3200ac0e049d4aa8b2409bad15cea3cd
-- Set Up Your Supplier Management Module (2024-04-02), historical: https://app.notion.com/p/01167450c4d54a98a3670fe13e056f12
-
-Help Center videos were not re-watched and are not current-UI evidence:
-
-- Introduction of QMAS: https://www.youtube.com/watch?v=Qn02Yu-0Ppk
-- Manage your product compliance with QMAS: https://www.youtube.com/watch?v=3zpn_gHhW7s
-- How to request quotation for product testing with QMAS: https://www.youtube.com/watch?v=AaZ9zHeQ23s
-- How to manage your supplier information with QMAS: https://www.youtube.com/watch?v=xZyHOMg7_yc
-
-### Source-documented — FAQs (last edited 2022-12-19)
-
-Source: https://app.notion.com/p/84844e89cab14819b021b0aa8e33ef31
-
-- Ordering product testing: the FAQ points at the Help Center Product Testing article.
-- Cancelling a product testing order: “contact our customer support team via email or online chat.” Not re-verified against current Support or in-app cancel behaviour.
-- Integrating an existing supplier or product database: the 2022 FAQ says an import feature is available and mentions an enterprise API plan. Treat the plan and API wording as historical until confirmed.
-
-### Remaining gaps
-
-- **Notifications** and **Messages** centers. No Help Center article. Exact paths need a dev check. No new module was invented.
-- Company Profile Certificate, Document, and CPSC eFiling Certifier ID setup. The page above is an overview only.
-- Attention card drill-downs, including Factory Audit and Pending/Expired Doc.
-- TicMate / Ask TicMate usage beyond the shortcut list.
-- Login page. Older notes say it is outdated. It is not on the public guide.
-- Naming is still undecided: Home **AI Assessment** and **AI Insight**, menu **AI Risk Screening**, and this guide title **AI Insight**.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Product Management — Create and Edit a Product
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed create path and list filters are current UI verified. The Import Product pointer is Help Center text and is not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — Manage your QMAS Product Information Pack, last edited 2026-11-04 11:39:48 HKT. Current UI verified for the create and edit path. One inventory slot, 08-product-added, is still not captured.
-
-- [Manage your QMAS Product Information Pack](https://app.notion.com/p/3a2b2d2eeedc42388ab6fc997070df61) (last edited 2026-11-04 11:39:48 HKT). Create path is current UI verified. Import Product is source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Add a product profile to QMAS so you can attach documents, compliance data, testing and eFiling to it.
 
@@ -386,7 +244,6 @@ Add a product profile to QMAS so you can attach documents, compliance data, test
 - **Start here:** https://qmas.icw.io/product/list → **+ New Product**
 - **Direct link:** https://qmas.icw.io/add-product
 - **Steps:** 1 Product Profile → 2 Related Product → Done
-- **Checked against:** QMAS dev, 9 Nov 2026
 
 ## Overview
 
@@ -408,8 +265,6 @@ Filter the list with **Product Category**, **Customer Product Category**, **Prod
 
 
 *Product Management list with Import Product and + New Product at the top right.*
-
-Reviewed screenshot of the list filters and column headers. No data rows are shown.
 
 
 ### 2. Product Profile — product details
@@ -453,8 +308,6 @@ The supplier card appears. Use **Change Supplier** to pick another one, or **Edi
 
 *Selected supplier, followed by 3. Shipping Information (optional).*
 
-The supplier card body in this screenshot is intentionally blank. Change Supplier and Edit this profile remain visible. The selected test supplier is shown on the Select supplier screenshot.
-
 
 ### 4. Product Profile — optional sections
 
@@ -486,11 +339,6 @@ QMAS shows “Product added” and returns to the Product Management list. The n
 
 The screenshot of that new row was not captured, because it would require creating a real product. The placeholder is not a picture of a finished create.
 
-> **Not captured:** `08-product-added.jpg`
->
-> Not captured. A real product was not created for this screenshot, so this placeholder is not confirmation of a completed create.
-
-*The new product at the top of the list.*
 
 Click the product to open its profile. From the left menu of the profile you can manage **Document**, **Shipping Detail**, **Compliance Data**, **Quality Requirement**, **AI Risk Screening**, **CPSC eFiling** and **Packaging Detail**.
 
@@ -500,8 +348,6 @@ The left menu also includes **QR Code**.
 
 
 *Product profile.*
-
-Left menu includes Document, Shipping Detail, Compliance Data, Quality Requirement, AI Risk Screening, CPSC eFiling, Packaging Detail and QR Code. The Document tab shows New Folder, Upload, All, Archived, Type, Source, Checked, Sort and Reset.
 
 
 ### 7. Edit, copy or deactivate a product
@@ -549,53 +395,8 @@ A: Yes. Click Import Product on the Product Management list.
 
 A: Open the product profile and use CPSC eFiling or Compliance Data in its left menu.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Dev-verified — list filters (2026-11-09)
-
-The list filters are already in the steps above: **Product Category**, **Customer Product Category**, **Product Number**, **Status**, **Created By**, **Team**, sort, and **Reset**. The reviewed list screenshot shows those filters with no data rows.
-
-Optional **Factory** and **Additional Info** (buyer, up to 30 product photos) are already in the wizard steps.
-
-### Source-documented — Product Information Pack (last edited 2026-11-04)
-
-Source: Manage your QMAS Product Information Pack, https://app.notion.com/p/3a2b2d2eeedc42388ab6fc997070df61. The November 2026 create steps follow the same path as this page.
-
-**Import Product:** the Help Center intro says “To add many products at once, use **Import Product**.” The Product Profile FAQ already says to download the ICW template, fill it in, and upload it. A full multi-step import walkthrough is still missing. Do not invent extra import steps.
-
-The 2024 setup guide still says “top menu bar, select PRODUCT MANAGEMENT”. Prefer the current left menu and this page.
-
-### Remaining gaps
-
-- Full Import Product wizard screenshots and field notes.
-- List Export Data, row-select / bulk toolbar, and search. Only the filters above are dev-verified.
-- Further Related Product linkage examples. **Unlink** is already named on the reviewed step 2 screenshot.
-- Section numbering, stepper tick, and Title Case bugs are filed separately. Match the fixed UI once it ships. Do not invent the fix.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Product Management — Every Tab of the Product Profile
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed tab screenshots are current UI verified. Expiry reminders, share wording, and Get DoC are source-only and not dev-verified. There is no CPC or GCC Help Center article.
-
-Do not mark this whole module unverified. Pending screenshot slots do not make the reviewed tabs unverified. Source: QMAS Help Center — Manage your QMAS Product Information Pack, last edited 2026-11-04 11:39:48 HKT. Reminder, share, and Get DoC sections were not part of the November 2026 rewrite.
-
-- [Manage your QMAS Product Information Pack](https://app.notion.com/p/3a2b2d2eeedc42388ab6fc997070df61) (last edited 2026-11-04 11:39:48 HKT). Reviewed tabs are current UI verified. Reminder, share, and Get DoC wording is source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 After you create a product, its profile holds everything about it. This guide explains each tab in the profile's left menu and the import option on the product list.
 
@@ -603,7 +404,6 @@ After you create a product, its profile holds everything about it. This guide ex
 - **Open a profile:** https://qmas.icw.io/product/list → click a product
 - **Tabs:** Document · Shipping Detail · Compliance Data · Quality Requirement · AI Risk Screening · CPSC eFiling · Packaging Detail · QR Code
 - **See also:** Create and edit a product: [Product Management — Create and Edit a Product](product-management.md)
-- **Checked against:** QMAS dev, 4 Nov 2026. Document, Shipping Detail, the empty Compliance Data tab, the in-progress Test Data form, the empty Certificate Data form, and the Quality Requirement shots included here were rechecked on QMAS dev, 9 Nov 2026.
 
 ## Overview
 
@@ -614,7 +414,6 @@ After you create a product, its profile holds everything about it. This guide ex
 5. **AI Risk Screening**: run AI compliance screenings for this product.
 6. **CPSC eFiling**: submit eFiling for this product and see its eFiling log.
 7. **Packaging Detail**: record each packaging component, its materials and suppliers.
-8. **QR Code** is also in the left menu. This guide does not yet describe that screen.
 
 ## Step-by-step
 
@@ -622,12 +421,10 @@ After you create a product, its profile holds everything about it. This guide ex
 
 Shows every file linked to the product. Use **New Folder** to organise files and **Upload** to add a file (see the Document Management guide for the upload pop-up). Filter by **Type**, **Source** or **Checked**, switch between **All** and **Archived**, and search with **Search Files**. **Sort** and **Reset** sit with those filters.
 
-![Document tab with one UAT sample PDF and the filter controls.](images/product-profile/01-document.jpg)
+![Document tab of Kids Stainless Steel Water Bottle 500 ml with one test report PDF, New Folder, Upload and the Type, Source, Checked and Sort filters.](images/product-profile/01-document.jpg)
 
 
-*Document tab with one UAT sample PDF and the filter controls.*
-
-All (1), New Folder, Upload, Type, Source, Checked, Sort and Reset are visible. The file is a UAT sample PDF marked Test Report. Source and the date columns on that row are empty.
+*Document tab with one test report and the filter controls.*
 
 Tick one or more files to open the toolbar:
 
@@ -642,12 +439,10 @@ Tick one or more files to open the toolbar:
 | Move | Move the file to a folder. |
 | Remove | Remove the file. |
 
-![Toolbar after selecting a file.](images/product-profile/02-document-toolbar.jpg)
+![Selection toolbar with Set Data, Set Dates & Reminder, Archive, Download, Share and Rename.](images/product-profile/02-document-toolbar.jpg)
 
 
 *Toolbar after selecting a file.*
-
-The selection toolbar shows Set Data, Set Dates & Reminder, Archive, Download, Share, Rename, Edit Type, Move and Remove for the same UAT sample file.
 
 ![Share Via Link — choose how long the link stays valid, then Copy or By Email.](images/product-profile/03-document-share.jpg)
 
@@ -657,7 +452,7 @@ The selection toolbar shows Set Data, Set Dates & Reminder, Archive, Download, S
 
 ### 2. Shipping Detail
 
-Shows the length, width, height, gross and net weight, quantity and barcode for the **Selling Unit**, **Inner Carton** and **Outer Carton**. To change them, click **⋮** next to the product name → **Edit product** and update **Shipping Information**. The reviewed screenshot shows 0.00 and N/A in those fields, not filled shipping values.
+Shows the length, width, height, gross and net weight, quantity and barcode for the **Selling Unit**, **Inner Carton** and **Outer Carton**. To change them, click **⋮** next to the product name → **Edit product** and update **Shipping Information**.
 
 ![Shipping Detail tab with 0.00 measurements and N/A barcodes for Selling Unit, Inner Carton and Outer Carton.](images/product-profile/04-shipping-detail.jpg)
 
@@ -669,161 +464,144 @@ Shows the length, width, height, gross and net weight, quantity and barcode for 
 
 Three sections: **Test Data**, **Certificate Data** and **Other**. Click **Add Data** (or **Add** once a section has records).
 
-![Compliance Data tab before any data is added.](images/product-profile/05-compliance-data.jpg)
+![Compliance Data tab with Test Data, Certificate Data and Other each empty and an Add Data button.](images/product-profile/05-compliance-data.jpg)
 
 
 *Compliance Data tab before any data is added.*
-
-Test Data, Certificate Data and Other each show 0 and “There is no data here.”, with Add Data. This is the captured empty state.
 
 **Test Data** records one test result:
 
 - **Result** (required): Passed, Failed or Report As Is.
 - **Export Market** (required). For US eFiling, choose **United States (CPSC eFiling submission)**.
-- **Legislation, Test Item & Citation** (required): type in this field. The reviewed screenshot sets Export Market to Africa and shows **+ Add '[UAT TEST]'**. It is not a legislation results list and not a saved Test Data record.
+- **Legislation, Test Item & Citation** (required): type a keyword such as “lead” and pick the test item from the list.
 - **Report ID**, **Issue Party** (required), **Expiry Date** and **Test Date / Report Date**.
-- Link the report under **Existing Product Document** (a file already on the product) or **New Document**.
+- Link the report under **Existing Product Document** (a file already on the product) or **New Document** (upload a new file).
 
-![In-progress Test Data form. Result is unset, Export Market is Africa, and the legislation field shows + Add '[UAT TEST]'. Not a legislation results list and not a saved record.](images/product-profile/07-test-item-search.jpg)
-
-
-*Test Data form — Export Market set; legislation field showing + Add ‘[UAT TEST]’ (not a completed saved record).*
-
-> **Not captured:** `08-test-data-filled.jpg`
->
-> Not captured. A Test Data record was not saved and a report was not linked for this screenshot. This placeholder is not a completed or saved record.
-
-*Not captured. A completed Test Data record with a linked report is not in this draft.*
-
-Click **Confirm** to close the Test Data form. This draft does not show a saved Test Data row. Screenshots of a completed record and of the table after saving were not captured, because each needs a real saved record.
-
-> **Not captured:** `09-test-data-saved.jpg`
->
-> Not captured. A saved Test Data row was not created for this screenshot. This placeholder is not proof of a saved record.
-
-*Not captured. The Test Data table after saving is not in this draft.*
-
-**Certificate Data** works the same way. Fill in the certificate **Type**, **Issue Party**, **Score / Overall Rating**, **Expiry Date** and **Certificate Date**, then link the certificate file. The reviewed screenshot shows that form empty.
-
-![Empty Certificate Data form. Type, Issue Party, score and dates are unset.](images/product-profile/10-certificate-data-form.jpg)
+![Test Data form with Export Market United States and the keyword lead showing a list of matching legislation and test items.](images/product-profile/07-test-item-search.jpg)
 
 
-*Empty Certificate Data form.*
+*Search legislation and test items by keyword.*
 
-This screenshot does not show filled certificate values.
+![Test Data form filled in: Passed, United States, CPSIA lead in coating and substrate, report HK2611-04587, issue party ICW, test date 2026-11-12 and the report PDF under New Document.](images/product-profile/08-test-data-filled.jpg)
+
+
+*A completed Test Data record with the report attached.*
+
+Click **Confirm**. QMAS shows “Data Created” and the record appears in the Test Data table with its export market, legislation, test item, citation, report ID and issue party.
+
+![Compliance Data tab with one Test Data record: United States, CPSIA, lead in coating and substrate, CPSIA & 16 CFR 1303, HK2611-04587, ICW.](images/product-profile/09-test-data-saved.jpg)
+
+
+*Saved test data.*
+
+**Certificate Data** works the same way. Fill in the certificate **Type**, **Issue Party**, **Score / Overall Rating**, **Expiry Date** and **Certificate Date**, then link the certificate file.
+
+![Certificate Data form with Type, Issue Party, score and date fields.](images/product-profile/10-certificate-data-form.jpg)
+
+
+*Certificate Data form.*
 
 
 ### 4. Quality Requirement
 
-Quality Requirement lists what the product must meet, for example test standards or packaging rules. Each requirement has a **Type** (the group) and a **Name**. You can attach compliance data to it as proof, mark it completed, and reuse the list in Product Testing or Document Review.
+Quality Requirement lists what the product must meet, for example a chemical test or a physical test. Each requirement has a **Type** (the group) and a **Name**. You can attach compliance data to a requirement as proof, mark it as completed, and send the requirements to Product Testing or Document Review.
 
-The reviewed screenshot is not an empty tab. It shows one requirement with the name hidden, plus Test Plan, ⋯ and Add. The attachment area under that row is empty.
-
-![Quality Requirement tab with one redacted requirement row, Test Plan, the more menu and Add. Not an empty tab.](images/product-profile/11-quality-requirement.jpg)
+![Empty Quality Requirement tab with the Add Requirement button, Test Plan and the more menu.](images/product-profile/11-quality-requirement.jpg)
 
 
-*Quality Requirement tab with one existing requirement (name redacted); Test Plan, ⋯, and Add visible — not an empty tab.*
+*Quality Requirement tab before any requirement is added: Add Requirement, Test Plan and the ⋯ menu.*
 
 **4a. Add a requirement yourself**
 
 - Click **Add Requirement** (or **Add** at the top right once the list has items).
-- **Type**: pick an existing type, or type a new one and choose **+ Create “…”**.
-- **Name**: pick a name from the list for that type. Picking a different Type clears the Name.
-- Tick **Mandatory** if the requirement must be met, then click **Confirm**.
+- **Type**: pick an existing type, or type a new one and choose **+ Create “…”**. Example: *Chemical Testing*.
+- **Name**: pick a name from the list for that type, or type a new one and choose **+ Create “…”**. Example: *Lead in Surface Coating (16 CFR 1303)*. Picking a different Type clears the Name.
+- Tick **Mandatory** if the requirement must be met, then click **Confirm**. QMAS shows “Requirement Created”.
 
-The reviewed Add Requirement screenshot shows Type and Name empty, with Mandatory checked. It is not an example of a filled Type and Name.
-
-![Add Requirement modal with empty Type and Name fields and Mandatory checked.](images/product-profile/19-requirement-filled.jpg)
+![Add Requirement pop-up with Type Chemical Testing, Name Lead in Surface Coating (16 CFR 1303) and Mandatory ticked.](images/product-profile/19-requirement-filled.jpg)
 
 
-*Add Requirement modal — Type and Name empty, Mandatory checked (not a filled Type and Name example).*
+*Add Requirement with Type, Name and Mandatory filled in.*
 
-**4b. Add requirements from a template (fastest)**
+Requirements are grouped by Type. The number next to the Type is how many requirements it has, and a red * marks a mandatory requirement.
+
+![Quality Requirement list with a Chemical Testing group and a Physical Testing group, one mandatory requirement each.](images/product-profile/22-requirement-list.jpg)
+
+
+*Requirements grouped by Type: Chemical Testing and Physical Testing.*
+
+**4b. Reuse requirements with templates**
 
 Click **⋯** next to the title → **Templates**:
 
 | Option | What it does |
 |---|---|
-| Apply Template | Pick a saved template (use **View** to preview it) and click **Apply**. All its requirements are added. |
-| Save As Template | Save this product's requirements as a template for other products. |
+| Apply Template | Search for a saved template, use **View** to preview it, then click **Apply**. All its requirements are added to this product. |
+| Save As Template | Save this product's requirements as a template. Type a new name and choose **+ Create “…”**, then click **Confirm**. QMAS shows “Template saved”. |
 | Manage Templates | See and manage your saved templates. |
 
-![⋯ → Templates.](images/product-profile/20-templates-menu.jpg)
+![The more menu open on Templates, showing Apply Template, Save As Template and Manage Templates.](images/product-profile/20-templates-menu.jpg)
 
 
-*⋯ → Templates.*
+*⋯ → Templates: Apply Template, Save As Template and Manage Templates.*
 
-The open menu shows Import To Product Testing, Import to Document Review, Export As Document, and Templates: Apply Template, Save As Template and Manage Templates.
-
-![Apply Template — View or Apply a saved template.](images/product-profile/21-apply-template.jpg)
+![Save As Template pop-up with the name US Children's Drinkware.](images/product-profile/20b-save-as-template.jpg)
 
 
-*Apply Template — View or Apply a saved template.*
+*Save As Template — name the template, then click Confirm.*
 
-The list shows EU Electrical Compliance Template, EU Electrical Toy and new template 001, each with View and Apply. Creator names are blanked in this screenshot.
+![Apply Template pop-up showing the template US Children's Drinkware with View and Apply buttons.](images/product-profile/21-apply-template.jpg)
 
-QMAS shows “<template name> applied”. Requirements are grouped by Type; the number next to the Type is how many requirements it has.
 
-The screenshot of the list after Apply Template was not captured, because that needs a real apply. The placeholder is not that list.
+*Apply Template — search, View or Apply a saved template.*
 
-> **Not captured:** `22-requirement-list.jpg`
->
-> Not captured. Apply Template was not run for this screenshot. This placeholder is not the requirement list after a template is applied.
-
-*Requirements after applying a template.*
+After you click **Apply**, QMAS shows “<template name> applied” and the template's requirements appear in the list.
 
 **4c. Attach proof and complete a requirement**
 
-- Click **+** on a requirement to open **Attach Compliance Data**. Choose the **Test Data**, **Certificate Data** or **Other** tab, tick the records and click **Confirm**. If a record you just added is missing, click **Reload Data**. To add new data, go to Compliance Data first.
-- Click **⌄** to expand a requirement and see the attached data. Click the bin icon to detach it.
+- Click **+** on a requirement to open **Attach Compliance Data**. Choose the **Test Data**, **Certificate Data** or **Other** tab, tick the records and click **Confirm**. QMAS shows “Data Added”. If a record you just added is missing, click **Reload Data**. To add new data, go to the Compliance Data tab first.
+- The attached data appears under the requirement. Click **⌄** to expand or collapse it, and the bin icon to detach it.
 - Click **⋯** on a requirement for **Edit**, **Duplicate**, **Upload Document**, **Mark As Completed** and **Remove**.
 - **Mark As Completed** shows “Requirement Completed” and turns the requirement’s tick green.
 
-> **Image pending privacy review:** `23-attach-compliance.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Attach Compliance Data pop-up on the Test Data tab with one United States lead-in-coating record ticked, report HK2611-04587, result Passed.](images/product-profile/23-attach-compliance.jpg)
 
-*Attach Compliance Data — tick the test record.*
 
-> **Image pending privacy review:** `24-requirement-attached.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+*Attach Compliance Data — tick the test record, then click Confirm.*
+
+![Requirement Lead in Surface Coating with the attached CPSIA and 16 CFR 1303 lead in coating test data shown below it.](images/product-profile/24-requirement-attached.jpg)
+
 
 *The attached test data under the requirement.*
 
-> **Image pending privacy review:** `25-requirement-row-menu.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Requirement menu with Edit, Duplicate, Upload Document, Mark As Completed and Remove.](images/product-profile/25-requirement-row-menu.jpg)
+
 
 *⋯ menu on one requirement.*
 
-> **Image pending privacy review:** `26-requirement-completed.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Chemical Testing group and its requirement with green ticks after Mark As Completed.](images/product-profile/26-requirement-completed.jpg)
 
-*Requirement marked as completed.*
+
+*Requirement marked as completed — the ticks turn green.*
 
 **4d. Send requirements to a job**
 
-- **⋯ → Import To Product Testing**: tick the requirements (or **Select All**) and click **Confirm to Create Job**. Product Testing → Request Quotations opens with this product added, and the requirements appear under **Quality Requirement** in step 2.
+- **⋯ → Import To Product Testing**: click **Select** on each requirement (or **Select All**), then click **Confirm to Create Job**. Product Testing → Request Quotations opens with this product added, and the requirements appear under **Quality Requirement** in step 2.
 - **⋯ → Import to Document Review** → **Create Job** or **Create Job for supplier**: opens the matching Document Review form for this product.
 - **⋯ → Export As Document**: exports the requirement list as a document.
 
-> **Image pending privacy review:** `29-import-to-pt.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Quality Requirement selection pop-up with both requirements selected and the Confirm to Create Job button.](images/product-profile/29-import-to-pt.jpg)
 
-*Import To Product Testing — choose requirements, then Confirm to Create Job.*
 
-> **Image pending privacy review:** `31-pt-requirement-carried.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+*Import To Product Testing — select requirements, then Confirm to Create Job.*
 
-*The requirement carried into Product Testing step 2.*
+![Request Quotations step 2 with both requirements listed under Quality Requirement.](images/product-profile/31-pt-requirement-carried.jpg)
 
-> **Image pending privacy review:** `28-import-doc-review.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+
+*The requirements carried into Product Testing step 2.*
+
+![The more menu open on Import to Document Review, showing Create Job and Create Job for supplier.](images/product-profile/28-import-doc-review.jpg)
+
 
 *Import to Document Review → Create Job or Create Job for supplier.*
 
@@ -831,9 +609,8 @@ The screenshot of the list after Apply Template was not captured, because that n
 
 Click **Test Plan** to let AI suggest a test plan. Fill in the **Product Description** (more detail gives better results), **Import Country** and **Product Intended Used By**, upload up to 6 product images, then click **Generate Test Plan**.
 
-> **Image pending privacy review:** `27-test-plan.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Test Plan pop-up with Product Description, Import Country, Product Intended Used By, product image upload and Generate Test Plan.](images/product-profile/27-test-plan.jpg)
+
 
 *Test Plan pop-up.*
 
@@ -842,9 +619,8 @@ Click **Test Plan** to let AI suggest a test plan. Fill in the **Product Descrip
 
 Lists the AI screenings for this product. Click **Add** to start one. The pop-up and results are explained in the [AI Insight](ai-insight.md) guide.
 
-> **Image pending privacy review:** `17-ai-risk-screening.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![AI Risk Screening tab with Output Mode, Status and Sort filters and an Add button.](images/product-profile/17-ai-risk-screening.jpg)
+
 
 *AI Risk Screening tab.*
 
@@ -853,9 +629,8 @@ Lists the AI screenings for this product. Click **Add** to start one. The pop-up
 
 Shows the **eFiling Log** for this product. Click **Submit eFiling** to create an eFiling. Before you can sync with CPSC, add your API Key and Secret Key in **Company Profile** (link in the grey note). The full flow is in the [eFiling](efiling.md) guide.
 
-> **Image pending privacy review:** `16-cpsc-efiling.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![CPSC eFiling tab with the eFiling Log, Submit eFiling and the Company Profile note.](images/product-profile/16-cpsc-efiling.jpg)
+
 
 *CPSC eFiling tab.*
 
@@ -869,15 +644,13 @@ Lists the packaging components of the product. Click **Create Packaging Componen
 
 Click **Confirm**. Use the **Status** filter to show active, inactive or draft components.
 
-> **Image pending privacy review:** `14-packaging.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Packaging Details tab with the Status filter, Create Packaging Component and an empty component list.](images/product-profile/14-packaging.jpg)
+
 
 *Packaging Details tab.*
 
-> **Image pending privacy review:** `15-packaging-component.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Create Packaging Component pop-up with Basic Information filled in and the Dimension, Additional Information, Supplier Linkage and Technical Documentation sections.](images/product-profile/15-packaging-component.jpg)
+
 
 *Create Packaging Component.*
 
@@ -886,9 +659,8 @@ Click **Confirm**. Use the **Status** filter to show active, inactive or draft c
 
 On the Product Management list, click **Import Product**. Download the ICW Product template (**download here**), fill it in, upload the Excel file (one file at a time), then click **Next**. Only the ICW template can be used.
 
-> **Image pending privacy review:** `18-import-product.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
+![Import Product pop-up with the ICW template download link and the Excel upload area.](images/product-profile/18-import-product.jpg)
+
 
 *Import Product.*
 
@@ -929,60 +701,8 @@ A: Open a product → Quality Requirement → ⋯ → Templates → Save As Temp
 
 A: On the requirement click +, attach the test or certificate data, then ⋯ → Mark As Completed.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Dev-verified — already in the steps above (2026-11-09)
-
-The left menu includes **QR Code** as well as Document, Shipping Detail, Compliance Data, Quality Requirement, AI Risk Screening, CPSC eFiling, and Packaging Detail.
-
-Document tab chrome on the reviewed screenshot: **New Folder**, **Upload**, **All / Archived**, filters **Type** / **Source** / **Checked**, and **Sort** (plus Reset).
-
-When older Help Center wording disagrees with that chrome, prefer these dev-verified labels.
-
-### Source-documented — reminders and Get DoC (not rewritten in November 2026)
-
-Source: the same Product Information Pack article, last edited 2026-11-04. The document, reminder, and DoC sections were not rewritten in that November update. Treat the labels below as Help Center text, not as a current-UI claim.
-
-Historical Help Center document wording uses **Upload file**, three dots next to Document → **New tab**, and **New folder**. Prefer **Upload** and **New Folder** from the dev-verified chrome when they differ.
-
-**Expiry reminders:** select the document, choose **Set Reminder** in the toolbar, pick the date, click **Create**. The Help Center says the reminder is sent to the email inbox on that date. Needs a dev check.
-
-**Declaration of Conformity (DoC):** the Help Center says you can request ICW to generate a DoC, “subjected to additional fee.” “Navigate to the document in the tool bar, then select **Get DoC**, then click **Send request**.” “You will receive your product DoC by email within 3 days.”
-
-The Help Center does not document Generate **CPC** or **GCC**, or a separate PO DoC Management module. Those remain gaps. Do not invent those steps.
-
-### Remaining gaps
-
-- Current entry point for Generate CPC / GCC / DOC, if it is different from Get DoC.
-- Test Plan (AI) after the pop-up: a generated plan, or applying it to requirements. See also the separate [Test Plan](test-plan.md) page for the 2024 top-menu article. Do not merge the two.
-- Compliance Data **Other**; edit or delete of existing rows; packaging edit and status filter.
-- Manage Templates, Save As Template, and Export As Document are text only today.
-- Saved Test Data and the post-template requirement list were not captured. Those slots stay placeholders and are not pictures of saved data.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Test Plan — Request a Test Plan
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Source-only, not dev-verified.** This is the 2024 Help Center article, last edited 2024-03-28 15:44:01 HKT. It has no reviewed screenshots. It is not the Product Profile Test Plan (AI) pop-up.
-
-Source: QMAS Help Center — How To Request A Test Plan, last edited 2024-03-28 15:44:01 HKT. Not current-UI verified. Do not invent a live /test-plan/ URL.
-
-- [How To Request A Test Plan](https://app.notion.com/p/1a502da19803417aae2cd72190a1a542) (last edited 2024-03-28 15:44:01 HKT). The whole page. Source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Source-documented only. The Help Center has a short 2024 article for a top-menu Test Plan. The published Product Profile guide instead shows a Test Plan (AI) pop-up on Quality Requirement. These may be different features. Do not merge them into one invented flow.
 
@@ -1032,24 +752,11 @@ A: Whether a standalone Test Plan entry remains in the left or top navigation; i
 
 # eFiling — Submit eFiling to CPSC
 
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Current UI verified.** Current UI verified for the reviewed list and the blank Add Documents for AI Extract dialog. There is no Help Center user-guide article for these steps. This page does not submit a certificate to CPSC.
-
-Do not mark this whole module unverified. The pack checklist link to an internal Documents page is not a Help Center source. Preview, submit, draft, and duplicate remain gaps.
-
-No Help Center article is the source of the steps on this page.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
-
 Create and submit CPSC eFiling certificates for your products, with AI that can fill the form from your test report.
 
 - **Module:** eFiling
 - **Start here:** https://qmas.icw.io/efiling → **Add eFiling**
 - **Before you start:** Set up your CPSC Certifier ID and API keys in Company Profile → **CPSC eFiling - Certifier ID**.
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -1070,8 +777,6 @@ In the left menu, open **eFiling**. The list shows each eFiling with its log no.
 
 *eFiling list.*
 
-Add eFiling is visible. List rows are masked. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 
 ### 2. Add documents for AI Extract
 
@@ -1086,18 +791,11 @@ The reviewed dialog is blank. No report was uploaded and no extraction was run. 
 
 *Add Documents for AI Extract.*
 
-Blank dialog. Upload Report & Auto-fill by AI and Select Document in QMAS are shown. No file, no extraction, and no submission.
-
 
 ### 3. Quick Select eFiling Information
 
 Choose the **CPSC Certifier ID** and check the products to include. Click **Next**.
 
-> **Image pending privacy review:** `03-quick-select.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Quick Select eFiling Information.*
 
 
 ### 4. eFiling Submission form
@@ -1106,11 +804,6 @@ Fill in **eFiling Information** (Certifier ID, collection, point of contact) and
 
 Then complete the remaining sections (lab, citations and exclusions). Click **Save Draft** to finish later, or **Preview to Submit** to check and send to CPSC.
 
-> **Image pending privacy review:** `04-submission-form.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*eFiling Submission form.*
 
 If you close the form without saving, QMAS asks you to confirm. Unsaved values are lost. Saved drafts stay in the eFiling list.
 
@@ -1134,45 +827,8 @@ A: Settings (avatar / account control) → Company Profile → CPSC eFiling - Ce
 
 A: Yes. In Add eFiling, upload a PDF report under Upload Report & Auto-fill by AI.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Help Center User Guide article for eFiling.
-
-The Product Information Pack checklist links “How to submit eFiling to CPSC” to an internal Documents / User Guide page, not to the public Help Center: https://app.notion.com/p/32e9c62c39fc80faa0e3e510e7f30265. Do not treat that page as a Help Center source. Prefer this page for user-facing steps. This guide does not submit a certificate to CPSC.
-
-### Remaining gaps
-
-- Preview to Submit, draft resume, Duplicate, and View are mentioned above and have no shots.
-- Certifier ID and API key setup in Company Profile.
-- Select Document in QMAS, and Start With Blank.
-- Multi-product submission and Link To QMAS Product detail.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Supplier Management — Create a Supplier
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed create path and the readonly Overview and empty Certificate tab are current UI verified. Edit, import, invite, and connection statuses are source-only and not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — Manage your QMAS Supplier Compliance Profile, last edited 2026-01-16 15:38:01 HKT. The article was not marked Updated November 2026.
-
-- [Manage your QMAS Supplier Compliance Profile](https://app.notion.com/p/aa532b63c9554db99b57676ee83d489c) (last edited 2026-01-16 15:38:01 HKT). Create path and reviewed profile screens are current UI verified. Edit, import, invite, and connection statuses are source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Add a supplier profile so you can link it to products, factories, documents and service jobs.
 
@@ -1180,7 +836,6 @@ Add a supplier profile so you can link it to products, factories, documents and 
 - **Start here:** https://qmas.icw.io/supplier-manager/suppliers → **Create Supplier**
 - **Direct link:** https://qmas.icw.io/supplier-manager/create
 - **Steps:** 1 Supplier Profile → 2 Classification → 3 Certification → Done
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -1234,29 +889,17 @@ If a required field is empty when you click **Next**, it turns red, for example 
 
 *The email type and email address are required.*
 
-Also shows required errors on English name, Location, and Contact person. Triggered by Next, not Submit. Blank or example placeholders only.
-
 
 ### 4. Classification (optional)
 
 Click **Select category** to choose the product categories this supplier offers. Click **Select tag** to add your own tags. Click **Next**.
 
-> **Image pending privacy review:** `05-step2-classification.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 2 Classification.*
 
 
 ### 5. Certification (optional)
 
 Click **Add** to upload a certificate. Choose the certification type, upload the file, and fill in the rating, issue party and dates. Click **Done** to create the supplier.
 
-> **Image pending privacy review:** `06-step3-certification.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 3 Certification.*
 
 
 ### 6. Done — supplier profile
@@ -1270,14 +913,10 @@ The reviewed screenshot is a readonly Overview of an existing profile. Product C
 
 *Supplier profile — Overview tab.*
 
-Readonly Overview. Category, Tag and Rating are empty. Created and Modified dates stay visible. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 ![Supplier profile — Certificate tab, empty (No Data).](images/supplier-management/supplemental-profile-certificate.jpg)
 
 
 *Supplier profile — Certificate tab, empty (No Data).*
-
-Supplementary screenshot, not one of the 98 inventory slots. Genuine empty Certificate tab on the same profile. This is not Step 3 Certification. No record was created or changed.
 
 
 ## Tips
@@ -1303,61 +942,8 @@ A: Click Invite Supplier on the Supplier tab.
 
 A: Open the supplier from the list and click the pencil icon next to its name or next to Contact.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Source-documented — profile, import, and invite (last edited 2026-01-16)
-
-Source: Manage your QMAS Supplier Compliance Profile, https://app.notion.com/p/aa532b63c9554db99b57676ee83d489c. It was not marked “Updated November 2026”. Labels need a dev check before they are published as current UI.
-
-The 2024 setup guide is an older subset (no Import or Invite) and still says “top menu bar”. Prefer the create steps above, and the January 2026 article for the items below.
-
-**Edit and add documents** (Help Center): edit company and contact information with the icon next to each section. Edit categories and tags with the pen icon. **Add rating** lists Responsiveness, Quality, Pricing, and Market Awareness. Add **Internal notes** for others in the company. Add missed certificates or documents later in the **CERTIFICATE** and **DOCUMENT** sections.
-
-**Product and Factory linkage** (Help Center): related products use **+Product Linkage** (existing product list, or **New Product**). Related factories are under **FACTORY**, then **+Factory Linkage** (**Current Factory** or **New Factory**).
-
-**Import Supplier** (Help Center): click **Import Supplier**, then **Download here** for the template, fill it in (the article says create, update, and delete are supported), upload, and click **Next**. A toast confirms completion.
-
-Invite / connect a supplier “allows you to assign Document Review jobs to your connected suppliers.”
-
-1. Click **Invite Supplier**.
-2. Choose a supplier from the existing list, or invite a new supplier by entering their name.
-3. Optionally enter a custom message for the invitation email.
-4. Click **Invite**. The Help Center says an invitation email is sent to the supplier’s email address.
-5. The supplier can accept via the invite link or, if they already have a QMAS account, via a pop-up the next time they log in.
-
-Help Center connection statuses: **Invite** (invitation sent), **No Connection** (cannot interact via the platform), **Connected** (can be assigned Document Review jobs).
-
-### Remaining gaps
-
-- Current-UI confirmation of the labels above, especially linkage buttons and connection statuses.
-- Screenshots for import, invite, ratings, notes, and tabs other than Overview.
-- List filters, Export, and the row toolbar.
-- Contact Email versus Email address, and Title Case. Filed bugs; re-check on dev. Do not invent the corrected labels.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Factory Management — Create a Factory
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed create path and the readonly Overview and empty Certificate tab are current UI verified. Edit, rating, notes, and import are source-only and not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — Manage your QMAS Factory Compliance Profile, last edited 2026-01-16 16:11:21 HKT. The article was not marked Updated November 2026.
-
-- [Manage your QMAS Factory Compliance Profile](https://app.notion.com/p/2ea9c62c39fc80198eddc3c9e7d20007) (last edited 2026-01-16 16:11:21 HKT). Create path and reviewed profile screens are current UI verified. Edit, import, rating, and notes are source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Add a factory profile with its location, scale, equipment and certificates, so you can link it to suppliers, products and inspections.
 
@@ -1365,7 +951,6 @@ Add a factory profile with its location, scale, equipment and certificates, so y
 - **Start here:** https://qmas.icw.io/supplier-manager/suppliers → **Factory** tab → **Create Factory**
 - **Direct link:** https://qmas.icw.io/supplier-manager/factory/create
 - **Steps:** 1 Factory Profile → 2 Classification → 3 Certification → Done
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -1414,8 +999,6 @@ The equipment section lists machines and **Automation Production Line** entries:
 
 *2. Factory Scale (optional).*
 
-Scrolled view. Factory Scale is fully visible. Lower Factory Overview fields are blank placeholders, and a sliver of 3. Factory Capacity is also in frame.
-
 
 ### 4. Factory Profile — contact
 
@@ -1426,8 +1009,6 @@ Under **4. Contact**, fill in the **Contact person** and an **Email address** wi
 
 *Contact section and Next.*
 
-Scrolled view. 3. Factory Capacity is blank and visible above 4. Contact and Next.
-
 If Contact person or the email type and address are empty, **Next** (not Submit) marks them required. The fields stay on example placeholders.
 
 ![Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.](images/factory-management/required-validation.jpg)
@@ -1435,37 +1016,20 @@ If Contact person or the email type and address are empty, **Next** (not Submit)
 
 *Factory create-profile required-field validation after Next (not Submit): Contact person, email type and email address.*
 
-Supplementary screenshot. It is not one of the 98 published inventory slots. Same scrolled Contact view as the previous image, after Next.
-
 
 ### 5. Classification (optional)
 
 Click **Select category** for the product categories this factory makes, and **Select tag** for your own tags. Click **Next**.
 
-> **Image pending privacy review:** `05-step2-classification.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 2 Classification.*
 
 
 ### 6. Certification (optional)
 
 Click **Add** to attach an audit report or certificate. In **Add Certification**, choose the certification type, upload the file (JPG, JPEG, PNG, PDF, DOC or XLS), and fill in the score or overall rating, issue party, issue date and expiry date. Click **Add**.
 
-> **Image pending privacy review:** `07-add-certification.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Add Certification pop-up.*
 
 Click **Done** to create the factory.
 
-> **Image pending privacy review:** `06-step3-certification.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 3 Certification.*
 
 
 ### 7. Done — factory profile
@@ -1479,14 +1043,10 @@ The reviewed screenshot is a readonly Overview of an existing profile. Product C
 
 *Factory profile — Overview tab.*
 
-Readonly Overview. Category, Tag, Capacity and Scale are empty. Created and Modified dates stay visible. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 ![Factory profile — Certificate tab, empty (No Data).](images/factory-management/supplemental-profile-certificate.jpg)
 
 
 *Factory profile — Certificate tab, empty (No Data).*
-
-Supplementary screenshot, not one of the 98 inventory slots. Genuine empty Certificate tab on the same profile. This is not Step 3 Certification or the Add Certification pop-up. No record was created or changed.
 
 
 ## Tips
@@ -1507,55 +1067,8 @@ A: Yes. Click Import Factory on the Factory tab.
 
 A: In step 3 Certification of Create Factory, or later from the Certificate tab of the factory profile.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Source-documented — edit, documents, and import (last edited 2026-01-16)
-
-Source: Manage your QMAS Factory Compliance Profile, https://app.notion.com/p/2ea9c62c39fc80198eddc3c9e7d20007. Not marked “Updated November 2026”. Labels need a dev check.
-
-Edit company and contact information with the icon next to each section. Edit categories and tags with the pen icon.
-
-**Add rating** uses the same four dimensions as suppliers in the Help Center (Responsiveness, Quality, Pricing, Market Awareness). Confirm whether a factory rating still exists and still uses these labels.
-
-**Internal notes.** Add missed certificates or documents later in the **CERTIFICATE** and **DOCUMENT** sections.
-
-The Help Center text has typographical errors (“thisfactory”, “factyory”). Those are not UI labels.
-
-**Import Factory:** click **Import Factory**, then **Download here** for the factory template, fill it in (the article says create, update, and delete are supported), upload, and click **Next**. A toast confirms completion. One Help Center step title still says “Upload the filled **supplier** template”. Treat that as a source typo unless dev shows that exact wording.
-
-Do not blanket-replace “supplier” wording on Factory screens. A filed bug asks for a context-by-context check.
-
-### Remaining gaps
-
-- Profile tabs Supplier, Certificate, Document, and Compliance Data are named, not walked through.
-- Overview Product Category and Tag empty-state wording.
-- List filters, Export, and the row toolbar.
-- Screenshots for import, rating, notes, and tabs other than Overview.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Factory Audit — Request a Quotation
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site and it has no reviewed screenshots.
-
-Source: QMAS Help Center — How To Request Quotation For Factory Audit From Global Laboratories, last edited 2024-04-02 18:08:00 HKT. Not current-UI verified. Do not invent a live /factory-audit/ URL.
-
-- [How To Request Quotation For Factory Audit From Global Laboratories](https://app.notion.com/p/8bdd7dbfdb1347dd86da4694aba5dd1e) (last edited 2024-04-02 18:08:00 HKT). The whole page. Source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Source-documented only. The original Help Center describes how to request a factory audit quotation, confirm a booking, and open the report and invoice. This article was last edited on 2024-04-02 and was not updated in November 2026. It is not confirmed on the current QMAS dev site. There is no published guide page and no reviewed screenshot.
 
@@ -1624,24 +1137,11 @@ A: Not confirmed. This page repeats the 2024 Help Center article only. Verify it
 
 # Document Management — Upload a Document
 
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Current UI verified.** Current UI verified for the reviewed list screenshot. There is no Help Center article for this module. Product Profile document steps are a different page.
-
-Do not mark this whole module unverified. Pending upload slots and the lifecycle tabs remain gaps.
-
-No Help Center article is the source of the steps on this page.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
-
 Upload a compliance document, link it to products, suppliers or factories, set its dates and reminders, and add compliance data.
 
 - **Module:** Document Management
 - **Start here:** https://qmas.icw.io/document-management → **Upload**
 - **Pop-up tabs:** Save To → Dates & Reminder → Compliance Data → Confirm
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -1662,62 +1162,35 @@ In the left menu, open **Document Management**. The tabs show **All**, **Pending
 
 *Document Management list with the Upload button.*
 
-File names in this screenshot are masked. Tabs, column headers, and Upload stay visible.
-
 
 ### 2. Choose the document type
 
 The **Upload Document** pop-up shows the file name. Click the pencil icon to rename it. Under **Type**, type or select a document type, for example **Test Report**.
 
-> **Image pending privacy review:** `02-upload-modal.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Upload Document pop-up.*
 
 
 ### 3. Save To — link the document
 
 On the **Save To** tab, click **Add Supplier**, **Add Factory** or **Add Product**. Select the items in the pop-up and click **Confirm**. A document can be linked to several items. Click **Remove** to unlink one.
 
-> **Image pending privacy review:** `03-save-to.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*The document linked to a product.*
 
 
 ### 4. Dates & Reminder
 
 Set the **Issue Date**, **Expiry Date** and **Review Date**. Under **Email Reminder**, choose **On Expiry Date**, **On Review Date** or **Custom** to get an email reminder. Use **Clear All Settings** to start again.
 
-> **Image pending privacy review:** `04-dates-reminder.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Dates & Reminder tab.*
 
 
 ### 5. Compliance Data
 
 Click **Edit** next to **Test Data**, **Certificate Data** or **Other** to record the details from the document, such as test items and results or certificate numbers.
 
-> **Image pending privacy review:** `05-compliance-data.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Compliance Data tab.*
 
 
 ### 6. Confirm
 
 Click **Confirm**. QMAS shows a success message and the document appears at the top of the list, with its type and the number of linked products, suppliers and factories.
 
-> **Image pending privacy review:** `06-uploaded.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*The uploaded document at the top of the list.*
 
 
 ## Tips
@@ -1739,46 +1212,8 @@ A: In the Upload Document pop-up, open Dates & Reminder, set the Expiry Date, th
 
 A: Open the Expired tab in Document Management.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Help Center article for the Document Management module.
-
-Upload, folders, share, and **Set Reminder** in the Product Information Pack are written against the product profile Document tab, not this module. See the [Product Profile](product-profile.md) page. Do not copy those steps here as if they were Document Management module steps.
-
-### Remaining gaps
-
-- Workflows for **Pending Review**, **Expired**, **Archived**, and **Trash**.
-- Post-upload row toolbar (share, archive, download, rename, move). Needs a dev check on this module.
-- Filters, search, and Export.
-- Edit dates, reminder, or compliance after upload.
-- The upload toast “Upload Document Succeed” is a filed bug. Keep neutral “success message” language until the UI is fixed.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # QC Inspection — Get a QC Inspection Quote via ICW
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed list and Looking-to create path are current UI verified. Quote Available, QUOTES, and SELECT are older Help Center wording and are not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — How To Request Quotation For QC Inspection From Global Laboratories, last edited 2026-11-04 12:15:22 HKT. The November 2026 update covers the create path. The later quote flow still needs verification.
-
-- [How To Request Quotation For QC Inspection From Global Laboratories](https://app.notion.com/p/bf607ad093d24e3c8d483dd85d9a474e) (last edited 2026-11-04 12:15:22 HKT). Create path is current UI verified. The later Quote Available flow is source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Ask ICW to quote and arrange a third-party QC inspection for your products.
 
@@ -1786,7 +1221,6 @@ Ask ICW to quote and arrange a third-party QC inspection for your products.
 - **Start here:** https://qmas.icw.io/inspection → **Create Job** → **Get QC inspection quote via ICW**
 - **Direct link:** https://qmas.icw.io/inspection/jobs/new
 - **Steps:** 1 Inspection Requirement → 2 Report Details → 3 Supplier & Factory → 4 Additional Information → 5 Review & Submit
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -1808,21 +1242,15 @@ In the left menu, open **QC Inspection**. The charts show inspection results, se
 
 *QC Inspection list with Create Job.*
 
-Job rows are masked. Tabs, column headers, and Create Job stay visible. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 ![QC Inspection — 3rd Party Job tab.](images/qc-inspection/supplemental-3rd-party-tab.jpg)
 
 
 *QC Inspection — 3rd Party Job tab.*
 
-Supplementary screenshot, not one of the 98 inventory slots. Job rows are masked.
-
 ![QC Inspection — Draft tab.](images/qc-inspection/supplemental-draft-tab.jpg)
 
 
 *QC Inspection — Draft tab.*
-
-Supplementary screenshot, not one of the 98 inventory slots. Job rows are masked.
 
 
 ### 2. Choose what you are looking for
@@ -1840,8 +1268,6 @@ Choose **Get QC inspection quote via ICW** and click **Continue**.
 
 *Create New Job — Looking to…*
 
-Default selection is Get QC inspection quote via ICW. Continue is visible. No personal data is filled in.
-
 
 ### 3. Inspection Requirement
 
@@ -1858,76 +1284,39 @@ The reviewed screenshot of this step is the blank form. It includes Target Budge
 
 *Create Job step 1 Inspection Requirement, blank (includes Target Budget and Service Provider Preference).*
 
-Supplementary screenshot, not one of the 98 inventory slots. Blank form only.
-
-> **Image pending privacy review:** `04-step1-filled.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 1 filled in. Click Save to keep a draft, or Next.*
 
 
 ### 4. Report Details
 
 Click **Add Product**, search for the product, click **Select**, then **Confirm**.
 
-> **Image pending privacy review:** `05-select-product.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Select related product(s) — search by name, item no., supplier or factory.*
 
 For each product, fill in the **PO** details: customer name, customer PO #, PO #, order quantity and number of cartons. Use **Add New PO** for more POs, **Add Product** for more products, and **Add Report** or **Duplicate Report** if you need separate reports. Tick **Signed Sample Available** if there is one. Click **Next**.
 
-> **Image pending privacy review:** `06-step2-report.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Report 1 with one product and its PO.*
 
 
 ### 5. Supplier & Factory
 
 Click **Add Supplier** and select the supplier. Then click **Select Existing Factory** and choose the factory where the inspection will take place. Check the contact person, phone and email for each. Click **Next**.
 
-> **Image pending privacy review:** `07-step3-supplier-factory.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Supplier and factory selected, with contact details.*
 
 
 ### 6. Additional Information
 
 Upload reference files such as tech packs or previous reports, and write any special requirement in **Remark**. Click **Next**.
 
-> **Image pending privacy review:** `08-step4-additional.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 4 Additional Information.*
 
 
 ### 7. Review & Submit
 
 Check the summary. Click **Edit** on any section to change it. Click **Submit**.
 
-> **Image pending privacy review:** `09-step5-review.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Step 5 Review & Submit.*
 
 
 ### 8. Done — job detail
 
 QMAS shows “Create job successfully!” and opens the job. It has a Job ID and starts as **Under Review**. The **Quotes**, **Reports**, **Attachments** and **Invoices** tabs follow the job.
 
-> **Image pending privacy review:** `10-job-detail.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*The new inspection job.*
 
 
 ## Tips
@@ -1949,58 +1338,8 @@ A: A quote via ICW uses a third-party inspector arranged by ICW. An internal ins
 
 A: Yes. Click Save on any step. The job is kept on the Draft tab.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Source-documented — create path (Help Center updated 2026-11-04)
-
-Source: How To Request Quotation For QC Inspection From Global Laboratories, https://app.notion.com/p/bf607ad093d24e3c8d483dd85d9a474e. Direct link cited there: https://qmas.icw.io/inspection/jobs/new.
-
-The November 2026 create steps already match this page. The Help Center also says: choose **Get QC inspection quote via ICW** and click Continue; choose **Start internal inspection** if your own QC team will inspect; or **Add inspection record** to record a finished inspection. The Internal QC page covers starting an internal inspection. **Add inspection record** still has no guide.
-
-The November 2026 steps also say: click **Save** on any step to finish later. Drafts are on the **Draft** tab.
-
-### Source-documented — post-submit flow (older wording; needs verification)
-
-1. After submission, the list status is **Under Review**.
-2. When the quotation is ready, the status changes to **Quote Available**.
-3. Click **View detail** next to Status.
-4. Scroll to the **QUOTES** tab.
-5. Choose a quotation and click **SELECT** to confirm the order.
-6. Status becomes **Waiting for reserved booking**, then **Booking Reserved** when the booking is confirmed.
-7. After the inspection is completed, the Help Center says you will receive the inspection report and the status will be **Completed**.
-
-### Remaining gaps
-
-- The full **Add inspection record** flow.
-- Job-detail tabs Quotes, Reports, Attachments, and Invoices are named. One overview shot exists.
-- All Job, 3rd Party, and Inhouse Record tabs, and more detail on the Draft tab.
-- List filters, Export, and the row toolbar.
-- Filed wording bugs (“Add New Po”, “XLSL”, level labels, empty product picker until search). Confirm the live UI. Do not invent fixes.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Internal QC Inspection — Start an Internal Inspection
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed list, Looking-to, and blank step 1 are current UI verified. There is no standalone Help Center article. The QC article only names Start internal inspection, and that mention is source-only. Steps 2–5 stay written text.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — How To Request Quotation For QC Inspection From Global Laboratories, last edited 2026-11-04 12:15:22 HKT, for the Looking-to mention only.
-
-- [How To Request Quotation For QC Inspection From Global Laboratories](https://app.notion.com/p/bf607ad093d24e3c8d483dd85d9a474e) (last edited 2026-11-04 12:15:22 HKT). Looking-to mention only. The reviewed start-internal screens on this page stay current UI verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Schedule an inspection that your own QC team carries out, without a third-party provider.
 
@@ -2008,7 +1347,6 @@ Schedule an inspection that your own QC team carries out, without a third-party 
 - **Start here:** https://qmas.icw.io/inspection/internal/list → **Create Job**
 - **Direct link:** https://qmas.icw.io/inspection/jobs/new?type=internalInspection
 - **Steps:** 1 Inspection Requirement → 2 Report Details → 3 Supplier & Factory → 4 Additional Information → 5 Review & Submit
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -2028,8 +1366,6 @@ In the left menu, open **Internal QC Inspection**. The tabs show **All Job**, **
 
 *Internal QC Inspection list with Import Job and Create Job.*
 
-Import Job and Create Job are visible. Job rows are masked. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 
 ### 2. Start internal inspection
 
@@ -2039,8 +1375,6 @@ Import Job and Create Job are visible. Job rows are masked. This is a 1280×800 
 
 
 *Create New Job — Start internal inspection selected.*
-
-Start internal inspection is selected. Continue is visible. No personal data is filled in.
 
 
 ### 3. Inspection Requirement
@@ -2053,8 +1387,6 @@ The reviewed screenshot is that blank form. It does not show Target Budget or Se
 
 
 *Step 1 Inspection Requirement for an internal inspection.*
-
-Blank form. No Target Budget or Service Provider Preference, unlike the QC quote flow. Steps 2–5 remain pending.
 
 
 ### 4. Steps 2–5
@@ -2082,53 +1414,14 @@ A: Go to Internal QC Inspection (https://qmas.icw.io/inspection/internal/list), 
 
 A: Yes. Click Import Job on the Internal QC Inspection list.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no standalone Internal QC Help Center article.
-
-The November 2026 QC article mentions **Start internal inspection** as a Looking-to option when your own QC team will inspect. That is the only Help Center mention. It does not document steps 2–5, Import Job, or the Onsite Job Calendar.
-
-### Remaining gaps
-
-- Own screenshots, or a clearly labelled “same as QC” set, for steps 2–5 and the completed job detail.
-- **Import Job**.
-- **Onsite Job Calendar** tab.
-- Draft tab and job detail after submit.
-- Difference callouts versus third-party QC beyond “no budget/provider”.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # Document Review — Create a Review Job
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed list and blank create-job screens are current UI verified. There is no Document Review Help Center article. The supplier article only says a connected supplier can be assigned Document Review jobs, and that mention is source-only.
-
-Do not mark this whole module unverified. Approve, reject, and resubmit remain gaps. Source: QMAS Help Center — Manage your QMAS Supplier Compliance Profile, last edited 2026-01-16 15:38:01 HKT, for the invite mention only.
-
-- [Manage your QMAS Supplier Compliance Profile](https://app.notion.com/p/aa532b63c9554db99b57676ee83d489c) (last edited 2026-01-16 15:38:01 HKT). Invite and connection mention only. It does not describe how to conclude a review job.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Get compliance documents (CPC, GCC, DoC, test reports, TCF) reviewed by a lab or by yourself, whether you upload them or your supplier does.
 
 - **Module:** Document Review
 - **Start here:** https://qmas.icw.io/document-review → **Create Job** or **Create Job for supplier**
 - **Direct links:** You upload: https://qmas.icw.io/document-review/upload-document/create · Supplier uploads: https://qmas.icw.io/document-review/upload-document/request
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -2165,26 +1458,14 @@ Choose the **Job Type** (for example Document Review) and tick **CPC/GCC/DOC Rev
 
 *Create Job — 1. Job Type and 2. Product Information.*
 
-Blank/default form, not a submitted job. Job Type shows the Document Review default and Service Required shows Regular. Sections 3 and 4 are also in view. The account header was redacted.
-
 
 ### 3. Product Information
 
 Keep **Select Product For Review = Yes**. Click **Existing Product** to pick products, or **New Product** to create one. For each product, check the **Basic Information**, then fill in **Additional Information**: Test Age Grade, Label Age Grade, Export Market and Country Of Origin are required.
 
-> **Image pending privacy review:** `03-product-info.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Basic Information and Additional Information for the selected product.*
 
 Below that you can add **PO Information**, upload **Product Pictures & Reference Documents**, set the **TCF Requests** (choose document types or import a TCF template) and add **Quality Requirements**.
 
-> **Image pending privacy review:** `04-tcf-requirements.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*TCF Requests and Requirements.*
 
 
 ### 4. Documents for Review, partner and provider (Flow A)
@@ -2195,11 +1476,6 @@ Under **Documents for Review**, click **Upload files** (at least one file is req
 
 **Service Provider**: choose the connected lab under **Connected Provider**. Click **Confirm**.
 
-> **Image pending privacy review:** `05-docs-partner-provider.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Documents for Review, Select Partner and Service Provider.*
 
 
 ### 5. Create Job for supplier (Flows B and C)
@@ -2218,13 +1494,6 @@ The screenshot is the default form: no supplier is selected, and section 5 is cl
 
 *Create Job for Supplier.*
 
-Blank/default form, not a submitted job. Sections 1–5 are in view and section 5 is clipped at the bottom. No supplier is selected. The account header was redacted.
-
-> **Image pending privacy review:** `07-supplier-job-provider.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Select Connected Supplier, Select Partner and Service Provider (Connected Provider or Job Owner Review).*
 
 
 ### 6. Follow the review
@@ -2258,53 +1527,14 @@ A: You review the supplier's documents yourself instead of a lab.
 
 A: Only suppliers connected with you on QMAS are listed. Invite them from Supplier / Factory Management → Invite Supplier.
 
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Document Review Help Center article.
-
-The only related Help Center text is on the supplier profile article (last edited 2026-01-16): inviting or connecting a supplier “allows you to assign Document Review jobs to your connected suppliers.” Statuses Invite, No Connection, and Connected are documented there. That text does not describe how to conclude a review job.
-
-### Remaining gaps
-
-- Job detail after create: View detail, conclusion controls (the steps above name Approve, Reject, N/A, and Waiting), and re-upload after reject. Zero screenshots.
-- List filters, Export, and My Job versus View Only.
-- Save or reuse a TCF template (tip only today).
-- The Quality Requirements block on the create form is thin.
-- Filed typos (“Exising Product”, “JEPG”, “Select Connect Supplier”). This guide uses corrected English. Confirm the live UI.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
-
 
 # AI Insight — Run an AI Risk Screening
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Current UI verified.** Current UI verified for the reviewed AI Risk Screening list and the blank New AI Risk Screening dialog. There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessment. No screening was run.
-
-Do not mark this whole module unverified. A completed report and Verify Information remain gaps.
-
-No Help Center article is the source of the steps on this page.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Upload product photos and let AI identify compliance risks and requirements for your import region. You get a compliance guideline report (PDF).
 
 - **Module:** AI Insight (shown as “AI Risk Screening” in the QMAS menu)
 - **Start here:** https://qmas.icw.io/ai-risk-screening → **Add**, or a product profile → **AI Risk Screening** → **Add**
 - **Uses:** Tokens. Your balance shows as **Available Token** in the pop-up.
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -2326,15 +1556,8 @@ The guide still files this module under AI Insight. The current screen title and
 
 *AI Risk Screening list.*
 
-Current UI name is AI Risk Screening. Search, the All tab, filters and Add are visible. List rows are masked. No screening was run. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 You can also start from a product: open the product profile, choose **AI Risk Screening** in its left menu, then click **Add**.
 
-> **Image pending privacy review:** `04-product-profile-entry.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*AI Risk Screening inside a product profile.*
 
 
 ### 2. Fill in the screening
@@ -2354,8 +1577,6 @@ The reviewed pop-up is blank. Product Page URL is only the placeholder, no image
 
 *New AI Risk Screening pop-up.*
 
-Dialog title is AI Risk Screening. Blank form only. No photos uploaded and neither action button was used.
-
 
 ### 3. Verify and generate
 
@@ -2363,11 +1584,6 @@ Click **Verify Information** (recommended: verification improves accuracy and gi
 
 The new screening appears in the list. When its status is **Completed**, the report is ready. Click the **ⓘ** icon to see the screening details.
 
-> **Image pending privacy review:** `03-screening-details.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode.*
 
 
 ## Tips
@@ -2388,27 +1604,3 @@ A: In the AI Risk Screening pop-up, under Available Token.
 **Q: What is the difference between Full and Lite?**
 
 A: They are the two report output modes. Choose one in Output Mode when you add a screening.
-
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessment.
-
-### Remaining gaps
-
-- Completed report: open it, download the PDF, and what Full versus Lite actually contain.
-- **Verify Information** intermediate UI. It is the recommended path and is not shown.
-- Empty state. A wrong empty-state description is a filed bug. Wait for the fixed UI.
-- Naming is still undecided: this guide title **AI Insight**, menu **AI Risk Screening**, Home **AI Assessment** and **AI Insight**.
-- Token spend: the guide already warns. Do not run a screening unless asked.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

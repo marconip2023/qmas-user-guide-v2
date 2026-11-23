@@ -179,22 +179,6 @@
     },
     {
       "slug": "product-profile",
-      "file": "01-document.jpg",
-      "sha256": "c193491c185cb5b1d6e25eb7d8124fd1bbd3304631e63517ff510a5e448f3a99",
-      "width": 1485,
-      "height": 635,
-      "bytes": 82786
-    },
-    {
-      "slug": "product-profile",
-      "file": "02-document-toolbar.jpg",
-      "sha256": "dc44e2062f8e716f88fd8a37ed7690764c7cde17cf2d64447cb003eaec76b236",
-      "width": 1485,
-      "height": 550,
-      "bytes": 80311
-    },
-    {
-      "slug": "product-profile",
       "file": "03-document-share.jpg",
       "sha256": "09f8281309823d4a7209518490e0c9a0902d9462c1bad65695ea8d73a35db586",
       "width": 545,
@@ -219,51 +203,11 @@
     },
     {
       "slug": "product-profile",
-      "file": "07-test-item-search.jpg",
-      "sha256": "9d6a6e6114558176bdb061573b771d544402e224f7e260bdc8b44b03df6459f5",
-      "width": 1110,
-      "height": 605,
-      "bytes": 84993
-    },
-    {
-      "slug": "product-profile",
       "file": "10-certificate-data-form.jpg",
       "sha256": "d927e498c5f3e84aa679fbcd883ea61b2f7fb206287de74d7e8c01e96bae4215",
       "width": 1110,
       "height": 555,
       "bytes": 68667
-    },
-    {
-      "slug": "product-profile",
-      "file": "11-quality-requirement.jpg",
-      "sha256": "a629c1ecaf0900d3a5154d6e347ef3e9c3c46647697bb3fc2e207680db5c9fd2",
-      "width": 1485,
-      "height": 265,
-      "bytes": 28339
-    },
-    {
-      "slug": "product-profile",
-      "file": "19-requirement-filled.jpg",
-      "sha256": "28fd372094b086c8388720abab1120dfa534df3fea92845dc44e1965712e8496",
-      "width": 720,
-      "height": 365,
-      "bytes": 24255
-    },
-    {
-      "slug": "product-profile",
-      "file": "20-templates-menu.jpg",
-      "sha256": "8aefdf4d3108c8dbd055c867a70d15dfe5c9534ae9312f4a1dbc50d10c93afa8",
-      "width": 400,
-      "height": 315,
-      "bytes": 25764
-    },
-    {
-      "slug": "product-profile",
-      "file": "21-apply-template.jpg",
-      "sha256": "caaa7799682232cbe5132f5f79e0a31b1dd156f840745cb14e05eb99e6157306",
-      "width": 545,
-      "height": 440,
-      "bytes": 42106
     },
     {
       "slug": "document-management",
@@ -554,6 +498,198 @@
       "bytes": 56697,
       "counts_toward_98": false,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used. Readonly; no QMAS record was written."
+    },
+    {
+      "slug": "product-profile",
+      "file": "11-quality-requirement.jpg",
+      "sha256": "0eab4282d702167d5c64c96a26e8877c73d85f398f2578f549e01744d23bbbea",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 113073
+    },
+    {
+      "slug": "product-profile",
+      "file": "19-requirement-filled.jpg",
+      "sha256": "79be8423ab5f0200d03ffc26f2514fcb6e98e5c52cc35f1fa5130c4798633fa8",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 106166
+    },
+    {
+      "slug": "product-profile",
+      "file": "20-templates-menu.jpg",
+      "sha256": "f051f5a8878804c28ca6ee6f68b551a418fc76b041bc9481979ae71ee74f0925",
+      "width": 800,
+      "height": 500,
+      "bytes": 40623
+    },
+    {
+      "slug": "product-profile",
+      "file": "20b-save-as-template.jpg",
+      "sha256": "f1e746635c82984ccb9a4b3d7a258b06cd8a2504642b589408f60149a982fec3",
+      "width": 800,
+      "height": 500,
+      "bytes": 35566
+    },
+    {
+      "slug": "product-profile",
+      "file": "21-apply-template.jpg",
+      "sha256": "3d718fcbb9ac2dc2527db201ceb9d502d11cdb3fb77b58c91e1a8222cebe00d1",
+      "width": 800,
+      "height": 500,
+      "bytes": 28577
+    },
+    {
+      "slug": "product-profile",
+      "file": "22-requirement-list.jpg",
+      "sha256": "100c606fa22c976ff10a15b6e807b28ac549d418087ec93ff47228a23e4de3f2",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 130116
+    },
+    {
+      "slug": "product-profile",
+      "file": "23-attach-compliance.jpg",
+      "sha256": "eb7294da09565686ca2b0f426c92481f6490388d256d031711d23a95c5376a5c",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 102018
+    },
+    {
+      "slug": "product-profile",
+      "file": "24-requirement-attached.jpg",
+      "sha256": "7ef971ee422ce87abc512ad754671a81f0d0f852cda1309f1d75b17ee88e76cd",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 132283
+    },
+    {
+      "slug": "product-profile",
+      "file": "25-requirement-row-menu.jpg",
+      "sha256": "d5a1e1eb38d05908184c5a539de0a86f578a9fb971517fb0e628c9fc702de0aa",
+      "width": 800,
+      "height": 500,
+      "bytes": 33955
+    },
+    {
+      "slug": "product-profile",
+      "file": "26-requirement-completed.jpg",
+      "sha256": "5806e0119125b46b56aa7765c7ed3b8e22150d37f063bad43d4d132fd4cd02eb",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 132801
+    },
+    {
+      "slug": "product-profile",
+      "file": "27-test-plan.jpg",
+      "sha256": "e8ee327f7ba932a65a8ee23f4b3cf019e2ebc98bf6577399cb6eec05bb7574df",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 122602
+    },
+    {
+      "slug": "product-profile",
+      "file": "28-import-doc-review.jpg",
+      "sha256": "fafad512488d87372f42e1c2a1911d09c112ef9f0cee6e870d377d86e097a5d0",
+      "width": 800,
+      "height": 500,
+      "bytes": 39354
+    },
+    {
+      "slug": "product-profile",
+      "file": "29-import-to-pt.jpg",
+      "sha256": "5e2388136ac03ad7882b0d95f0da8099427cd1b28304dc46145bcb89af425883",
+      "width": 800,
+      "height": 500,
+      "bytes": 45382
+    },
+    {
+      "slug": "product-profile",
+      "file": "31-pt-requirement-carried.jpg",
+      "sha256": "023384e0af5c08dbba10bddfc3bd12475eca7a7381c1bf5e5c884d4bd723e926",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 94097
+    },
+    {
+      "slug": "product-profile",
+      "file": "01-document.jpg",
+      "sha256": "acbc2d65109b1a59fd20c7767719ce3df1a5f7df045b2c32ec809b5b47053786",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 114696
+    },
+    {
+      "slug": "product-profile",
+      "file": "02-document-toolbar.jpg",
+      "sha256": "a6709f53dcddbb97f485f3cf61fa9f78109b390d313f0e556a25af09f6925ee2",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 120563
+    },
+    {
+      "slug": "product-profile",
+      "file": "07-test-item-search.jpg",
+      "sha256": "049092bcf9f4728a6be26767aae830d9ef4a46a9b06b66c1bbed2c9852994da6",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 170233
+    },
+    {
+      "slug": "product-profile",
+      "file": "08-test-data-filled.jpg",
+      "sha256": "df25c4b7a6622ff2e03e0400938f2aa49359218bb537dbbf669ab32de3ac0155",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 140401
+    },
+    {
+      "slug": "product-profile",
+      "file": "09-test-data-saved.jpg",
+      "sha256": "3a5272b0039da64789ea7ec51fd10883de91b93cea52d21b914e4eb52d8b2ea9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 127672
+    },
+    {
+      "slug": "product-profile",
+      "file": "14-packaging.jpg",
+      "sha256": "e97ea355f1d78fea48f74efdb257ae899d7eb9e0d579e53418f23dbb2878c797",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 102046
+    },
+    {
+      "slug": "product-profile",
+      "file": "15-packaging-component.jpg",
+      "sha256": "c984ff28e634931b7a404efef46310d895be766dd5d001dc07b23ee44c2e6bbd",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 134632
+    },
+    {
+      "slug": "product-profile",
+      "file": "16-cpsc-efiling.jpg",
+      "sha256": "d3d5695ccd03126e75e49da1f180944014bb0b14d860ff4d5f15e8892ce895f4",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 103895
+    },
+    {
+      "slug": "product-profile",
+      "file": "17-ai-risk-screening.jpg",
+      "sha256": "1be82c1f81ff3fc78adf2fe13405573738a06d813cee95aa1edd90c9ae038527",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 128990
+    },
+    {
+      "slug": "product-profile",
+      "file": "18-import-product.jpg",
+      "sha256": "6d97579ef4a53507867786ad9ab0da5fed7b47e9272267a8ffa31a3ba8726e3c",
+      "width": 1210,
+      "height": 646,
+      "bytes": 40389
     }
   ]
 }

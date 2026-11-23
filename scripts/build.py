@@ -34,6 +34,7 @@ CONTENT = ROOT / "content"
 CSS = (ROOT / "assets" / "site.css").read_text(encoding="utf-8")
 CHROME = "/opt/google/chrome/chrome" if Path("/opt/google/chrome/chrome").exists() else (
     shutil.which("google-chrome") or shutil.which("google-chrome-stable")
+    or next((c for c in ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"] if Path(c).exists()), None)
 )
 
 
@@ -119,7 +120,7 @@ def image_html(module, block, reviewed, guide_prefix: str, first_image: dict) ->
     if availability == "not-captured":
         if record:
             raise SystemExit(f"not-captured slot has a file: {module['slug']}/{filename}")
-        body = pending_box(filename, "", block.get("pending_note") or "", "not-captured")
+        return ""
     elif record:
         src = f"{guide_prefix}assets/reviewed/{module['slug']}/{filename}"
         priority = ""
@@ -133,9 +134,8 @@ def image_html(module, block, reviewed, guide_prefix: str, first_image: dict) ->
             f'width="{record["width"]}" height="{record["height"]}"{priority}{loading}>'
         )
     else:
-        extra = alt if alt and alt != caption else ""
-        body = pending_box(filename, extra, "Reviewed replacement image not available yet. Follow the written steps above.", "pending")
-    note_html = f'<span class="caption-note">{html.escape(note)}</span>' if note else ""
+        return ""
+    note_html = ""
     return (
         '<figure class="shot">'
         f"{body}"
@@ -217,15 +217,7 @@ def article_html(module, reviewed, guide_prefix: str, catalog: dict, banner: boo
         status = f"Screenshot slots: {reviewed_count} reviewed replacement images."
     parts = []
     parts.append(f"<h1>{html.escape(module['title'])}</h1>\n")
-    if module.get("confidence") == "source-documented":
-        parts.append(
-            '<p class="draft-banner">Source-documented only, from the original Help Center. '
-            "Not confirmed on the current QMAS dev site. No reviewed screenshots. "
-            "Do not treat the labels below as current UI until they are checked.</p>\n"
-        )
     parts.append(f'<p class="lede">{inline_html(module["purpose"], guide_prefix, titles)}</p>\n')
-    parts.append(verification_html(module, catalog))
-    parts.append(f'<p class="status-line">{html.escape(status)}</p>\n')
     used_ids = set()
     toc = ['<nav class="page-toc" aria-label="On this page"><ul>']
     step_ids = []
@@ -248,7 +240,7 @@ def article_html(module, reviewed, guide_prefix: str, catalog: dict, banner: boo
         parts.append(f"<li>{inline_html(item, guide_prefix, titles)}</li>\n")
     parts.append("</ol>\n")
     parts.append('<dl class="meta">\n')
-    for key, value in module["meta"]:
+    for key, value in public_meta(module):
         parts.append(f"<dt>{html.escape(key)}</dt><dd>{inline_html(value, guide_prefix, titles)}</dd>\n")
     parts.append("</dl>\n<h2>Step-by-step</h2>\n")
     for step, step_id in zip(module["steps"], step_ids):
@@ -269,8 +261,15 @@ def article_html(module, reviewed, guide_prefix: str, catalog: dict, banner: boo
                 f"<dd>{inline_html(answer, guide_prefix, titles)}</dd>\n"
             )
         parts.append("</dl>\n")
-    parts.append(additions_html(module, guide_prefix, titles))
     return "".join(parts)
+
+
+INTERNAL_META = {"Checked against"}
+
+
+def public_meta(module):
+    """Meta rows shown to customers. Review/verification notes stay internal."""
+    return [(key, value) for key, value in module["meta"] if key not in INTERNAL_META]
 
 
 def additions_html(module, guide_prefix, titles) -> str:
@@ -430,7 +429,6 @@ def shell_footer(catalog) -> str:
     return (
         '<footer class="site-footer">'
         "<p>Published QMAS User Guide.</p>"
-        f"<p>{html.escape(logo['note'])}</p>"
         "</footer>"
     )
 
@@ -552,8 +550,6 @@ def render_index(catalog, modules, reviewed) -> str:
             module = next(entry for entry in modules if entry["slug"] == slug)
             record = catalog["verification"]["modules"][slug]
             badge = ""
-            if record["status"] == "source-only":
-                badge = '<span class="tag tag-warn">Source-only, not dev-verified</span>'
             app = ""
             if slug in app_for:
                 app = (
@@ -602,22 +598,7 @@ def render_index(catalog, modules, reviewed) -> str:
 <h1>QMAS User Guide</h1>
 <p class="lede">Choose a module. These are the 14 existing guides.</p>
 {''.join(groups)}
-<p class="related-line">Related: <a href="{html.escape(catalog["notion_working_hub"], quote=True)}">Notion working hub</a>. {related_html} <a href="combined/">Read all guides in one page</a>.</p>
-<details class="source-fold">
-<summary>Source and verification</summary>
-<p>Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Factory Audit and Test Plan have no screenshots and are source-only, not dev-verified.</p>
-<p>The original 12 modules keep their published steps. A reviewed screenshot means that part is current UI verified. Help Center text is marked on the module and is not the source of every step. Factory Audit and the standalone Test Plan are source-only and not dev-verified. Where a page is mixed, the create path can be current UI verified while a later quote or accept flow is still older Help Center wording.</p>
-<p>Help Center home: <a href="{html.escape(help_home["url"], quote=True)}">{html.escape(help_home["title"])}</a> (last edited {html.escape(help_home["edited"])}). User Guide index: <a href="{html.escape(guide_index["url"], quote=True)}">{html.escape(guide_index["title"])}</a> (last edited {html.escape(guide_index["edited"])}). Public icw-io addresses for individual articles were not verified, so the table uses app.notion.com.</p>
-<div class="table-wrap" tabindex="0" role="region" aria-label="Source and verification">
-<table>
-<caption class="visually-hidden">Source and verification for the 14 modules</caption>
-<thead><tr><th scope="col">Module</th><th scope="col">Verification</th><th scope="col">Help Center article</th></tr></thead>
-<tbody>
-{''.join(rows)}
-</tbody>
-</table>
-</div>
-</details>
+<p class="related-line"><a href="combined/">Read all guides in one page</a>.</p>
 """
     return page("QMAS User Guide", body, "./", None, catalog, "home").replace(
         '<main id="content" tabindex="-1">',
@@ -632,23 +613,15 @@ def render_md(module, reviewed, catalog, titles) -> str:
         f"title: {yaml_quote(module['title'])}",
         f"slug: {module['slug']}",
         "document_status: published",
-        f"version: {catalog['version']}",
         "language: en",
-        f"notion_working_hub: {catalog['notion_working_hub']}",
-        f"confidence: {module.get('confidence', 'published-guide-plus-dev-verified-corrections')}",
-        "image_policy: Reviewed replacement screenshots use a relative path. Other screenshots are explicit placeholders and are not linked.",
         "---",
         "",
         f"# {module['title']}",
         "",
-        "> Published QMAS User Guide.",
-        "",
-        verification_md(module, catalog).rstrip(),
-        "",
         inline_md(module["purpose"], titles),
         "",
     ]
-    for key, value in module["meta"]:
+    for key, value in public_meta(module):
         lines.append(f"- **{key}:** {inline_md(value, titles)}")
     lines.extend(["", "## Overview", ""])
     for index, item in enumerate(module["overview"], 1):
@@ -673,8 +646,6 @@ def render_md(module, reviewed, catalog, titles) -> str:
             lines.append("")
             lines.append(f"A: {inline_md(answer, titles)}")
             lines.append("")
-    lines.append(additions_md(module, titles).rstrip())
-    lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -735,26 +706,13 @@ def image_md(module, block, reviewed) -> str:
     caption = block.get("caption") or ""
     lines = []
     record = reviewed.get((module["slug"], filename))
-    if block.get("availability") == "not-captured":
-        lines.append(f"> **Not captured:** `{filename}`")
-        lines.append(">")
-        lines.append(f"> {block.get('pending_note')}")
-    elif record:
-        lines.append(f"![{alt}](images/{module['slug']}/{filename})")
-        lines.append("")
-    else:
-        lines.append(f"> **Image pending privacy review:** `{filename}`")
-        lines.append(">")
-        lines.append("> Reviewed replacement image not available yet. Follow the written steps above.")
-        if alt and alt != caption:
-            lines.append(">")
-            lines.append(f"> Description: {alt}")
+    if block.get("availability") == "not-captured" or not record:
+        return ""
+    lines.append(f"![{alt}](images/{module['slug']}/{filename})")
+    lines.append("")
     if caption:
         lines.append("")
         lines.append(f"*{caption}*")
-    if block.get("caption_note"):
-        lines.append("")
-        lines.append(block["caption_note"])
     return "\n".join(lines) + "\n"
 
 
@@ -763,22 +721,13 @@ def render_combined_md(catalog, modules, reviewed, titles) -> str:
         "---",
         f"title: {yaml_quote(catalog['title'])}",
         "document_status: published",
-        f"version: {catalog['version']}",
         "language: en",
-        f"notion_working_hub: {catalog['notion_working_hub']}",
-        "image_policy: Per-module files and this combined file are generated from the same content JSON.",
         "---",
         "",
         f"# {catalog['title']}",
         "",
-        "> Published QMAS User Guide.",
-        "",
-        f"Notion working hub: {catalog['notion_working_hub']}",
-        "",
+
     ]
-    for item in catalog.get("related_resources", []):
-        lines.append(f"{item['label']}: {item['href']}. {item['note']}")
-        lines.append("")
     lines.extend([
         "## Contents",
         "",
@@ -867,15 +816,7 @@ def write_text(catalog, modules, reviewed, titles):
         combined_print_articles.append(
             f'<article class="module" id="{html.escape(module["slug"], quote=True)}">{article}</article>'
         )
-    cover = (
-        "<p>Combined PDF generated from the same content as the per-module PDFs.</p>"
-        f"<h1>{html.escape(catalog['title'])}</h1>"
-        f"<p>Notion working hub: {html.escape(catalog['notion_working_hub'])}</p>"
-        + "".join(
-            f"<p>{html.escape(item['label'])}: <a href=\"{html.escape(item['href'], quote=True)}\">{html.escape(item['href'])}</a>. {html.escape(item['note'])}</p>"
-            for item in catalog.get("related_resources", [])
-        )
-    )
+    cover = f"<h1>{html.escape(catalog['title'])}</h1>"
     (print_dir / "qmas-user-guide.html").write_text(
         page(catalog["title"], cover + "\n".join(combined_print_articles), "../../", None, catalog, None),
         encoding="utf-8",

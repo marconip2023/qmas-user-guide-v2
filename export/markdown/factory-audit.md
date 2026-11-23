@@ -2,26 +2,10 @@
 title: "Factory Audit — Request a Quotation"
 slug: factory-audit
 document_status: published
-version: 2026-11-13-draft
 language: en
-notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-confidence: source-documented
-image_policy: Reviewed replacement screenshots use a relative path. Other screenshots are explicit placeholders and are not linked.
 ---
 
 # Factory Audit — Request a Quotation
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Source-only, not dev-verified.** This repeats the 2024 Help Center article, last edited 2024-04-02 18:08:00 HKT. It is not confirmed on the current dev site and it has no reviewed screenshots.
-
-Source: QMAS Help Center — How To Request Quotation For Factory Audit From Global Laboratories, last edited 2024-04-02 18:08:00 HKT. Not current-UI verified. Do not invent a live /factory-audit/ URL.
-
-- [How To Request Quotation For Factory Audit From Global Laboratories](https://app.notion.com/p/8bdd7dbfdb1347dd86da4694aba5dd1e) (last edited 2024-04-02 18:08:00 HKT). The whole page. Source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Source-documented only. The original Help Center describes how to request a factory audit quotation, confirm a booking, and open the report and invoice. This article was last edited on 2024-04-02 and was not updated in November 2026. It is not confirmed on the current QMAS dev site. There is no published guide page and no reviewed screenshot.
 

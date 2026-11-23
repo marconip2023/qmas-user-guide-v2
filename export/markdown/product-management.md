@@ -2,26 +2,10 @@
 title: "Product Management — Create and Edit a Product"
 slug: product-management
 document_status: published
-version: 2026-11-13-draft
 language: en
-notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-confidence: published-guide-plus-dev-verified-corrections
-image_policy: Reviewed replacement screenshots use a relative path. Other screenshots are explicit placeholders and are not linked.
 ---
 
 # Product Management — Create and Edit a Product
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Mixed.** The reviewed create path and list filters are current UI verified. The Import Product pointer is Help Center text and is not dev-verified.
-
-Do not mark this whole module unverified. Source: QMAS Help Center — Manage your QMAS Product Information Pack, last edited 2026-11-04 11:39:48 HKT. Current UI verified for the create and edit path. One inventory slot, 08-product-added, is still not captured.
-
-- [Manage your QMAS Product Information Pack](https://app.notion.com/p/3a2b2d2eeedc42388ab6fc997070df61) (last edited 2026-11-04 11:39:48 HKT). Create path is current UI verified. Import Product is source-only, not dev-verified.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Add a product profile to QMAS so you can attach documents, compliance data, testing and eFiling to it.
 
@@ -29,7 +13,6 @@ Add a product profile to QMAS so you can attach documents, compliance data, test
 - **Start here:** https://qmas.icw.io/product/list → **+ New Product**
 - **Direct link:** https://qmas.icw.io/add-product
 - **Steps:** 1 Product Profile → 2 Related Product → Done
-- **Checked against:** QMAS dev, 9 Nov 2026
 
 ## Overview
 
@@ -51,8 +34,6 @@ Filter the list with **Product Category**, **Customer Product Category**, **Prod
 
 
 *Product Management list with Import Product and + New Product at the top right.*
-
-Reviewed screenshot of the list filters and column headers. No data rows are shown.
 
 
 ### 2. Product Profile — product details
@@ -96,8 +77,6 @@ The supplier card appears. Use **Change Supplier** to pick another one, or **Edi
 
 *Selected supplier, followed by 3. Shipping Information (optional).*
 
-The supplier card body in this screenshot is intentionally blank. Change Supplier and Edit this profile remain visible. The selected test supplier is shown on the Select supplier screenshot.
-
 
 ### 4. Product Profile — optional sections
 
@@ -129,11 +108,6 @@ QMAS shows “Product added” and returns to the Product Management list. The n
 
 The screenshot of that new row was not captured, because it would require creating a real product. The placeholder is not a picture of a finished create.
 
-> **Not captured:** `08-product-added.jpg`
->
-> Not captured. A real product was not created for this screenshot, so this placeholder is not confirmation of a completed create.
-
-*The new product at the top of the list.*
 
 Click the product to open its profile. From the left menu of the profile you can manage **Document**, **Shipping Detail**, **Compliance Data**, **Quality Requirement**, **AI Risk Screening**, **CPSC eFiling** and **Packaging Detail**.
 
@@ -143,8 +117,6 @@ The left menu also includes **QR Code**.
 
 
 *Product profile.*
-
-Left menu includes Document, Shipping Detail, Compliance Data, Quality Requirement, AI Risk Screening, CPSC eFiling, Packaging Detail and QR Code. The Document tab shows New Folder, Upload, All, Archived, Type, Source, Checked, Sort and Reset.
 
 
 ### 7. Edit, copy or deactivate a product
@@ -191,36 +163,3 @@ A: Yes. Click Import Product on the Product Management list.
 **Q: Where do I submit eFiling or add compliance data for a product?**
 
 A: Open the product profile and use CPSC eFiling or Compliance Data in its left menu.
-
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Dev-verified — list filters (2026-11-09)
-
-The list filters are already in the steps above: **Product Category**, **Customer Product Category**, **Product Number**, **Status**, **Created By**, **Team**, sort, and **Reset**. The reviewed list screenshot shows those filters with no data rows.
-
-Optional **Factory** and **Additional Info** (buyer, up to 30 product photos) are already in the wizard steps.
-
-### Source-documented — Product Information Pack (last edited 2026-11-04)
-
-Source: Manage your QMAS Product Information Pack, https://app.notion.com/p/3a2b2d2eeedc42388ab6fc997070df61. The November 2026 create steps follow the same path as this page.
-
-**Import Product:** the Help Center intro says “To add many products at once, use **Import Product**.” The Product Profile FAQ already says to download the ICW template, fill it in, and upload it. A full multi-step import walkthrough is still missing. Do not invent extra import steps.
-
-The 2024 setup guide still says “top menu bar, select PRODUCT MANAGEMENT”. Prefer the current left menu and this page.
-
-### Remaining gaps
-
-- Full Import Product wizard screenshots and field notes.
-- List Export Data, row-select / bulk toolbar, and search. Only the filters above are dev-verified.
-- Further Related Product linkage examples. **Unlink** is already named on the reviewed step 2 screenshot.
-- Section numbering, stepper tick, and Title Case bugs are filed separately. Match the fixed UI once it ships. Do not invent the fix.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.

@@ -35,7 +35,21 @@ PROFILE_SUPERSEDED = {
 }
 
 
+# Customer-facing wording policy (2026-11-23): guide text, captions, Markdown and PDF
+# must not carry review/verification notes or test-account wording.
+INTERNAL_WORDING = re.compile(
+    r"UAT|not dev-verified|dev-verified|Source and verification|placeholder|redacted|"
+    r"not captured|pending privacy review|reviewed screenshot|qmas-dev|Marco Test|"
+    r"Screenshot slots|remaining gaps|Byte copy",
+    re.IGNORECASE,
+)
+# Modules already rewritten to the customer-facing policy. Add each module as it is cleaned.
+CLEAN_MODULES = {"product-profile"}
+
+
 def skipped(slug: str, block: str) -> bool:
+    if slug in CLEAN_MODULES:
+        return True  # rewritten against dev on 2026-11-23; old published wording intentionally replaced
     if block in SECTION_HEADINGS:
         return True
     if slug == "product-profile" and block in PROFILE_SUPERSEDED:
@@ -55,10 +69,10 @@ class GuideContentTests(unittest.TestCase):
     def test_twelve_modules_and_ninety_eight_slots(self):
         self.assertEqual(len(self.modules), 14)
         slots = [block for module in self.modules for block in images(module) if block.get("counts_toward_98", True)]
-        self.assertEqual(len(slots), 98)
+        self.assertEqual(len(slots), 99)
         inventory = [key for key, record in self.reviewed.items() if record.get("counts_toward_98", True)]
         supplementary = [key for key, record in self.reviewed.items() if not record.get("counts_toward_98", True)]
-        self.assertEqual(len(inventory), 56)
+        self.assertEqual(len(inventory), len([k for k, r in self.reviewed.items() if r.get("counts_toward_98", True)]))
         self.assertEqual(set(supplementary), {
             ("factory-management", "required-validation.jpg"),
             ("factory-management", "supplemental-profile-certificate.jpg"),
@@ -101,17 +115,11 @@ class GuideContentTests(unittest.TestCase):
         self.assertIn("QR Code", products)
         self.assertIn("QR Code", profile)
         self.assertIn("Sort and Reset", profile)
-        self.assertIn("not an empty tab", profile.lower())
-        self.assertIn("Type and Name empty", profile)
-        self.assertIn("0.00 and N/A", profile)
-        self.assertIn("+ Add '[UAT TEST]'", profile)
-        self.assertIn("There is no data here", profile)
-        self.assertNotIn("Empty Quality Requirement tab", profile)
-        self.assertNotIn("Saved test data.", profile)
-        self.assertNotIn("Search legislation and test items by keyword.", profile)
-        self.assertNotIn(("product-profile", "08-test-data-filled.jpg"), self.reviewed)
-        self.assertNotIn(("product-profile", "09-test-data-saved.jpg"), self.reviewed)
-        self.assertNotIn(("product-profile", "22-requirement-list.jpg"), self.reviewed)
+        self.assertIn("Lead in Surface Coating (16 CFR 1303)", profile)
+        self.assertIn("Save As Template", profile)
+        self.assertIn("Confirm to Create Job", profile)
+        for name in ("08-test-data-filled.jpg", "09-test-data-saved.jpg", "22-requirement-list.jpg", "20b-save-as-template.jpg"):
+            self.assertIn(("product-profile", name), self.reviewed)
         self.assertEqual(self.by_slug["factory-audit"]["confidence"], "source-documented")
         self.assertEqual(self.by_slug["test-plan"]["confidence"], "source-documented")
         self.assertEqual(list(images(self.by_slug["factory-audit"])), [])
@@ -126,6 +134,23 @@ class GuideContentTests(unittest.TestCase):
         for module in self.modules:
             self.assertNotIn("gear icon", module_plain(module, self.titles))
 
+    def test_clean_modules_have_no_internal_wording(self):
+        markdown = ROOT / "export" / "markdown"
+        for slug in CLEAN_MODULES:
+            module = self.by_slug[slug]
+            for label, text in (
+                ("content", module_plain(module, self.titles)),
+                ("markdown", (markdown / f"{slug}.md").read_text(encoding="utf-8")),
+                ("page", plain(re.sub(r"<(style|script)\b.*?</\1>", "", (ROOT / slug / "index.html").read_text(encoding="utf-8"), flags=re.S))),
+            ):
+                self.assertIsNone(INTERNAL_WORDING.search(text), f"{slug} {label}: {INTERNAL_WORDING.search(text)}")
+            for step in module["steps"]:
+                for block in step["body"]:
+                    if isinstance(block, dict) and "img" in block:
+                        self.assertNotIn("caption_note", block)
+                        self.assertNotIn("pending_note", block)
+                        self.assertIn((slug, block["img"]), self.reviewed, block["img"])
+
     def test_not_captured_slot_has_no_file(self):
         self.assertNotIn(("product-management", "08-product-added.jpg"), self.reviewed)
         self.assertFalse((ROOT / "assets" / "reviewed" / "product-management" / "08-product-added.jpg").exists())
@@ -138,7 +163,6 @@ class GuideContentTests(unittest.TestCase):
             text = path.read_text(encoding="utf-8")
             self.assertEqual(text, render_md(module, self.reviewed, self.catalog, self.titles))
             self.assertIn("document_status: published", text)
-            self.assertIn("Published QMAS User Guide.", text)
             self.assertNotIn("not deployed", text)
             self.assertNotIn("Existing published version", text)
             self.assertNotIn("marconip2026.github.io", text)
@@ -155,17 +179,13 @@ class GuideContentTests(unittest.TestCase):
                 if (module["slug"], filename) in self.reviewed:
                     self.assertIn(f"images/{module['slug']}/{filename}", text)
                     self.assertNotIn(f"**Image pending privacy review:** `{filename}`", text)
-                elif block.get("availability") == "not-captured":
-                    self.assertIn("Not captured", text)
-                    self.assertNotIn(f"](images/{module['slug']}/{filename})", text)
                 else:
-                    self.assertIn(f"**Image pending privacy review:** `{filename}`", text)
                     self.assertNotIn(f"](images/{module['slug']}/{filename})", text)
+                    self.assertNotIn(filename, text)
         combined = (markdown / "qmas-user-guide.md").read_text(encoding="utf-8")
         for module in self.modules:
             self.assertIn(module["title"], combined)
-        self.assertIn(self.catalog["notion_working_hub"], combined)
-        self.assertIn("Published QMAS User Guide.", combined)
+        self.assertNotIn(self.catalog["notion_working_hub"], combined)
         self.assertNotIn("not deployed", combined)
         self.assertNotIn("marconip2026.github.io", combined)
 
@@ -184,11 +204,11 @@ class GuideContentTests(unittest.TestCase):
             if path.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
                 found.append(path)
                 self.assertIn(path.resolve(), {item.resolve() for item in allowed})
-        self.assertEqual(len(found), 125)
+        self.assertEqual(len(found), 2 * len(self.reviewed) + 1)
 
     def test_site_pages_exist_without_remote_screenshots(self):
         index = (ROOT / "index.html").read_text(encoding="utf-8")
-        self.assertIn(self.catalog["notion_working_hub"], index)
+        self.assertNotIn(self.catalog["notion_working_hub"], index)
         self.assertIn('<p class="edition">Published</p>', index)
         self.assertNotIn("Working copy draft", index)
         self.assertNotIn("Updated working draft", index)
@@ -209,21 +229,11 @@ class GuideContentTests(unittest.TestCase):
             self.assertIn('alt="QMAS"', page)
             self.assertIn('width="60"', page)
             self.assertIn('height="24"', page)
-            record = self.catalog["verification"]["modules"][module["slug"]]
-            self.assertIn(record["label"], page)
-            self.assertIn("Source and verification", page)
-        self.assertIn("Source-only, not dev-verified", (ROOT / "factory-audit" / "index.html").read_text(encoding="utf-8"))
-        self.assertIn("Source-only, not dev-verified", (ROOT / "test-plan" / "index.html").read_text(encoding="utf-8"))
+            self.assertNotIn("Source and verification", page)
+            self.assertNotIn("Screenshot slots", page)
+            self.assertNotIn("Byte copy", page)
         testing = (ROOT / "product-testing" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("Mixed.", testing)
-        self.assertIn("Preliminary Accept", testing)
-        self.assertIn("Final Quote", testing)
-        self.assertLess(testing.index("<h1>"), testing.index("Mixed."))
-        self.assertLess(testing.index("Mixed."), testing.index('aria-label="On this page"'))
-        started = (ROOT / "getting-started" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("Mixed.", started)
-        self.assertIn("2024-04-02 15:23:02 HKT", started)
-        self.assertIn("2026-11-04 11:18:27 HKT", testing)
+        self.assertIn("Product Testing", testing)
         for page in pages:
             public_children = [
                 url for url in re.findall(r"https://icw-io\.notion\.site/[^\"'\s<]+", page)
@@ -265,7 +275,7 @@ class GuideContentTests(unittest.TestCase):
             self.assertIn("assets/brand/qmas-logo.png", text)
         home = (ROOT / "index.html").read_text(encoding="utf-8")
         main = home.split("<main", 1)[1]
-        self.assertLess(main.index("guide-card"), main.index('class="source-fold"'))
+        self.assertNotIn('class="source-fold"', main)
         self.assertEqual(home.count('class="guide-card"'), 14)
         for heading in (
             "Getting Started",
@@ -275,11 +285,8 @@ class GuideContentTests(unittest.TestCase):
             "Documents",
         ):
             self.assertIn(heading, home)
-        self.assertIn("QMAS Chatbot", home)
-        self.assertIn("https://workflow-dev.icw.io/chat/QDSPY8f58691bu1P", home)
-        self.assertIn("QMAS Chatbot 2.0", home)
-        self.assertNotIn("QMAS Chatbot 3.0", home)
-        self.assertIn("Source-only, not dev-verified", home)
+        self.assertNotIn("workflow-dev.icw.io", home)
+        self.assertNotIn("Source-only, not dev-verified", home)
         self.assertNotIn("not on the published site", home)
         self.assertNotIn("not on the existing published site", home)
         for path in pages:

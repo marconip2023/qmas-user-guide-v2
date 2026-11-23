@@ -2,33 +2,16 @@
 title: "AI Insight — Run an AI Risk Screening"
 slug: ai-insight
 document_status: published
-version: 2026-11-13-draft
 language: en
-notion_working_hub: https://app.notion.com/p/4139c62c39fc8198ac49e172050cf65b
-confidence: published-guide-plus-dev-verified-corrections
-image_policy: Reviewed replacement screenshots use a relative path. Other screenshots are explicit placeholders and are not linked.
 ---
 
 # AI Insight — Run an AI Risk Screening
-
-> Published QMAS User Guide.
-
-## Source and verification
-
-**Current UI verified.** Current UI verified for the reviewed AI Risk Screening list and the blank New AI Risk Screening dialog. There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessment. No screening was run.
-
-Do not mark this whole module unverified. A completed report and Verify Information remain gaps.
-
-No Help Center article is the source of the steps on this page.
-
-Help Center home: [QMAS Help Center](https://icw-io.notion.site/QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af) (last edited 2026-01-20 13:54:13 HKT). User Guide index: [User Guide](https://app.notion.com/p/a92963a30e584145bb457a62b7706541) (last edited 2026-01-16 15:44:49 HKT). Public icw-io addresses for individual articles were not verified, so those links use app.notion.com.
 
 Upload product photos and let AI identify compliance risks and requirements for your import region. You get a compliance guideline report (PDF).
 
 - **Module:** AI Insight (shown as “AI Risk Screening” in the QMAS menu)
 - **Start here:** https://qmas.icw.io/ai-risk-screening → **Add**, or a product profile → **AI Risk Screening** → **Add**
 - **Uses:** Tokens. Your balance shows as **Available Token** in the pop-up.
-- **Checked against:** QMAS dev, 4 Nov 2026
 
 ## Overview
 
@@ -50,15 +33,8 @@ The guide still files this module under AI Insight. The current screen title and
 
 *AI Risk Screening list.*
 
-Current UI name is AI Risk Screening. Search, the All tab, filters and Add are visible. List rows are masked. No screening was run. This is a 1280×800 desktop crop (1280×714), not a high-resolution screenshot.
-
 You can also start from a product: open the product profile, choose **AI Risk Screening** in its left menu, then click **Add**.
 
-> **Image pending privacy review:** `04-product-profile-entry.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*AI Risk Screening inside a product profile.*
 
 
 ### 2. Fill in the screening
@@ -78,8 +54,6 @@ The reviewed pop-up is blank. Product Page URL is only the placeholder, no image
 
 *New AI Risk Screening pop-up.*
 
-Dialog title is AI Risk Screening. Blank form only. No photos uploaded and neither action button was used.
-
 
 ### 3. Verify and generate
 
@@ -87,11 +61,6 @@ Click **Verify Information** (recommended: verification improves accuracy and gi
 
 The new screening appears in the list. When its status is **Completed**, the report is ready. Click the **ⓘ** icon to see the screening details.
 
-> **Image pending privacy review:** `03-screening-details.jpg`
->
-> Reviewed replacement image not available yet. Follow the written steps above.
-
-*Screening details: product name, import region, age grade, categories, materials, battery/AC/food-contact flags and output mode.*
 
 
 ## Tips
@@ -112,27 +81,3 @@ A: In the AI Risk Screening pop-up, under Available Token.
 **Q: What is the difference between Full and Lite?**
 
 A: They are the two report output modes. Choose one in Output Mode when you add a screening.
-
-## Help Center additions and remaining gaps
-
-This section adds Help Center material and named gaps. It does not replace the steps above.
-
-- **Source-documented** — written in the original Help Center. The last-edited date is given. That does not by itself prove the current QMAS UI.
-- **Dev-verified** — confirmed on qmas-dev.icw.io during guide work.
-- **Gap** — named as missing or too thin. Not current behaviour until checked on dev.
-
-Reviewed screenshots remain 56 of 98. Forty-two inventory slots are still pending. Six supplementary images are not part of the 98. Unreviewed screenshots were not copied.
-
-### Help Center finding
-
-There is no Help Center article for AI Insight, AI Risk Screening, or AI Assessment.
-
-### Remaining gaps
-
-- Completed report: open it, download the PDF, and what Full versus Lite actually contain.
-- **Verify Information** intermediate UI. It is the recommended path and is not shown.
-- Empty state. A wrong empty-state description is a filed bug. Wait for the fixed UI.
-- Naming is still undecided: this guide title **AI Insight**, menu **AI Risk Screening**, Home **AI Assessment** and **AI Insight**.
-- Token spend: the guide already warns. Do not run a screening unless asked.
-
-Help Center reconciliation 2026-11-13 (HKT). Original Help Center not edited. No Dify upload.
