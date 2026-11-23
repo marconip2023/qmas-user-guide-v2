@@ -261,7 +261,7 @@ In the left menu, open **Product Management**. Click **+ New Product** at the to
 
 Filter the list with **Product Category**, **Customer Product Category**, **Product Number**, **Status**, **Created By** and **Team**. **Sort by Date modified** changes the order. **Reset** clears the filters.
 
-![Product Management list with Import Product and + New Product at the top right.](images/product-management/01-list.jpg)
+![Product Management list searched for Bright Ocean, showing Kids Insulated Food Jar 400 ml with category Kitchenware & Tableware and supplier Bright Ocean Housewares Ltd.](images/product-management/01-list.jpg)
 
 
 *Product Management list with Import Product and + New Product at the top right.*
@@ -277,14 +277,14 @@ The **Add new product** wizard opens. Under **1. Product Details**, fill in:
 - **Product Category (QMAS)**: click **Select Category**.
 - **Customer Tag**, **Customer Product Category** (Level 1–3) and **Remark** (optional).
 
-![Step 1 Product Profile — Product Details.](images/product-management/02-step1-empty.jpg)
+![Add new product, step 1 Product Details with Item No. FJ-400-GRN, Product Name Kids Insulated Food Jar 400 ml and a long description.](images/product-management/02-step1-empty.jpg)
 
 
 *Step 1 Product Profile — Product Details.*
 
 In **Select Category**, search by name (for example “drinkware”), click the category, then click **Add category**.
 
-![Selected categories show as dark chips at the top. “1 selected” appears next to Add category.](images/product-management/03-select-category.jpg)
+![Select Category pop-up searched for Drinkware, with Glassware & Drinkware selected and 1 selected next to Add category.](images/product-management/03-select-category.jpg)
 
 
 *Selected categories show as dark chips at the top. “1 selected” appears next to Add category.*
@@ -296,14 +296,14 @@ Under **2. Supplier**, choose **My supplier list** and click **Select supplier**
 
 In the pop-up, click **Select** on one supplier, then **Confirm**.
 
-![Select 1 Supplier — you can link one supplier per product.](images/product-management/04-select-supplier.jpg)
+![Select 1 Supplier pop-up searched for Bright Ocean, with Bright Ocean Housewares Ltd. selected and the Confirm button.](images/product-management/04-select-supplier.jpg)
 
 
 *Select 1 Supplier — you can link one supplier per product.*
 
 The supplier card appears. Use **Change Supplier** to pick another one, or **Edit this profile** to update the supplier.
 
-![Selected supplier, followed by 3. Shipping Information (optional).](images/product-management/05-supplier-shipping.jpg)
+![Supplier card for Bright Ocean Housewares Ltd. with Change Supplier and Edit this profile, then Shipping Information with selling unit size 9.5 x 9.5 x 13 cm.](images/product-management/05-supplier-shipping.jpg)
 
 
 *Selected supplier, followed by 3. Shipping Information (optional).*
@@ -317,7 +317,7 @@ The supplier card appears. Use **Change Supplier** to pick another one, or **Edi
 
 Click **Next**.
 
-![Factory and Additional Info at the bottom of step 1, then Next.](images/product-management/06-factory-additional.jpg)
+![Factory section with Bright Ocean Housewares (Ningbo) Factory selected, and Additional Info with Buyer, Add buyer and Product Photo upload.](images/product-management/06-factory-additional.jpg)
 
 
 *Factory and Additional Info at the bottom of step 1, then Next.*
@@ -327,7 +327,7 @@ Click **Next**.
 
 Product linkage helps you manage compliance reports. For example, link a raw material or an assortment to several end products. Click **Select related product**, or skip this step. Click **Done**. **Unlink** removes a product from this step.
 
-![Step 2 Related Product.](images/product-management/07-step2-related.jpg)
+![Related Product step with Kids Stainless Steel Water Bottle 500 ml linked to Kids Insulated Food Jar 400 ml, the Unlink button and Select related product.](images/product-management/07-step2-related.jpg)
 
 
 *Step 2 Related Product.*
@@ -341,7 +341,7 @@ Click the product to open its profile. From the left menu of the profile you can
 
 The left menu also includes **QR Code**.
 
-![Product profile.](images/product-management/09-product-profile.jpg)
+![Product profile of Kids Insulated Food Jar 400 ml with Linked with 1 products, the left menu and the Document tab.](images/product-management/09-product-profile.jpg)
 
 
 *Product profile.*
@@ -358,12 +358,12 @@ On the product profile, click **⋮** next to the product name:
 | Make a copy | Creates a new product with the same details. |
 | Mark as inactive | Sets the product to inactive. |
 
-![The ⋮ menu on the product profile.](images/product-management/10-more-menu.jpg)
+![The more menu on the product card with Edit product, Testing order, Make a copy and Mark as inactive.](images/product-management/10-more-menu.jpg)
 
 
 *The ⋮ menu on the product profile.*
 
-![Edit product profile — the same steps as creating a product.](images/product-management/11-edit-product.jpg)
+![Edit product profile, step 1 Product Details, with the saved item number, name and description.](images/product-management/11-edit-product.jpg)
 
 
 *Edit product profile — the same steps as creating a product.*

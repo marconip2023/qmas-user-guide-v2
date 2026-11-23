@@ -38,7 +38,8 @@
         "Filter the list with **Product Category**, **Customer Product Category**, **Product Number**, **Status**, **Created By** and **Team**. **Sort by Date modified** changes the order. **Reset** clears the filters.",
         {
           "img": "01-list.jpg",
-          "caption": "Product Management list with Import Product and + New Product at the top right."
+          "caption": "Product Management list with Import Product and + New Product at the top right.",
+          "alt": "Product Management list searched for Bright Ocean, showing Kids Insulated Food Jar 400 ml with category Kitchenware & Tableware and supplier Bright Ocean Housewares Ltd."
         }
       ]
     },
@@ -57,12 +58,14 @@
         },
         {
           "img": "02-step1-empty.jpg",
-          "caption": "Step 1 Product Profile — Product Details."
+          "caption": "Step 1 Product Profile — Product Details.",
+          "alt": "Add new product, step 1 Product Details with Item No. FJ-400-GRN, Product Name Kids Insulated Food Jar 400 ml and a long description."
         },
         "In **Select Category**, search by name (for example “drinkware”), click the category, then click **Add category**.",
         {
           "img": "03-select-category.jpg",
-          "caption": "Selected categories show as dark chips at the top. “1 selected” appears next to Add category."
+          "caption": "Selected categories show as dark chips at the top. “1 selected” appears next to Add category.",
+          "alt": "Select Category pop-up searched for Drinkware, with Glassware & Drinkware selected and 1 selected next to Add category."
         }
       ]
     },
@@ -73,12 +76,14 @@
         "In the pop-up, click **Select** on one supplier, then **Confirm**.",
         {
           "img": "04-select-supplier.jpg",
-          "caption": "Select 1 Supplier — you can link one supplier per product."
+          "caption": "Select 1 Supplier — you can link one supplier per product.",
+          "alt": "Select 1 Supplier pop-up searched for Bright Ocean, with Bright Ocean Housewares Ltd. selected and the Confirm button."
         },
         "The supplier card appears. Use **Change Supplier** to pick another one, or **Edit this profile** to update the supplier.",
         {
           "img": "05-supplier-shipping.jpg",
-          "caption": "Selected supplier, followed by 3. Shipping Information (optional)."
+          "caption": "Selected supplier, followed by 3. Shipping Information (optional).",
+          "alt": "Supplier card for Bright Ocean Housewares Ltd. with Change Supplier and Edit this profile, then Shipping Information with selling unit size 9.5 x 9.5 x 13 cm."
         }
       ]
     },
@@ -95,7 +100,8 @@
         "Click **Next**.",
         {
           "img": "06-factory-additional.jpg",
-          "caption": "Factory and Additional Info at the bottom of step 1, then Next."
+          "caption": "Factory and Additional Info at the bottom of step 1, then Next.",
+          "alt": "Factory section with Bright Ocean Housewares (Ningbo) Factory selected, and Additional Info with Buyer, Add buyer and Product Photo upload."
         }
       ]
     },
@@ -105,7 +111,8 @@
         "Product linkage helps you manage compliance reports. For example, link a raw material or an assortment to several end products. Click **Select related product**, or skip this step. Click **Done**. **Unlink** removes a product from this step.",
         {
           "img": "07-step2-related.jpg",
-          "caption": "Step 2 Related Product."
+          "caption": "Step 2 Related Product.",
+          "alt": "Related Product step with Kids Stainless Steel Water Bottle 500 ml linked to Kids Insulated Food Jar 400 ml, the Unlink button and Select related product."
         }
       ]
     },
@@ -117,7 +124,8 @@
         "The left menu also includes **QR Code**.",
         {
           "img": "09-product-profile.jpg",
-          "caption": "Product profile."
+          "caption": "Product profile.",
+          "alt": "Product profile of Kids Insulated Food Jar 400 ml with Linked with 1 products, the left menu and the Document tab."
         }
       ]
     },
@@ -151,11 +159,13 @@
         },
         {
           "img": "10-more-menu.jpg",
-          "caption": "The ⋮ menu on the product profile."
+          "caption": "The ⋮ menu on the product profile.",
+          "alt": "The more menu on the product card with Edit product, Testing order, Make a copy and Mark as inactive."
         },
         {
           "img": "11-edit-product.jpg",
-          "caption": "Edit product profile — the same steps as creating a product."
+          "caption": "Edit product profile — the same steps as creating a product.",
+          "alt": "Edit product profile, step 1 Product Details, with the saved item number, name and description."
         }
       ]
     }

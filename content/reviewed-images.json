@@ -100,82 +100,82 @@
     {
       "slug": "product-management",
       "file": "01-list.jpg",
-      "sha256": "bcf58046510951154749e4a98ceb2981975f7e32ad1a66f9ab4db4bca712420a",
-      "width": 1820,
-      "height": 188,
-      "bytes": 73907
+      "sha256": "174c36bcd4c881aa71129131055f282d1a0d799cb7d036aca965380c857a655d",
+      "width": 1600,
+      "height": 500,
+      "bytes": 81152
     },
     {
       "slug": "product-management",
       "file": "02-step1-empty.jpg",
-      "sha256": "90854320bc32e9c7b719d8e82792a638044fb4e7bd7be047eab90ea46111f1d1",
-      "width": 705,
-      "height": 1038,
-      "bytes": 84684
+      "sha256": "e993eea16d4c6e5a502fb4621a53af5485e35cbf93e96df660a29be7250fa413",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 92268
     },
     {
       "slug": "product-management",
       "file": "03-select-category.jpg",
-      "sha256": "795483bc36cb7666df1a34baecc6bea0300b007cd8a47829535ea8ebc4eaddec",
-      "width": 800,
-      "height": 813,
-      "bytes": 117340
+      "sha256": "a568620a456afc165f6be277d868fdb444779e16376c334cc44a2f6a69a6c4e2",
+      "width": 888,
+      "height": 904,
+      "bytes": 39340
     },
     {
       "slug": "product-management",
       "file": "04-select-supplier.jpg",
-      "sha256": "34c1bc35bc290c421437bb500419ec479bbec35124c9d7dd8c555f11eda39fd7",
-      "width": 525,
-      "height": 650,
-      "bytes": 19110
+      "sha256": "9938a62372f829da8ee30e5c79f886a7e9657c0b78f437a8feb9821627c37e47",
+      "width": 578,
+      "height": 704,
+      "bytes": 35232
     },
     {
       "slug": "product-management",
       "file": "05-supplier-shipping.jpg",
-      "sha256": "1704a53e51e3e3d27042f06f5773fbbabbb6d795424d0c9c7068b9aa97ca6998",
-      "width": 705,
-      "height": 900,
-      "bytes": 64000
+      "sha256": "51e15d6da0aec3f51a5eb16a79940f3745b2eaea4b6f6069b306dcc2ba56a9f1",
+      "width": 770,
+      "height": 1000,
+      "bytes": 73995
     },
     {
       "slug": "product-management",
       "file": "06-factory-additional.jpg",
-      "sha256": "877b2c11f91da1b29c2adcfd339462eb9d90760753870a38507c0d9bc45cc121",
-      "width": 730,
-      "height": 1085,
-      "bytes": 79461
+      "sha256": "42f0d1ef8d864927956c234797d9542830a485a0a2de39ea3c9c74e9a9d509d0",
+      "width": 770,
+      "height": 880,
+      "bytes": 54758
     },
     {
       "slug": "product-management",
       "file": "07-step2-related.jpg",
-      "sha256": "cc7569b238478204f61583cc69dcbe0af7f18c3a954e061eb7cc2850714e8b3a",
-      "width": 705,
-      "height": 960,
-      "bytes": 85705
+      "sha256": "90b6dab79a7561f5c00061a5522fbc946cb69b4a3b45f7381a6cb06e02ae291a",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 86402
     },
     {
       "slug": "product-management",
       "file": "09-product-profile.jpg",
-      "sha256": "434a2b4173769a60e28bd992d05723e0fa75748ee7b22273e5d5563059e2f6d5",
-      "width": 1820,
-      "height": 1045,
-      "bytes": 174804
+      "sha256": "1e334594c39418476838a5455185fe62b6dbd9b420a0ff599b043c7b6ec176ff",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 102589
     },
     {
       "slug": "product-management",
       "file": "10-more-menu.jpg",
-      "sha256": "c936391409dfd0504e265b1eaf945751bab712e2276a93a8bc0c3cbd1c6e7878",
-      "width": 585,
-      "height": 430,
-      "bytes": 47300
+      "sha256": "3cbdd20060003ac8e83664c6b2d1e3be12a5d4a0a1852a63d89dd0e7b2a154e5",
+      "width": 800,
+      "height": 500,
+      "bytes": 41281
     },
     {
       "slug": "product-management",
       "file": "11-edit-product.jpg",
-      "sha256": "cbbdfb28d9fbdf8d54485e9dc7d1c7a21a988c979c1b73320a65ab6b7a63cc51",
-      "width": 705,
-      "height": 1038,
-      "bytes": 87329
+      "sha256": "d288960368f1d26f994db7e4ab3c264c901a1178a82c4749d309fd0f58c8a018",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 94346
     },
     {
       "slug": "product-profile",
