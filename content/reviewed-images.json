@@ -442,20 +442,20 @@
     {
       "slug": "efiling",
       "file": "01-list.jpg",
-      "sha256": "575e16c089e04be4d116d456341f030bab9d303afc4bb44dcbff6d6e014f8a47",
-      "width": 1280,
-      "height": 714,
-      "bytes": 49456,
+      "sha256": "b9edc40c214d09699c49aff4f91317f7a91a16c9e05e77b7f91dcbabf471fcb1",
+      "width": 1600,
+      "height": 470,
+      "bytes": 68261,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
     {
       "slug": "efiling",
       "file": "02-ai-extract.jpg",
-      "sha256": "398beae508f2a2cf4e35314966ee72be43f88d407af788eb87437778fa2a299c",
-      "width": 1280,
-      "height": 714,
-      "bytes": 68139,
+      "sha256": "ddf6f00040aaf8f70248850f8d23abb0f035655ef5c5c356fe8f9baddaefa57f",
+      "width": 632,
+      "height": 778,
+      "bytes": 55232,
       "counts_toward_98": true,
       "capture": "1280x800 native desktop, cropped to 1280x714. Not a high-resolution capture. 1920 sources were 1.5x upscales and were not used."
     },
@@ -810,6 +810,22 @@
       "width": 1520,
       "height": 985,
       "bytes": 86675
+    },
+    {
+      "slug": "efiling",
+      "file": "03-quick-select.jpg",
+      "sha256": "85f445dc485cfa4133b29aecc7d62c4dccf1bfde521d2e0a9dba50efe06edf04",
+      "width": 1156,
+      "height": 416,
+      "bytes": 53665
+    },
+    {
+      "slug": "efiling",
+      "file": "04-submission-form.jpg",
+      "sha256": "29e37950de68d7e1d5112cc5d28379a3bdb51540177f4c0e868159cae5e666b7",
+      "width": 1512,
+      "height": 990,
+      "bytes": 151946
     }
   ]
 }

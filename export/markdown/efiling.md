@@ -25,12 +25,12 @@ Create and submit CPSC eFiling certificates for your products, with AI that can 
 
 ### 1. Open eFiling
 
-In the left menu, open **eFiling**. The list shows each eFiling with its log no., product, status, certifier ID, collection ID, product ID and version ID. Use **View** to open one or **Duplicate** to start a new version from it. Click **Add eFiling**.
+In the left menu, open **eFiling**. The list shows each eFiling with its log no., product, status, certifier ID, collection ID, product ID and version ID. Use **View** to open one (**Edit** for a draft) or **Duplicate** to start a new version from it. Click **Add eFiling**.
 
-![eFiling list.](images/efiling/01-list.jpg)
+![eFiling list, searched by item no., with a saved draft.](images/efiling/01-list.jpg)
 
 
-*eFiling list.*
+*eFiling list, searched by item no., with a saved draft.*
 
 
 ### 2. Add documents for AI Extract
@@ -49,6 +49,10 @@ In the left menu, open **eFiling**. The list shows each eFiling with its log no.
 
 Choose the **CPSC Certifier ID** and check the products to include. Click **Next**.
 
+![Quick Select eFiling Information.](images/efiling/03-quick-select.jpg)
+
+
+*Quick Select eFiling Information.*
 
 
 ### 4. eFiling Submission form
@@ -57,6 +61,10 @@ Fill in **eFiling Information** (Certifier ID, collection, point of contact) and
 
 Then complete the remaining sections (lab, citations and exclusions). Click **Save Draft** to finish later, or **Preview to Submit** to check and send to CPSC.
 
+![eFiling Submission form linked to a QMAS product.](images/efiling/04-submission-form.jpg)
+
+
+*eFiling Submission form linked to a QMAS product.*
 
 If you close the form without saving, QMAS asks you to confirm. Unsaved values are lost. Saved drafts stay in the eFiling list.
 

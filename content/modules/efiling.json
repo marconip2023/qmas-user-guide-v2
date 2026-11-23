@@ -30,10 +30,10 @@
     {
       "h": "1. Open eFiling",
       "body": [
-        "In the left menu, open **eFiling**. The list shows each eFiling with its log no., product, status, certifier ID, collection ID, product ID and version ID. Use **View** to open one or **Duplicate** to start a new version from it. Click **Add eFiling**.",
+        "In the left menu, open **eFiling**. The list shows each eFiling with its log no., product, status, certifier ID, collection ID, product ID and version ID. Use **View** to open one (**Edit** for a draft) or **Duplicate** to start a new version from it. Click **Add eFiling**.",
         {
           "img": "01-list.jpg",
-          "caption": "eFiling list."
+          "caption": "eFiling list, searched by item no., with a saved draft."
         }
       ]
     },
@@ -70,7 +70,7 @@
         "Then complete the remaining sections (lab, citations and exclusions). Click **Save Draft** to finish later, or **Preview to Submit** to check and send to CPSC.",
         {
           "img": "04-submission-form.jpg",
-          "caption": "eFiling Submission form."
+          "caption": "eFiling Submission form linked to a QMAS product."
         },
         "If you close the form without saving, QMAS asks you to confirm. Unsaved values are lost. Saved drafts stay in the eFiling list."
       ]
