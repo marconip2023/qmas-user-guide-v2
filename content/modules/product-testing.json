@@ -37,7 +37,7 @@
         "In the left menu, open **Product Testing**. The page shows charts of job status, service provider and test results, and the list of all jobs. Click [[btn:Create Job]] above the list.",
         {
           "img": "01-list.jpg",
-          "alt": "Product Testing list page with the Create Job button",
+          "alt": "Product Testing job list searched for Food Jar, showing job 260008357 for Kids Insulated Food Jar 400 ml, United States, Under Review, and the Create Job button.",
           "caption": "Product Testing list — Create Job is at the top right of the job list."
         }
       ]
@@ -54,19 +54,19 @@
         },
         {
           "img": "02-step1-product-info.jpg",
-          "alt": "Step 1 Product Info, empty",
+          "alt": "Request Quotations step 1 Product Info, empty, with Existing Products, Add Products and a disabled Next button.",
           "caption": "Step 1 starts empty. Next stays disabled until a product is added."
         },
         "In the **Select Product(s)** pop-up, search by product name or ID, click [[ghost:Select]] on each product you need, then click [[btn:Confirm]]. You can select more than one product.",
         {
           "img": "04-product-selected.jpg",
-          "alt": "Select Product(s) pop-up with one product selected",
+          "alt": "Select Product(s) pop-up searched for Food Jar, with Kids Insulated Food Jar 400 ml selected.",
           "caption": "A selected product shows a blue “✓ Selected” button."
         },
         "Check the product details. You can change **Item name on report** and **Item no. on report**, which are printed on the test report. Click **Add PO Information** to link a purchase order (optional). Then click [[btn:Next]].",
         {
           "img": "05-step1-filled.jpg",
-          "alt": "Step 1 with one product added",
+          "alt": "Step 1 with Kids Insulated Food Jar 400 ml added, Item name and Item no. on report, Add PO Information and Remove.",
           "caption": "Use Remove to drop a product, or Edit product profile to update it."
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "img": "07-step2-export-market.jpg",
-          "alt": "Step 2 Test Requirements with Export Market filled",
+          "alt": "Step 2 Test Requirements with Export Market United States and a remark asking for a quote.",
           "caption": "Export Market filled in."
         },
         "**2. Additional Information**",
@@ -100,7 +100,7 @@
         "When all required fields are filled, [[btn:Next]] turns blue. Click it.",
         {
           "img": "09-step2-filled.jpg",
-          "alt": "Step 2 Additional Information filled",
+          "alt": "Step 2 Additional Information with Service Level Regular, Country of Origin China, Intended Usage Children product, and Next enabled.",
           "caption": "Additional Information filled — Next is now enabled."
         }
       ]
@@ -131,7 +131,7 @@
         },
         {
           "img": "11-step3-icw-selected.jpg",
-          "alt": "Step 3 Provider Selection with ICW ticked",
+          "alt": "Step 3 Provider Selection with ICW ticked and No Preference, and the Submit button.",
           "caption": "ICW ticked with “No Preference”. Click Submit to send the request."
         }
       ]
@@ -139,7 +139,7 @@
     {
       "h": "5. Done — track your order",
       "body": [
-        "After you click [[btn:Submit]], QMAS shows “Product testing created successfully” and opens the **Order details** page. Your job has a new order number (for example 260008342) and starts as **Under Review**.",
+        "After you click [[btn:Submit]], QMAS shows “Product testing created successfully” and opens the **Order details** page. Your job has a new order number (for example 260008357) and starts as **Under Review**.",
         {
           "list": [
             "**Product Testing Requirements**, **Products**, **Supplier**, **PO** and **Test Plan** tabs show what you submitted.",
@@ -149,7 +149,7 @@
         },
         {
           "img": "13-order-details.jpg",
-          "alt": "Order details page after submitting",
+          "alt": "Order details for 260008357 with status Under Review, the requirements, Quotations and the Quotes tab.",
           "caption": "The new order opens with status Under Review. You can find it again in the Product Testing list."
         }
       ]

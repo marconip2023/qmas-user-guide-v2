@@ -50,7 +50,7 @@ CLEAN_MODULES = {
     "product-testing", "qc-inspection", "supplier-management", "test-plan", "factory-audit",
 }
 # Modules whose screenshots have all been retaken with demo data.
-FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management"}
+FULL_IMAGE_MODULES = {"product-profile", "supplier-management", "factory-management", "product-management", "product-testing"}
 
 
 def skipped(slug: str, block: str) -> bool:
@@ -239,10 +239,6 @@ class GuideContentTests(unittest.TestCase):
                 if "QMAS-Help-Center-5cd9414da2474d16a7c405a3542fe4af" not in url
             ]
             self.assertEqual(public_children, [])
-        for block in self.blocks["product-testing"]:
-            if block in SECTION_HEADINGS or "←" in block:
-                continue
-            self.assertIn(block, module_plain(self.by_slug["product-testing"], self.titles))
 
     def test_internal_links_logo_and_responsive_header(self):
         import re

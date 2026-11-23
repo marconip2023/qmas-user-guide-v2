@@ -4,66 +4,66 @@
     {
       "slug": "product-testing",
       "file": "01-list.jpg",
-      "sha256": "4473dbe8622633f550690e9252fc294649c20f7871949f0e65dfda364f62f928",
-      "width": 1821,
-      "height": 553,
-      "bytes": 182226
+      "sha256": "60434700d6e218684d4ae81365025aa5b2208b7f639206d2fc4a425d60662567",
+      "width": 1520,
+      "height": 420,
+      "bytes": 46435
     },
     {
       "slug": "product-testing",
       "file": "02-step1-product-info.jpg",
-      "sha256": "5b75240147488994f76960f246f2de6c2288773af29dbb5ec2b063ebe03ea044",
-      "width": 950,
-      "height": 625,
-      "bytes": 52476
+      "sha256": "39006e8de21982a0a609a1dfed11186c512572e893f1f95424a165e8100fbaa2",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 65134
     },
     {
       "slug": "product-testing",
       "file": "04-product-selected.jpg",
-      "sha256": "d1d655c5ad0bccc6e3ab72ef9aa95faf106e4d35c7fd481101a86556aa2baa90",
-      "width": 802,
-      "height": 235,
-      "bytes": 23425
+      "sha256": "b20fde40b929df02e9387472c391a06e9eaeab8710820c41bfe1cd062d38d57c",
+      "width": 888,
+      "height": 704,
+      "bytes": 38255
     },
     {
       "slug": "product-testing",
       "file": "05-step1-filled.jpg",
-      "sha256": "afbee5372f5529ee3c82b23218ee1addb338abdec82ae3719ed23b5da9c5d63a",
-      "width": 950,
-      "height": 895,
-      "bytes": 81703
+      "sha256": "ab615d1c3b8075eb660d4cbb8eb4d789071e1e66db155c01894298e1e3de9041",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 82081
     },
     {
       "slug": "product-testing",
       "file": "07-step2-export-market.jpg",
-      "sha256": "7b890be2d322ec7f1dd629988fdc2d14e2265f538c3d554aadc9d44cf350a591",
-      "width": 950,
-      "height": 910,
-      "bytes": 107418
+      "sha256": "59cb95b0a22a417313d9395e966856d0ee5dd230f520aec94c34316f98a61d0d",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 90017
     },
     {
       "slug": "product-testing",
       "file": "09-step2-filled.jpg",
-      "sha256": "b650b0086fbafd8fa1eeda88bc6410ebbee5b0726e04140c48f5ffc598002270",
-      "width": 950,
-      "height": 573,
-      "bytes": 51571
+      "sha256": "12aba0f796b1bf0af3f1d8e406d1e901787d870d7731a71eb77d3dc3832d157d",
+      "width": 780,
+      "height": 1000,
+      "bytes": 60167
     },
     {
       "slug": "product-testing",
       "file": "11-step3-icw-selected.jpg",
-      "sha256": "2680aaa13c772e8b0d1d41538f667ea8ad9995a15d1960a509fc0f43b25da86e",
-      "width": 950,
-      "height": 550,
-      "bytes": 55576
+      "sha256": "8ef03b0074f23e14562b3cfcb4956470d7dfec46d9da95a22502aa2bf2536243",
+      "width": 1600,
+      "height": 720,
+      "bytes": 58736
     },
     {
       "slug": "product-testing",
       "file": "13-order-details.jpg",
-      "sha256": "b62f46d0cc03782e0a47fdabb6b2e45323605736972b9da9e0f28f0a3d8db580",
-      "width": 1856,
-      "height": 900,
-      "bytes": 122686
+      "sha256": "3a0e20a5bf06c642ec4cb2838456044446ca39493b9a69b2ec850062354aa049",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 100098
     },
     {
       "slug": "product-testing",
